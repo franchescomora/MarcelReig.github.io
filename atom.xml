@@ -4,7 +4,7 @@
   <title><![CDATA[NOCONODE]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-01-27T17:56:06+01:00</updated>
+  <updated>2014-01-27T20:48:27+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instala Octopress en Mac OS X Maveriks]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/"/>
+    <updated>2014-01-27T18:18:05+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks</id>
+    <content type="html"><![CDATA[<p>En el post anterior hice una introducción general de como instalar Octopress, en este caso voy a centrarme en los requisitos necesarios en Mac OS X.</p>
+
+<!-- more -->
+
+
+<h3>Preparando el hambiente de trabajo.</h3>
+
+<p>Para instalar cosas en Mac utiliza <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
+Que es Homebrew? Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.
+Resulta muy útil para instalar todo lo que no viene de serie en tu mac.</p>
+
+<p>Primero necesitas tener las Xcode Command Line Tools, si no, Homebrew te dará un herror.<br>
+Descaágate las <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
+Una vez tengas instalado Xcode, ves a las preferencias icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+
+<p>Para instalar Homebrew abre la terminal y pega ese código.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para comprovar que hemos hecho la instalación correctamente ejecuta este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew doctor</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
+
+<p>Ahora <a href="http://git-scm.com/downloads">instala Git</a> si no lo tienes ya.</p>
+
+<p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina. <br>En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero en cualquier caso es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
+
+<p>RVM es la opción más conocida, pero yo he probado las dos y rbenv me ha funcionado mucho mejor, no soy experto en la matería así que lo dejo a vuestra elección :)</p>
+
+<p>Enlaces útiles:
+<a href="http://robots.thoughtbot.com/psa-do-not-use-system-ruby">GIANT ROBOTS</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Primeros Pasos Con Octopress]]></title>
