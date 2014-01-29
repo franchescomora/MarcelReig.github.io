@@ -4,7 +4,7 @@
   <title><![CDATA[NOCONODE]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-01-28T20:39:30+01:00</updated>
+  <updated>2014-01-29T11:05:05+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -14,44 +14,31 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Instala Octopress en Mac OS X Maveriks]]></title>
+    <title type="html"><![CDATA[Octopress en Mac OS X Maveriks]]></title>
     <link href="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/"/>
     <updated>2014-01-27T18:18:05+01:00</updated>
     <id>http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks</id>
-    <content type="html"><![CDATA[<p>En el post anterior hice una introducción general a Octopress y su instalación, en este caso voy a centrarme en como crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
+    <content type="html"><![CDATA[<p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en como crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
 
 <!-- more -->
 
 
-<hr />
-
-<br>
-
-
-<h3>Instalando las Command Line Tools de Xcode</h3>
+<h2>Instalando las Command Line Tools de Xcode</h2>
 
 <p><img class="left" src="http://MarcelReig.github.io/images/xcode.png" width="100"></p>
 
 <p>Descárgate <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
-Una vez tengas instalado Xcode, ves a las preferencias icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
 
-<br>
+<h2>Instalando Homebrew</h2>
 
-
-<hr />
-
-<br>
-
-
-<h3>Instalando Homebrew</h3>
-
-<p><img class="left" src="http://MarcelReig.github.io/images/homebrew.png" width="250"></p>
+<p><img class="left" src="http://MarcelReig.github.io/images/homebrew.png" width="100"></p>
 
 <p>Para instalar cosas en Mac te recomiendo utilizar <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
 Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.<br>
 Resulta muy útil para instalar todo lo que no viene de serie en tu mac.<br>
 Para instalar Homebrew primero necesitas tener las Xcode Command Line Tools, si no Homebrew te dará un herror.<br>
-Con las command Line Tools instaladas abre la terminal y pega este código para instalar Homebrew:</p>
+Abre la terminal y pega este código para instalar Homebrew:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre></td></tr></table></div></figure>
@@ -65,12 +52,7 @@ Con las command Line Tools instaladas abre la terminal y pega este código para 
 
 <p>Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
 
-<hr />
-
-<br>
-
-
-<h3>Instalando Git</h3>
+<h2>Instalando Git</h2>
 
 <p><img class="left" src="http://MarcelReig.github.io/images/git.png" width="100"></p>
 
@@ -89,19 +71,14 @@ O mucho mejor utiliza Homebrew.</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update git</span></code></pre></td></tr></table></div></figure>
 
 
-<hr />
-
-<br>
-
-
-<h3>Instalando Ruby</h3>
+<h2>Instalando Ruby</h2>
 
 <p><img class="left" src="http://MarcelReig.github.io/images/ruby.png" width="100"></p>
 
 <p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina.<br>
 En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
 
-<p>He probado las dos opciones pero rbenv me gusta más, en cualquier caso lo dejo a vuetra elección.</p>
+<p>He probado las dos opciones pero rbenv me gusta más, en cualquier caso lo dejo a vuestra elección.</p>
 
 <p>Para instalar rbenv con Homebrew abre la terminal e introduce estos comandos:</p>
 
@@ -137,19 +114,42 @@ En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, per
     <link href="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/"/>
     <updated>2014-01-24T19:53:52+01:00</updated>
     <id>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress</id>
-    <content type="html"><![CDATA[<p>Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms para mis clientes, pero recientemente he descubierto Octopress y sinceramente para escribir tus posts es mucho más divertido!</p>
+    <content type="html"><![CDATA[<p>Este es mi primer post en Octopress donde haré una pequeña introducción de este sistema de Blogging y e intentaré hacer una pequeña guía de instalación.</p>
 
 <!-- more -->
 
 
-<p><img class="left" src="http://MarcelReig.github.io/images/octopress-logo.png" width="300">
-Este es mi primer post en Octopress donde haré una pequeña introducción de lo que es este sistema de Blogging y también intentaré hacer una pequeña guía de instalación general independientemente de tu sistema operativo.</p>
+<p>Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms para mis clientes, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo pera conocer las razones.</p>
 
-<p><strong>Que es Jekyll?</strong> <br> Jekyll es una sistema para crear sitios web estáticos.</p>
+<h2>Que es Jekyll? <br></h2>
 
-<p><strong>Que es Octopress?</strong> <br> Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.</p>
+<p><img class="left" src="http://MarcelReig.github.io/images/jekyll.jpg" width="200">
+Jekyll es una sistema para crear sitios web estáticos creado en Ruby.</p>
 
-<p><strong>Que lleva Octopress recien sacado de la caja?</strong></p>
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que es Octopress? <br></h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/octopress-logo.png" width="200">
+Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.</p>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que lleva Octopress recien sacado de la caja?</h2>
 
 <ul>
 <li>Una plantilla semántica HTML5.</li>
@@ -163,7 +163,7 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 </ul>
 
 
-<p><strong>Ventajas de Octopress frente a Wordpress como sistema de blogging:</strong> <br></p>
+<h2>Ventajas frente a Wordpress como sistema de blogging: <br></h2>
 
 <ul>
 <li>No necesitas base de datos.</li>
@@ -176,22 +176,21 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 </ul>
 
 
-<p><strong>Octopress</strong> se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)</p>
-
-<p><strong>Estas son algunas de las tecnologías con las que vas a trastear si decides darle caña al blogging como un hacker:</strong></p>
+<p><strong>Octopress</strong> se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)
+Estas son algunas de las tecnologías con las que vas a tener que trastear si decides darle caña al blogging como un hacker:</p>
 
 <ul>
 <li><strong>Ruby</strong>. No necesitas saber Ruby pero si necesitas tenerlo instalado en tu máquina.</li>
 <li><strong>RVM</strong> o <strong>Rbenv</strong>. Son herramientas muy útiles para manejar distintas versiones de Ruby.</li>
 <li><strong>Git</strong> Quien no ha oido hablar de Git a estas alturas?</li>
-<li><strong>Github pages</strong> o <strong>Heroku</strong> Opciones de alojamiento gratuitas para todos!</li>
-<li><strong>ssh keys</strong> Donde dices que vistes las llaves?</li>
+<li><strong>Github pages</strong> o <strong>Heroku</strong>. Opciones de alojamiento gratuitas para todos!</li>
+<li><strong>ssh keys</strong>. Donde me deje las llaves?</li>
 <li><strong>Markdown</strong> Para escribir tus post cómodamente.</li>
-<li><strong>Terminal</strong> Si, ya casi me siento como un Hacker..</li>
+<li><strong>Terminal</strong> Si, ya empiezo a sentirme como un Hacker..</li>
 </ul>
 
 
-<p><strong>Lo que necesitas antes de empezar</strong></p>
+<h2>Lo que necesitas antes de empezar</h2>
 
 <ol>
 <li><a href="http://git-scm.com/downloads">Instala Git</a></li>
@@ -201,7 +200,7 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 
 <p>Comprueba tu versión de Ruby con <code>ruby &mdash;version</code> si no tienes por lo menos la 1.9.3 revisa tu instalación de rbenv o RVM.</p>
 
-<p><strong>Descárgate Octopress.</strong></p>
+<p>Descárgate Octopress.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -209,7 +208,7 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 </span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong>Instala las dependencias.</strong></p>
+<p>Instala las dependencias.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -219,13 +218,13 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 </span><span class='line'>bundle install</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong>Instala el theme por defecto de Octopress.</strong></p>
+<p>Instala el theme por defecto de Octopress.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
 
 
-<p><strong>Desplegando</strong></p>
+<h2>Desplegando tu blog</h2>
 
 <p>Hay varias formas de desplegar tu blog fácilmente en Octopress:</p>
 
@@ -236,15 +235,15 @@ Este es mi primer post en Octopress donde haré una pequeña introducción de lo
 </ol>
 
 
-<p>Mi elección ha sido utilizar Github Pages, si prefieres otra opción <a href="http://octopress.org/docs/deploying/">visita el sitio oficial.</a></p>
+<p>Mi elección ha sido utilizar <strong>Github Pages</strong>, si prefieres otra opción <a href="http://octopress.org/docs/deploying/">visita el sitio oficial.</a></p>
 
 <p>Bien aquí de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).</p>
 
-<p>En mi caso he utilizado páginas de usuario/organizaciones y esta es la opción de la que voy a hablar.</p>
+<p>En mi caso he utilizado <strong>páginas de usuario/organizaciones</strong> y esta es la opción de la que voy a hablar.</p>
 
 <p>Crea un <a href="https://github.com/new">nuevo repositorio de Github</a> y nombra el repositorio con el formato: <code>username.github.io</code> donde <code>username</code> es tu nombre de usuario de GitHub o el nombre de organización, esto es importante si le pones cualquier otro nombre no funcionará.</p>
 
-<p>Github Pages para usuarios y organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code><a href="http://username.github.io">http://username.github.io</a></code><br>
+<p>Github Pages para usuarios/organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code><a href="http://username.github.io">http://username.github.io</a></code><br>
 Vas a trabajar en la rama source para después commitear el contenido generado en la rama master.<br> Octopress tiene una configuración que te ayuda con todo esto, para decirle a Octopress que quieres utilizar GitHub pages, abre la terminal e introduce este comando:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -261,8 +260,6 @@ Vas a trabajar en la rama source para después commitear el contenido generado e
 </span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
 
 
-<p>No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code><a href="http://tunombredeusuario.github.io">http://tunombredeusuario.github.io</a></code></p>
-
 <p>Esto generará tu blog.
 No te olvides de commitear el código de tu blog.</p>
 
@@ -274,10 +271,11 @@ No te olvides de commitear el código de tu blog.</p>
 </span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
 
 
+<p>No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code><a href="http://tunombredeusuario.github.io">http://tunombredeusuario.github.io</a></code></p>
+
 <p>Para más información <a href="http://octopress.org/docs/deploying/github/">leer la documentación oficial.</a></p>
 
-<p>Eso es todo amigos, espero haber aclarado algo y que pronto estéis blogueando como hackers!<br>
-En el siguiente post haré una guía específica para usuarios de Mac.</p>
+<p>Eso es todo amigos, espero haber aclarado algo y que pronto estéis blogueando como hackers!<br></p>
 ]]></content>
   </entry>
   

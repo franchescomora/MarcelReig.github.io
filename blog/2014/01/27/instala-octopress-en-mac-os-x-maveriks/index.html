@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Instala Octopress en Mac OS X Maveriks - NOCONODE</title>
+  <title>Octopress en Mac OS X Maveriks - NOCONODE</title>
   <meta name="author" content="Marcel Reig">
 
   
-  <meta name="description" content="En el post anterior hice una introducción general a Octopress y su instalación, en este caso voy a centrarme en como crear el hambiente de trabajo &hellip;">
+  <meta name="description" content="En el post anterior hice una introducción general a Octopress, en este voy a centrarme en como crear el hambiente de trabajo adecuado para utilizar &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Instala Octopress en Mac OS X Maveriks</h1>
+      <h1 class="entry-title">Octopress en Mac OS X Maveriks</h1>
     
     
       <p class="meta">
@@ -92,40 +92,27 @@
   </header>
 
 
-<div class="entry-content"><p>En el post anterior hice una introducción general a Octopress y su instalación, en este caso voy a centrarme en como crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
+<div class="entry-content"><p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en como crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
 
 <!-- more -->
 
 
-<hr />
-
-<br>
-
-
-<h3>Instalando las Command Line Tools de Xcode</h3>
+<h2>Instalando las Command Line Tools de Xcode</h2>
 
 <p><img class="left" src="/images/xcode.png" width="100"></p>
 
 <p>Descárgate <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
-Una vez tengas instalado Xcode, ves a las preferencias icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
 
-<br>
+<h2>Instalando Homebrew</h2>
 
-
-<hr />
-
-<br>
-
-
-<h3>Instalando Homebrew</h3>
-
-<p><img class="left" src="/images/homebrew.png" width="250"></p>
+<p><img class="left" src="/images/homebrew.png" width="100"></p>
 
 <p>Para instalar cosas en Mac te recomiendo utilizar <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
 Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.<br>
 Resulta muy útil para instalar todo lo que no viene de serie en tu mac.<br>
 Para instalar Homebrew primero necesitas tener las Xcode Command Line Tools, si no Homebrew te dará un herror.<br>
-Con las command Line Tools instaladas abre la terminal y pega este código para instalar Homebrew:</p>
+Abre la terminal y pega este código para instalar Homebrew:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre></td></tr></table></div></figure>
@@ -139,12 +126,7 @@ Con las command Line Tools instaladas abre la terminal y pega este código para 
 
 <p>Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
 
-<hr />
-
-<br>
-
-
-<h3>Instalando Git</h3>
+<h2>Instalando Git</h2>
 
 <p><img class="left" src="/images/git.png" width="100"></p>
 
@@ -163,19 +145,14 @@ O mucho mejor utiliza Homebrew.</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update git</span></code></pre></td></tr></table></div></figure>
 
 
-<hr />
-
-<br>
-
-
-<h3>Instalando Ruby</h3>
+<h2>Instalando Ruby</h2>
 
 <p><img class="left" src="/images/ruby.png" width="100"></p>
 
 <p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina.<br>
 En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
 
-<p>He probado las dos opciones pero rbenv me gusta más, en cualquier caso lo dejo a vuetra elección.</p>
+<p>He probado las dos opciones pero rbenv me gusta más, en cualquier caso lo dejo a vuestra elección.</p>
 
 <p>Para instalar rbenv con Homebrew abre la terminal e introduce estos comandos:</p>
 
@@ -267,7 +244,7 @@ En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, per
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/">Instala Octopress en Mac OS X Maveriks</a>
+        <a href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/">Octopress en Mac OS X Maveriks</a>
       </li>
     
       <li class="post">
