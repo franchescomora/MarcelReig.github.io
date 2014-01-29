@@ -5,7 +5,7 @@ date: 2014-01-24 19:53:52 +0100
 comments: true
 categories: 
 ---
-Este es mi primer post en Octopress donde haré una pequeña introducción de este sistema de Blogging y e intentaré hacer una pequeña guía de instalación.
+Este es mi primer post en Octopress donde haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.
 <!-- more -->
 
 
