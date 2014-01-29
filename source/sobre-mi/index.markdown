@@ -28,6 +28,6 @@ Actualmente soy bueno con:
 + Ingles técnico.
 + Photoshop.
 
-Si quieres contactarme visita mi página web [Netinetidesign](http://www.netinetidesign.com/)
+Este Blog es uno de mis recientes experimentos por lo que si quieres contactarme por trabajo o cualquier otra cosa mejor visita mi web web [Netinetidesign](http://www.netinetidesign.com/).
 
 

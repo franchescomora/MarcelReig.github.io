@@ -73,4 +73,7 @@ $ brew install ruby-build
 <br>
 
 Enlaces útiles:<br>
-[GIANT ROBOTS](http://robots.thoughtbot.com/psa-do-not-use-system-ruby)
+[CODEHERO](http://codehero.co/como-lo-hago-instalar-homebrew/?utm_content=bufferc2b45&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer)
+[ROBOTS](http://robots.thoughtbot.com/psa-do-not-use-system-ruby)
+[ROBOTS](http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems)
+[RailsApps Project](http://railsapps.github.io/installrubyonrails-mac.html)
