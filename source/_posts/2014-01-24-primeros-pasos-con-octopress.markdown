@@ -5,19 +5,29 @@ date: 2014-01-24 19:53:52 +0100
 comments: true
 categories: 
 ---
-
-Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms para mis clientes, pero recientemente he descubierto Octopress y sinceramente para escribir tus posts es mucho más divertido!
+Este es mi primer post en Octopress donde haré una pequeña introducción de este sistema de Blogging y e intentaré hacer una pequeña guía de instalación.
 <!-- more -->
 
 
-{% img left /images/octopress-logo.png 300px 200px logo octopress %}
-Este es mi primer post en Octopress donde haré una pequeña introducción de lo que es este sistema de Blogging y también intentaré hacer una pequeña guía de instalación general independientemente de tu sistema operativo.
+Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms para mis clientes, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo pera conocer las razones.
 
-__Que es Jekyll?__ <br> Jekyll es una sistema para crear sitios web estáticos. 
+##Que es Jekyll? <br>
+{% img left /images/jekyll.jpg 200px logo octopress %}
+Jekyll es una sistema para crear sitios web estáticos creado en Ruby. 
+
+<br>
+<br>
+<br>
  
-__Que es Octopress?__ <br> Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.
+##Que es Octopress? <br>
+{% img left /images/octopress-logo.png 200px 100px logo octopress %}
+Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.
 
-__Que lleva Octopress recien sacado de la caja?__
+<br>
+<br>
+<br>
+
+##Que lleva Octopress recien sacado de la caja?
 
 * Una plantilla semántica HTML5.
 * Un layout responsive preparado para móviles.
@@ -29,7 +39,7 @@ __Que lleva Octopress recien sacado de la caja?__
 * Un montón de pluguins interesantes listos para usar.
 
 
-__Ventajas de Octopress frente a Wordpress como sistema de blogging:__ <br>
+##Ventajas frente a Wordpress como sistema de blogging: <br>
 
 * No necesitas base de datos.
 * No necesitas un servidor local tipo MAMP para hacer pruebas.
@@ -41,31 +51,30 @@ __Ventajas de Octopress frente a Wordpress como sistema de blogging:__ <br>
 
 
 __Octopress__ se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)
-
-__Estas son algunas de las tecnologías con las que vas a trastear si decides darle caña al blogging como un hacker:__
+Estas son algunas de las tecnologías con las que vas a tener que trastear si decides darle caña al blogging como un hacker:
 
 * **Ruby**. No necesitas saber Ruby pero si necesitas tenerlo instalado en tu máquina.
 * **RVM** o **Rbenv**. Son herramientas muy útiles para manejar distintas versiones de Ruby.
 * **Git** Quien no ha oido hablar de Git a estas alturas?
-* **Github pages** o **Heroku** Opciones de alojamiento gratuitas para todos!
-* **ssh keys** Donde dices que vistes las llaves?
+* **Github pages** o **Heroku**. Opciones de alojamiento gratuitas para todos!
+* **ssh keys**. Donde me deje las llaves?
 * **Markdown** Para escribir tus post cómodamente.
-* **Terminal** Si, ya casi me siento como un Hacker..
+* **Terminal** Si, ya empiezo a sentirme como un Hacker..
 
-__Lo que necesitas antes de empezar__
+##Lo que necesitas antes de empezar
 
 1. [Instala Git](http://git-scm.com/downloads)
 2. Instala Ruby 1.9.3 o mayor usando [rbenv](https://github.com/sstephenson/rbenv) o [RVM.](http://rvm.io/)
 
 Comprueba tu versión de Ruby con <code>ruby --version</code> si no tienes por lo menos la 1.9.3 revisa tu instalación de rbenv o RVM.
 
-__Descárgate Octopress.__
+Descárgate Octopress.
 
 ```
 git clone git://github.com/imathis/octopress.git octopress
 cd octopress
 ```
-__Instala las dependencias.__
+Instala las dependencias.
 
 ``` 
 gem install bundler
@@ -73,13 +82,13 @@ rbenv rehash    # Si utilizas rbenv, utiliza está opción
 bundle install
 ```
 
-__Instala el theme por defecto de Octopress.__
+Instala el theme por defecto de Octopress.
 
 ```
 rake install
 ```
 
-__Desplegando__
+##Desplegando tu blog
 
 Hay varias formas de desplegar tu blog fácilmente en Octopress:
 
@@ -87,15 +96,15 @@ Hay varias formas de desplegar tu blog fácilmente en Octopress:
 2. Heroku
 3. Rsync
 
-Mi elección ha sido utilizar Github Pages, si prefieres otra opción [visita el sitio oficial.](http://octopress.org/docs/deploying/)
+Mi elección ha sido utilizar __Github Pages__, si prefieres otra opción [visita el sitio oficial.](http://octopress.org/docs/deploying/)
 
 Bien aquí de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).
 
-En mi caso he utilizado páginas de usuario/organizaciones y esta es la opción de la que voy a hablar.
+En mi caso he utilizado __páginas de usuario/organizaciones__ y esta es la opción de la que voy a hablar.
 
 Crea un [nuevo repositorio de Github](https://github.com/new) y nombra el repositorio con el formato: <code>username.github.io</code> donde <code>username</code> es tu nombre de usuario de GitHub o el nombre de organización, esto es importante si le pones cualquier otro nombre no funcionará.
 
-Github Pages para usuarios y organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code>http://username.github.io</code><br>
+Github Pages para usuarios/organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code>http://username.github.io</code><br>
 Vas a trabajar en la rama source para después commitear el contenido generado en la rama master.<br> Octopress tiene una configuración que te ayuda con todo esto, para decirle a Octopress que quieres utilizar GitHub pages, abre la terminal e introduce este comando:
 ```
 rake setup_github_pages
@@ -107,8 +116,6 @@ Ahora introduce estos dos comandos:
 rake generate
 rake deploy
 ```
-No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code>http://tunombredeusuario.github.io</code>
-
 Esto generará tu blog.
 No te olvides de commitear el código de tu blog.
 ```
@@ -116,7 +123,8 @@ git add .
 git commit .m 'tu mensaje'
 git push origin source
 ```
+No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code>http://tunombredeusuario.github.io</code>
+
 Para más información [leer la documentación oficial.](http://octopress.org/docs/deploying/github/)
 
 Eso es todo amigos, espero haber aclarado algo y que pronto estéis blogueando como hackers!<br>
-En el siguiente post haré una guía específica para usuarios de Mac.

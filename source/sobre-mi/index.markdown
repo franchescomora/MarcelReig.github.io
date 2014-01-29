@@ -7,9 +7,12 @@ footer: true
 ---
 
 
-Soy Marcel Reig, como definirme a mi mismo?
-Soy un Geek, usuario de Mac y apasionado de las tecnologías web.
+Hola mi nombre es Marcel Reig!<br>
+Soy un Geek, usuario de Mac, apasionado por la tecnología.
 
-Defiendo y procuro aplicar el minimalismo en el diseño, la tecnología y en la vida.
+Mis intereses van en torno al desarrollo web moderno.<br>
+Mi enfoque de desarrollo principal es Javascript y tecnologías derivadas.
+
+Soy defensor del minimalismo tanto en el diseño como en la tecnología y en la vida.
 
 
