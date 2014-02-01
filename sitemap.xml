@@ -2,28 +2,56 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/</loc>
-        <lastmod>2014-01-29T11:07:45+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/
         </loc>
-        <lastmod>2014-01-29T12:42:18+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/about.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/components.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/css.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/customize.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/getting-started.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/</loc>
+        <lastmod>2014-02-01T11:49:24+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/assets/bootstrap/javascript.html</loc>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/archives/</loc>
-        <lastmod>2014-01-29T12:42:18+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/</loc>
-        <lastmod>2014-01-29T12:42:18+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/robots.txt</loc>
-        <lastmod>2014-01-24T19:43:48+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/sobre-mi/</loc>
-        <lastmod>2014-01-29T20:07:23+01:00</lastmod>
+        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
     </url>
 </urlset>
