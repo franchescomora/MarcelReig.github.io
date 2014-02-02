@@ -4,7 +4,7 @@
   <title><![CDATA[Noconode]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-02-02T18:16:49+01:00</updated>
+  <updated>2014-02-02T19:11:25+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -146,6 +146,9 @@ Jekyll es una sistema para crear sitios web estáticos creado en Ruby.</p>
 
 <p><img class="left" src="http://MarcelReig.github.io/images/octopress-logo.png" width="200">
 Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.</p>
+
+<br>
+
 
 <br>
 
