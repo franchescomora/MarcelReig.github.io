@@ -17,6 +17,9 @@ En el post anterior hice una introducción general a Octopress, en este voy a ce
 Descárgate [Xcode de la App Store.](https://itunes.apple.com/us/app/xcode/id497799835)
 Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.
 
+<br>
+<br>
+
 ##Instalando Homebrew
 
 {% img left /images/homebrew.png 100px [Homebrew [Homebrew]] %}
@@ -66,14 +69,12 @@ $ brew install rbenv #Instala rbenv
 $ brew install ruby-build
 ```
 
-
-<br>
-<br>
 <br>
 <br>
 
 Enlaces útiles:<br>
-[CODEHERO](http://codehero.co/como-lo-hago-instalar-homebrew/?utm_content=bufferc2b45&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer)
-[ROBOTS](http://robots.thoughtbot.com/psa-do-not-use-system-ruby)
-[ROBOTS](http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems)
-[RailsApps Project](http://railsapps.github.io/installrubyonrails-mac.html)
+
++ [CODEHERO](http://codehero.co/como-lo-hago-instalar-homebrew/?utm_content=bufferc2b45&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer)
++ [ROBOTS](http://robots.thoughtbot.com/psa-do-not-use-system-ruby)
++ [ROBOTS](http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems)
++ [RailsApps Project](http://railsapps.github.io/installrubyonrails-mac.html)

@@ -1,24 +1,56 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-$white: #FFFFFF;
+@font-face {
+    font-family: 'bira';
+    src: url('/fonts/bira.eot');
+    src: url('/fonts/bira.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/bira.woff') format('woff'),
+         url('/fonts/bira.ttf') format('truetype'),
+         url('/fonts/bira.svg#bira') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$text-color: #bdc3c7;
+
+$titular-color: #7ACCC8;
+
+$titular-hover: #4AAAA5;
+
+$link-color: #A3D39C;
+
+$link-hover: #74AF6C;
+
+$black: #2B2B2A;
+
+h1, h2, h3 {
+	color: $titular-color;
+}
+
+a {
+	color: $link-color;
+	&:hover { color: $link-hover;}
+}
+
 
 html {
-	background: $white;
+	background: $black;
 }
 
 body {
 	font-family: $sans !important;
 	font-size: 1em;
-
+	color: $text-color;
 	> header {
-		background: $white;
+		background: $black;
 		text-align: center;
 
 		h1 {
-			a, a:visited, a:hover {
-			font-family: $heading-font-family;
-			color: $nav-color;
+			a, a:visited {
+			font-family: "bira";
+			color: #ecf0f1;
+			&:hover { color: $text-color; }
 			}
 		}
 	}
@@ -28,6 +60,8 @@ body {
 			font-size: 0.9em;
 			padding-top: 0.3em;
 			line-height: 1.5em;
+			color: $text-color !important;
+			&:hover { color: #ecf0f1 !important; }
 		}
 		li + li {
 			border-left: 0px;
@@ -39,17 +73,17 @@ body {
 	}
 
 	> div {
-		background: $white;
+		background: $black;
 		border-bottom: 0px;
 
 		> div {
-			background: $white;
+			background: $black;
 			border-right-width: 0px;
 		}
 	}
 
 	> footer {
-		background: $white;
+		background: $black;
 		text-shadow: none;
 		color: #AAAAAA;
 	  	padding-left: 0;
@@ -73,8 +107,10 @@ article {
 		margin-left: 2em;
 	}
 
-	a, a:visited, a:active, a:hover, {
-		color: #1863A1;
+	a, a:visited, a:active, {
+		text-decoration: none;
+		color: $link-color;
+		&:hover { color: $link-hover; }
 	}
 
 	header {
@@ -115,9 +151,21 @@ article {
 			}
 
 			a:hover {
+				color: $titular-hover !important;
 				text-decoration: none;
 			}
+			
 		}
+
+		a[rel="full-article"] {
+    		font-family: $sans;
+    		background: none repeat scroll 0 0 $text-color !important;
+			}
+
+		a[rel="full-article"]:hover {
+				background: none repeat scroll 0 0 $titular-hover !important;
+			}
+
 	}
 
 	.hentry {
@@ -132,4 +180,16 @@ article {
 
 aside {
 	display: none;
+}
+
+#blog-archives h1 a {
+    color: $titular-color;
+    &:hover { color: $titular-hover; }
+    text-decoration: none !important;
+}
+
+article img, article video, article .flash-video {
+    border: 0.5em solid rgba(127, 140, 141, 0.5);
+    border-radius: 0.3em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
