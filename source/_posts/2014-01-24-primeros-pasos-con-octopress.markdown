@@ -26,6 +26,7 @@ Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilita
 <br>
 <br>
 <br>
+<br>
 
 ##Que lleva Octopress recien sacado de la caja?
 
