@@ -121,7 +121,7 @@ Esto generará tu blog.
 No te olvides de commitear el código de tu blog.
 ```
 git add .
-git commit .m 'tu mensaje'
+git commit -m 'tu mensaje'
 git push origin source
 ```
 No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code>http://tunombredeusuario.github.io</code>
