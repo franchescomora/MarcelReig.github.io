@@ -4,7 +4,7 @@
   <title><![CDATA[Noconode]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-02-02T19:11:25+01:00</updated>
+  <updated>2014-02-04T14:25:09+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -277,7 +277,7 @@ No te olvides de commitear el código de tu blog.</p>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>git add .
-</span><span class='line'>git commit .m 'tu mensaje'
+</span><span class='line'>git commit -m 'tu mensaje'
 </span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
 
 
