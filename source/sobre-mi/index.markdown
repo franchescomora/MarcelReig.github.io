@@ -17,16 +17,15 @@ Mi equipo de desarrollo es un MacBook Pro retina de 13, cuando estoy en mi ofici
 Para editar código utilizo Sublimetext-2.<br>
 
 
-###Mi Skyll Set actual:
+###Mi enfoque de desarrollo: 
 
 + html5
-+ css3 (Sass) 
-+ Javascript + jQuery básico
-+ Bootstrap3 y Foundation5
++ css3
++ Sass
++ Javascript
++ jQuery 
 + Responsive-web-design
-+ Git básico
-+ Comandos básicos de terminal Unix
-+ Photoshop + Illustrator   
+   
 
 ###Contacto
 
