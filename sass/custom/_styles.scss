@@ -11,7 +11,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'lato';
+    src: url('/fonts/lato-reg-webfont.eot');
+    src: url('/fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-reg-webfont.woff') format('woff'),
+         url('/fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('/fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 $text-color: #bdc3c7;
 
 $titular-color: #7ACCC8;
@@ -27,7 +37,12 @@ $black: #2B2B2A;
 h1, h2, h3 {
 	color: $titular-color;
 }
-
+.entry-content p, article p {
+	font-weight: 300;
+	font-size: 1.1em !important;
+	line-height: 1.5em;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
 a {
 	color: $link-color;
 	&:hover { color: $link-hover;}
