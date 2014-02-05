@@ -11,18 +11,16 @@ footer: true
 
 
 Hola mi nombre es Marcel Reig, soy desarrollador web front-end autodidacta, Geek, usuario de Mac y completamente apasionado por la web.<br>
-Vivo en la isla de Menorca donde el aire es puro y su naturaleza ofrece lugares tránquilos donde perderse y renovar las energías.<br>
-Trabajo como freelance remotamente a través de Skype o Google Hangouts.<br>
+Vivo en la isla de Menorca, un lugar realmente tránquilo donde su naturaleza ofrece muchos sitos para perderse y renovar las energías.<br>
+Trabajo como freelance en remoto a través de Skype o Google Hangouts.<br>
 Mi equipo de desarrollo es un MacBook Pro retina de 13, pero cuando estoy en mi oficina utilizo un segundo monitor Dell de 24, para editar código utilizo Sublime Text 2.<br>
 
-___Mi enfoque de desarrollo se centra en:___
+___Mi enfoque de desarrollo principal:___
 
 + html5
-+ css3
-+ Sass
-+ Javascript
-+ jQuery 
-+ Responsive-web-design
++ css3 (Sass)
++ Javascript y tecnologías relacionadas
++ Diseño web responsive
 
 ___Proyectos en los que he colaborado:___
 

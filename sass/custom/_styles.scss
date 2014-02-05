@@ -22,24 +22,20 @@
     font-style: normal;
 
 }
+
 $text-color: #bdc3c7;
-
 $titular-color: #7ACCC8;
-
 $titular-hover: #4AAAA5;
-
 $link-color: #A3D39C;
-
 $link-hover: #74AF6C;
-
 $black: #2B2B2A;
 
 h1, h2, h3 {
 	color: $titular-color;
 }
-.entry-content p, article p {
+.entry-content p, article p, ul li {
 	font-weight: 300;
-	font-size: 1.1em !important;
+	font-size: 1.2em !important;
 	line-height: 1.5em;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -122,6 +118,13 @@ article {
 		margin-left: 2em;
 	}
 
+	p code, p code a{
+    color: $black !important;
+    text-shadow: none;
+    text-decoration: none;
+    &:hover {color: $black !important; }
+	}
+
 	a, a:visited, a:active, {
 		text-decoration: none;
 		color: $link-color;
@@ -147,6 +150,10 @@ article {
 		text-align: center;		
 		border-top: dotted 1px #D1D1D1;
 		border-bottom: dotted 1px #D1D1D1;
+
+		a:hover {
+			color: $text-color;
+		}
 	}
 
 	.blog-index {
@@ -190,11 +197,11 @@ article {
 			font-size: 2.2em;
 		}
 	}
-	
+
 }
 
 aside {
-	display: none;
+	display: none; // cambia esto si quiere tu sidebar
 }
 
 #blog-archives h1 a {

@@ -5,11 +5,11 @@ date: 2014-01-24 19:53:52 +0100
 comments: true
 categories: 
 ---
-Este es mi primer post en Octopress donde haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.
+Este es mi primer post en Octopress, haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.
 <!-- more -->
 
 
-Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms para mis clientes, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo pera conocer las razones.
+Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo para conocer las razones.
 
 ##Que es Jekyll? <br>
 {% img left /images/jekyll.jpg 200px logo octopress %}
@@ -51,16 +51,16 @@ Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilita
 * Te permite escribir tus post en local, aunque no tengas conexión a internet y subirlos posteriormente cuando estén listos.
 
 
-__Octopress__ se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)
-Estas son algunas de las tecnologías con las que vas a tener que trastear si decides darle caña al blogging como un hacker:
+__Octopress__ se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)<br>
+Estas son algunas de las tecnologías con las que vas a trastear si decides darle caña al blogging como un hacker:
 
 * **Ruby**. No necesitas saber Ruby pero si necesitas tenerlo instalado en tu máquina.
-* **RVM** o **Rbenv**. Son herramientas muy útiles para manejar distintas versiones de Ruby.
+* **RVM** o **rbenv**. Son herramientas muy útiles para manejar distintas versiones de Ruby.
 * **Git** Quien no ha oido hablar de Git a estas alturas?
 * **Github pages** o **Heroku**. Opciones de alojamiento gratuitas para todos!
 * **ssh keys**. Donde me deje las llaves?
 * **Markdown** Para escribir tus post cómodamente.
-* **Terminal** Si, ya empiezo a sentirme como un Hacker..
+* **Terminal** Si, ya empiezo a sentirme como un Hacker.
 
 ##Lo que necesitas antes de empezar
 
@@ -97,11 +97,11 @@ Hay varias formas de desplegar tu blog fácilmente en Octopress:
 2. Heroku
 3. Rsync
 
-Mi elección ha sido utilizar __Github Pages__, si prefieres otra opción [visita el sitio oficial.](http://octopress.org/docs/deploying/)
+Mi elección ha sido utilizar __Github Pages__, si prefieres otra, [visita el sitio oficial.](http://octopress.org/docs/deploying/)
 
-Bien aquí de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).
+Con Github Pages de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).
 
-En mi caso he utilizado __páginas de usuario/organizaciones__ y esta es la opción de la que voy a hablar.
+En mi caso he utilizado _páginas de usuario/organizaciones_ y esta es la opción de la que voy a hablar.
 
 Crea un [nuevo repositorio de Github](https://github.com/new) y nombra el repositorio con el formato: <code>username.github.io</code> donde <code>username</code> es tu nombre de usuario de GitHub o el nombre de organización, esto es importante si le pones cualquier otro nombre no funcionará.
 
