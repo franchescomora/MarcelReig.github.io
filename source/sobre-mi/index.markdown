@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Sobre mi"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Octopress en Mac OS X Maveriks"
 date: 2014-01-27 18:18:05 +0100
 comments: true
-categories: 
+categories: [Mac, Octopress, Ruby]
 ---
 
 En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.
