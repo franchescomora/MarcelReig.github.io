@@ -36,7 +36,7 @@ Es capaz de colorear el código, ayudarnos a la escritura, corregir mientras esc
 + Posee una comunidad de usuarios cada vez mayor.
 + Tiene posibilidades incluso de depurar y ejecutar el código sin salir del editor; así como opciones de gestión de proyectos completos de trabajo.
 
-##Intalar Sublime Text
+##Instalar Sublime Text
 Descargamos [Sublime Text](http://www.sublimetext.com/) de su sitio oficial.<br>
 La versión estable es [Sublime Text 2](http://www.sublimetext.com/2), pero si eres como yo tal vez quieras elegir [Sublime Text 3](http://www.sublimetext.com/3), todavía en Beta pero con algunas mejoras respecto a Sublime Text 2.
 
@@ -95,7 +95,7 @@ _Spacegray-eighties_
 
 ##Emmet
 {% img left /images/emmet.png 150px [xcode [xcode]] %}
-Emmet (anteriormente conocido como Zen Coding), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
+Emmet (_anteriormente conocido como Zen Coding_), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
 Emmet es una colección de abrebiaciones que expanden html/xml/css, tomando la idea original de los snipets.<br>
 Descarga [Emmet](http://emmet.io/) de su pagina oficial.<br>
 Me centraré en las posibilidades que ofrece Emmet en un próximo post.
