@@ -4,7 +4,7 @@
   <title><![CDATA[Noconode]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-02-08T21:23:56+01:00</updated>
+  <updated>2014-02-08T21:28:50+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -54,7 +54,7 @@ Es capaz de colorear el código, ayudarnos a la escritura, corregir mientras esc
 </ul>
 
 
-<h2>Intalar Sublime Text</h2>
+<h2>Instalar Sublime Text</h2>
 
 <p>Descargamos <a href="http://www.sublimetext.com/">Sublime Text</a> de su sitio oficial.<br>
 La versión estable es <a href="http://www.sublimetext.com/2">Sublime Text 2</a>, pero si eres como yo tal vez quieras elegir <a href="http://www.sublimetext.com/3">Sublime Text 3</a>, todavía en Beta pero con algunas mejoras respecto a Sublime Text 2.</p>
@@ -128,7 +128,7 @@ Instala Package control desde: <a href="http://wbond.net/sublime_packages/packag
 <h2>Emmet</h2>
 
 <p><img class="left" src="http://MarcelReig.github.io/images/emmet.png" width="150">
-Emmet (anteriormente conocido como Zen Coding), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
+Emmet (<em>anteriormente conocido como Zen Coding</em>), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
 Emmet es una colección de abrebiaciones que expanden html/xml/css, tomando la idea original de los snipets.<br>
 Descarga <a href="http://emmet.io/">Emmet</a> de su pagina oficial.<br>
 Me centraré en las posibilidades que ofrece Emmet en un próximo post.</p>
