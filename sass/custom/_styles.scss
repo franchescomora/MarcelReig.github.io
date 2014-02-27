@@ -11,19 +11,32 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'lato';
-    src: url('/fonts/lato-reg-webfont.eot');
-    src: url('/fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/lato-reg-webfont.woff') format('woff'),
-         url('/fonts/lato-reg-webfont.ttf') format('truetype'),
-         url('/fonts/lato-reg-webfont.svg#latoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
+/* Webfont: LatoLatinLight-Regular */
+@font-face {
+    font-family: 'LatoLatinLight';
+    src: url('/fonts/LatoLatinLight-Regular.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/LatoLatinLight-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/LatoLatinLight-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/LatoLatinLight-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
-$text-color: #bdc3c7;
+/* Webfont: LatoLatin-Regular */
+@font-face {
+    font-family: 'LatoLatin';
+    src: url('/fonts/LatoLatin-Regular.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/LatoLatin-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/LatoLatin-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+$text-color: #ddd;
 $titular-color: #7ACCC8;
 $titular-hover: #4AAAA5;
 $link-color: #A3D39C;
@@ -33,9 +46,9 @@ $black: #2B2B2A;
 h1, h2, h3 {
 	color: $titular-color;
 }
-.entry-content p, article p, ul li {
+.entry-content p, article p, ul li, ol li {
 	font-weight: 300;
-	font-size: 1.2em !important;
+	font-size: 1.3em !important;
 	line-height: 1.5em;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -47,11 +60,13 @@ a {
 
 html {
 	background: $black;
+	border-top: 5px solid $link-color;
 }
 
 body {
+	
 	font-family: $sans !important;
-	font-size: 1em;
+	font-size: 0.9em;
 	color: $text-color;
 	> header {
 		background: $black;
@@ -68,11 +83,11 @@ body {
 	> nav {
 		a {
 			font-family: $sans;
-			font-size: 0.9em;
+			font-size: 1em;
 			padding-top: 0.3em;
 			line-height: 1.5em;
 			color: $text-color !important;
-			&:hover { color: #ecf0f1 !important; }
+			&:hover { color: #fff !important; }
 		}
 		li + li {
 			border-left: 0px;
@@ -106,7 +121,13 @@ body {
 }
 
 article {
-	padding-top: 2em;
+	
+	background: none repeat scroll 0 0 #444444;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    padding: 20px;
+    padding-top: 2em;
 
 	.entry-content {
 		h3 {
@@ -137,6 +158,7 @@ article {
 			font-weight: 400;
 		}
 	}
+	
 }
 
 #content {
@@ -159,6 +181,8 @@ article {
 	.blog-index {
 		article {
 			padding-top: 4em;
+			margin-top: 2em;
+			background: none repeat scroll 0 0 #444444; 
 
 			header {
 				padding-left: 0;
@@ -201,13 +225,24 @@ article {
 }
 
 aside {
-	display: none; // cambia esto si quiere tu sidebar
+	display: none; // cambia esto si quieres tu sidebar
 }
 
-#blog-archives h1 a {
+
+#blog-archives {
+	h1 a {
     color: $titular-color;
     &:hover { color: $titular-hover; }
     text-decoration: none !important;
+	}
+
+	a.category:hover {
+		color: $link-color;
+	}
+
+	article {
+		box-shadow: none;
+	}
 }
 
 article img, article video, article .flash-video {
