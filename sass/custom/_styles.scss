@@ -1,6 +1,8 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+// Mis fuentes
+
 @font-face {
     font-family: 'bira';
     src: url('/fonts/bira.eot');
@@ -12,7 +14,7 @@
     font-style: normal;
 }
 
-/* Webfont: LatoLatinLight-Regular */
+/* Webfont: LatoLatinLight-Regular  para el texto */
 @font-face {
     font-family: 'LatoLatinLight';
     src: url('/fonts/LatoLatinLight-Regular.eot'); /* IE9 Compat Modes */
@@ -24,7 +26,7 @@
     text-rendering: optimizeLegibility;
 }
 
-/* Webfont: LatoLatin-Regular */
+/* Webfont: LatoLatin-Regular para titulares */
 @font-face {
     font-family: 'LatoLatin';
     src: url('/fonts/LatoLatin-Regular.eot'); /* IE9 Compat Modes */
@@ -42,6 +44,7 @@ $titular-hover: #4AAAA5;
 $link-color: #A3D39C;
 $link-hover: #74AF6C;
 $black: #2B2B2A;
+
 
 h1, h2, h3 {
 	color: $titular-color;
@@ -234,7 +237,10 @@ aside {
     color: $titular-color;
     &:hover { color: $titular-hover; }
     text-decoration: none !important;
+    font-family: 'LatoLatin';
 	}
+
+	
 
 	a.category:hover {
 		color: $link-color;
