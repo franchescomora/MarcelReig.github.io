@@ -35,7 +35,7 @@ ___Proyectos en los que he colaborado:___
 ###Contacto
 
 + Twitter: [@Netinetidesign](https://twitter.com/Netinetidesign)
-+ Email: marcelreig@icloud.com
-+ Web: [Netinetidesign](http://www.netinetidesign.com/)
++ Email: marcelreig@gmail.com
++ Empresa: [Netinetidesign](http://www.netinetidesign.com/)
 
 
