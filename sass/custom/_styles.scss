@@ -238,9 +238,6 @@ aside {
     text-decoration: none !important;
     font-family: 'LatoLatin';
 	}
-
-	
-
 	a.category:hover {
 		color: $link-color;
 	}
@@ -259,3 +256,17 @@ article img, article video, article .flash-video {
     border: none;
     box-shadow: none;
 }
+
+// Mediaqueries de la muerte
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) { 
+
+article header p.meta {
+    top: -30px;
+}
+    
+}
+
+
