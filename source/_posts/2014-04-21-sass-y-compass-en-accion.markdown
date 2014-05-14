@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Sass y Compass en acción"
+title: "Sass y Compass Presentación"
 date: 2014-04-21 23:59:20 +0200
 comments: true
 categories: [Sass, Compass, CSS]
 ---
+
+{% img /images/sass-logo.png 150px [Vintage glasses [Vintage Glasses]] %}
+
 ##Que es Sass?
 
 Sass es CSS con superpoderes!
@@ -20,9 +23,12 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 <li>Mixins</li>
 </ul>
 
+
 ##Que es Compass?
 
-Compass es un framework para Sass.
+{% img /images/sass_compass.png 150px [Vintage glasses [Vintage Glasses]] %}
+
+Compass es un framework para Sass.<br />
 Que nos ofrece Compass?
 
 <ul>
@@ -53,9 +59,14 @@ Que nos ofrece Compass?
 
 ##Instalación de Sass y Compass
 
-Terminal Lovers
+##Terminal Lovers
+
+{% img left /images/terminal.png 100px [terminal [terminal]] %}
 
 Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:
+
+<br />
+<br />
 
 ```
 $ gem install compass
@@ -94,5 +105,6 @@ Aplicaciones GUI (graphical user interface), que puedes utilizar:
 ##Mi consejo?
 
 ###Utiliza la terminal!
-Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. Abrir la terminal, navegar hasta tu proyecto y escribir algo como ```compass watch``` es todo lo que tienes que hacer.
+Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
+Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir ```compass watch``` para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.
