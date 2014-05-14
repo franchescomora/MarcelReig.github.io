@@ -6,13 +6,13 @@ comments: true
 categories: [Sass, Compass, CSS]
 ---
 
-{% img /images/sass-logo.png 150px [Vintage glasses [Vintage Glasses]] %}
-
 ##Que es Sass?
 
 Sass es CSS con superpoderes!
 Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.
 <!--more-->
+
+{% img /images/sass-logo.png 150px [Vintage glasses [Vintage Glasses]] %}
 
 <ul>
 <li>Variables</li>
