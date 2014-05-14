@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Compass | Noconode]]></title>
+  <link href="http://MarcelReig.github.io/blog/categories/compass/atom.xml" rel="self"/>
+  <link href="http://MarcelReig.github.io/"/>
+  <updated>2014-05-14T12:08:36+02:00</updated>
+  <id>http://MarcelReig.github.io/</id>
+  <author>
+    <name><![CDATA[Marcel Reig]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sass y Compass en acción]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/"/>
+    <updated>2014-04-21T23:59:20+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion</id>
+    <content type="html"><![CDATA[<h2>Que es Sass?</h2>
+
+<p>Sass es CSS con superpoderes!
+Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
+
+<!--more-->
+
+
+
+
+<ul>
+<li>Variables</li>
+<li>Anidamiento</li>
+<li>Herencía entre selectoress</li>
+<li>Funciones y estructuras de control</li>
+<li>Operaciones lógicas</li>
+<li>Mixins</li>
+</ul>
+
+
+<h2>Que es Compass?</h2>
+
+<p>Compass es un framework para Sass.
+Que nos ofrece Compass?</p>
+
+<ul>
+<li>librería de mixins</li>
+<li>Funciones para Sass</li>
+<li>Extensiones</li>
+</ul>
+
+
+<h2>Por que necesito todo esto?</h2>
+
+<ul>
+<li>Cada vez hacemos sitios web más grandes y complejos y eso es genial pero necesitamos nuevas herramientas para hacerlos manejables y mantenibles.</li>
+<li>Sass es un metalenguage que se usa para definir el estilo del documento de forma limpia y estructurada.</li>
+<li>Sass es una extension de CSS3 por lo que cualquier documento CSS3 es un documento SCSS valido.</li>
+<li>Sass sigue el principio de DRY (Don't Repat Yourself).</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar:</h2>
+
+<p><img class="left" src="/images/ruby.png" width="100"></p>
+
+<ul>
+<li>Sass está hecho en Ruby, por lo que necesitarás tenerlo instalado en tu máquina.</li>
+<li>En Windows puedes utilizar: rubyinstaller.</li>
+<li>En Linux puedes utilizar el sistema de gestión de paquetes apt.</li>
+<li>En OS X estás de suerte, Ruby ya viene por defecto!</li>
+</ul>
+
+
+<h2>Instalación de Sass y Compass</h2>
+
+<p>Terminal Lovers</p>
+
+<p>Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:</p>
+
+<p><code>
+$ gem install compass
+</code>
+Comprobar que se ha instalado correctamente:</p>
+
+<p><code>
+$ compass version
+</code>
+Crear un proyecto con Compass:</p>
+
+<p><code>
+$ compass create nombre-del-proyecto
+</code></p>
+
+<h2>Terminal Haters</h2>
+
+<p>Aplicaciones GUI (graphical user interface), que puedes utilizar:</p>
+
+<h3>De pago:</h3>
+
+<ul>
+<li><a href="http://incident57.com/codekit/">Codekit</a> OSX $29</li>
+<li><a href="http://mixture.io/">Mixture</a> OSX $39</li>
+<li><a href="http://hammerformac.com/">Hamer</a> OSX $23.99</li>
+<li><a href="http://livereload.com/">LiveReload</a> OSX $9.99</li>
+<li><a href="http://compass.kkbox.com/">compass.app</a> Win, OSX &amp; Linux $10</li>
+</ul>
+
+
+<h3>Gratuítas:</h3>
+
+<ul>
+<li><a href="http://alphapixels.com/prepros/">Prepos</a> Win &amp; OSX</li>
+<li><a href="http://mhs.github.io/scout-app/">scout-app</a> Win &amp; OSX</li>
+<li><a href="http://koala-app.com/#download">Koala-app</a> Win, OSX, Linux &amp; Ubuntu</li>
+</ul>
+
+
+<h2>Mi consejo?</h2>
+
+<h3>Utiliza la terminal!</h3>
+
+<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. Abrir la terminal, navegar hasta tu proyecto y escribir algo como <code>compass watch</code> es todo lo que tienes que hacer.
+Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
+]]></content>
+  </entry>
+  
+</feed>

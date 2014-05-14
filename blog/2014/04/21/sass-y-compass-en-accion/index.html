@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Noconode</title>
+  <title>Sass y Compass en acción - Noconode</title>
   <meta name="author" content="Marcel Reig">
 
   
@@ -19,7 +19,7 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://MarcelReig.github.io">
+  <link rel="canonical" href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Noconode" type="application/atom+xml">
@@ -64,15 +64,12 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/04/21/sass-y-compass-en-accion/">Sass Y Compass en Acción</a></h1>
+      <h1 class="entry-title">Sass Y Compass en Acción</h1>
     
     
       <p class="meta">
@@ -90,82 +87,130 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 
 <time datetime="2014-04-21T23:59:20+02:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
         
-         | <a href="/blog/2014/04/21/sass-y-compass-en-accion/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h2>Que es Sass?</h2>
+<div class="entry-content"><h2>Que es Sass?</h2>
 
 <p>Sass es CSS con superpoderes!
 Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
 
+<!--more-->
+
+
+
+
+<ul>
+<li>Variables</li>
+<li>Anidamiento</li>
+<li>Herencía entre selectoress</li>
+<li>Funciones y estructuras de control</li>
+<li>Operaciones lógicas</li>
+<li>Mixins</li>
+</ul>
+
+
+<h2>Que es Compass?</h2>
+
+<p>Compass es un framework para Sass.
+Que nos ofrece Compass?</p>
+
+<ul>
+<li>librería de mixins</li>
+<li>Funciones para Sass</li>
+<li>Extensiones</li>
+</ul>
+
+
+<h2>Por que necesito todo esto?</h2>
+
+<ul>
+<li>Cada vez hacemos sitios web más grandes y complejos y eso es genial pero necesitamos nuevas herramientas para hacerlos manejables y mantenibles.</li>
+<li>Sass es un metalenguage que se usa para definir el estilo del documento de forma limpia y estructurada.</li>
+<li>Sass es una extension de CSS3 por lo que cualquier documento CSS3 es un documento SCSS valido.</li>
+<li>Sass sigue el principio de DRY (Don&#8217;t Repat Yourself).</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar:</h2>
+
+<p><img class="left" src="/images/ruby.png" width="100"></p>
+
+<ul>
+<li>Sass está hecho en Ruby, por lo que necesitarás tenerlo instalado en tu máquina.</li>
+<li>En Windows puedes utilizar: rubyinstaller.</li>
+<li>En Linux puedes utilizar el sistema de gestión de paquetes apt.</li>
+<li>En OS X estás de suerte, Ruby ya viene por defecto!</li>
+</ul>
+
+
+<h2>Instalación de Sass y Compass</h2>
+
+<p>Terminal Lovers</p>
+
+<p>Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ gem install compass</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Comprobar que se ha instalado correctamente:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass version</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Crear un proyecto con Compass:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass create nombre-del-proyecto</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Terminal Haters</h2>
+
+<p>Aplicaciones GUI (graphical user interface), que puedes utilizar:</p>
+
+<h3>De pago:</h3>
+
+<ul>
+<li><a href="http://incident57.com/codekit/">Codekit</a> OSX $29</li>
+<li><a href="http://mixture.io/">Mixture</a> OSX $39</li>
+<li><a href="http://hammerformac.com/">Hamer</a> OSX $23.99</li>
+<li><a href="http://livereload.com/">LiveReload</a> OSX $9.99</li>
+<li><a href="http://compass.kkbox.com/">compass.app</a> Win, OSX &amp; Linux $10</li>
+</ul>
+
+
+<h3>Gratuítas:</h3>
+
+<ul>
+<li><a href="http://alphapixels.com/prepros/">Prepos</a> Win &amp; OSX</li>
+<li><a href="http://mhs.github.io/scout-app/">scout-app</a> Win &amp; OSX</li>
+<li><a href="http://koala-app.com/#download">Koala-app</a> Win, OSX, Linux &amp; Ubuntu</li>
+</ul>
+
+
+<h2>Mi consejo?</h2>
+
+<h3>Utiliza la terminal!</h3>
+
+<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. Abrir la terminal, navegar hasta tu proyecto y escribir algo como <code>compass watch</code> es todo lo que tienes que hacer.
+Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/04/21/sass-y-compass-en-accion/">Leer más..</a>
-    </footer>
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/06/sublime-text-3-y-emmet/">Sublime Text 2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Marcel Reig</span></span>
 
-<time datetime="2014-02-06T22:42:00+01:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
-        
-         | <a href="/blog/2014/02/06/sublime-text-3-y-emmet/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Dicen que la herramienta no hace al programador, seguro que aspectos como la determinación y disciplina van a influir más en tu código que el editor que uses, pero a mi por lo menos, me gusta probar nuevos sabores y terminar por utilizar el que más se adapta a mi estilo de trabajo.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/02/06/sublime-text-3-y-emmet/">Leer más..</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/">Octopress en Mac OS X Maveriks</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -177,77 +222,47 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
   
 
 
-<time datetime="2014-01-27T18:18:05+01:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
-        
-         | <a href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/">Leer más..</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
+<time datetime="2014-04-21T23:59:20+02:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/24/primeros-pasos-con-octopress/">Primeros Pasos Con Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
+<span class="categories">
   
+    <a class='category' href='/blog/categories/css/'>CSS</a>, <a class='category' href='/blog/categories/compass/'>Compass</a>, <a class='category' href='/blog/categories/sass/'>Sass</a>
+  
+</span>
 
 
-<time datetime="2014-01-24T19:53:52+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2014</time>
-        
-         | <a href="/blog/2014/01/24/primeros-pasos-con-octopress/#disqus_thread">Comments</a>
-        
-      </p>
+    </p>
     
-  </header>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/" data-via="Netinetidesign" data-counturl="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/06/sublime-text-3-y-emmet/" title="Previous Post: Sublime Text 2">&laquo; Sublime Text 2</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-  <div class="entry-content"><p>Este es mi primer post en Octopress, haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.</p>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
 
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/24/primeros-pasos-con-octopress/">Leer más..</a>
-    </footer>
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -280,7 +295,7 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/MarcelReig">@MarcelReig</a> on GitHub
@@ -331,6 +346,7 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -345,7 +361,10 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
       var disqus_shortname = 'marcelreig';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/';
+        var disqus_url = 'http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
