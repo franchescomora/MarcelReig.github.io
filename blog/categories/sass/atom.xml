@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sass | Noconode]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/sass/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-14T12:45:30+02:00</updated>
+  <updated>2014-05-14T20:13:14+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -14,11 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Sass y Compass en acción]]></title>
+    <title type="html"><![CDATA[Sass y Compass Presentación]]></title>
     <link href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/"/>
     <updated>2014-04-21T23:59:20+02:00</updated>
     <id>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion</id>
-    <content type="html"><![CDATA[<h2>Que es Sass?</h2>
+    <content type="html"><![CDATA[<p><img src="/images/sass-logo.png" width="150"></p>
+
+<h2>Que es Sass?</h2>
 
 <p>Sass es CSS con superpoderes!
 Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
@@ -40,7 +42,9 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 
 <h2>Que es Compass?</h2>
 
-<p>Compass es un framework para Sass.
+<p><img src="/images/sass_compass.png" width="150"></p>
+
+<p>Compass es un framework para Sass.<br />
 Que nos ofrece Compass?</p>
 
 <ul>
@@ -74,9 +78,17 @@ Que nos ofrece Compass?</p>
 
 <h2>Instalación de Sass y Compass</h2>
 
-<p>Terminal Lovers</p>
+<h2>Terminal Lovers</h2>
+
+<p><img class="left" src="/images/terminal.png" width="100"></p>
 
 <p>Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:</p>
+
+<br />
+
+
+<br />
+
 
 <p><code>
 $ gem install compass
@@ -120,7 +132,8 @@ $ compass create nombre-del-proyecto
 
 <h3>Utiliza la terminal!</h3>
 
-<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. Abrir la terminal, navegar hasta tu proyecto y escribir algo como <code>compass watch</code> es todo lo que tienes que hacer.
+<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
+Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir <code>compass watch</code> para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
 ]]></content>
   </entry>
