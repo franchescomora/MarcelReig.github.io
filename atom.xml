@@ -4,7 +4,7 @@
   <title><![CDATA[Noconode]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-14T20:13:14+02:00</updated>
+  <updated>2014-05-14T20:17:34+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -18,9 +18,7 @@
     <link href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/"/>
     <updated>2014-04-21T23:59:20+02:00</updated>
     <id>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion</id>
-    <content type="html"><![CDATA[<p><img src="http://MarcelReig.github.io/images/sass-logo.png" width="150"></p>
-
-<h2>Que es Sass?</h2>
+    <content type="html"><![CDATA[<h2>Que es Sass?</h2>
 
 <p>Sass es CSS con superpoderes!
 Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
@@ -28,7 +26,7 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 <!--more-->
 
 
-
+<p><img src="http://MarcelReig.github.io/images/sass-logo.png" width="150"></p>
 
 <ul>
 <li>Variables</li>
