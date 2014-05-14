@@ -67,7 +67,7 @@ html {
 }
 
 body {
-	
+	background: $black;
 	font-family: $sans !important;
 	font-size: 0.9em;
 	color: $text-color;
@@ -84,6 +84,7 @@ body {
 		}
 	}
 	> nav {
+		background: $black;
 		a {
 			font-family: $sans;
 			font-size: 1em;
