@@ -4,7 +4,7 @@
   <title><![CDATA[Noconode]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-14T20:17:34+02:00</updated>
+  <updated>2014-05-14T22:14:56+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -25,6 +25,8 @@ Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un le
 
 <!--more-->
 
+
+<p>Sass es una gema de Ruby y viene incluido con Ruby on Rails desde la versión 3.1 como lenguaje por defecto para escribir estilos.</p>
 
 <p><img src="http://MarcelReig.github.io/images/sass-logo.png" width="150"></p>
 
@@ -106,6 +108,12 @@ Que nos ofrece Compass?</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ compass create nombre-del-proyecto</span></code></pre></td></tr></table></div></figure>
 
 
+<p>Compilar Sass, navega hasta el directorio raiz de tu proyecto y escribe:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass watch</span></code></pre></td></tr></table></div></figure>
+
+
 <h2>Terminal Haters</h2>
 
 <p>Aplicaciones GUI (graphical user interface), que puedes utilizar:</p>
@@ -137,6 +145,16 @@ Que nos ofrece Compass?</p>
 <p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
 Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir <code>compass watch</code> para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://sass-lang.com/">Sass-lang</a> <em>Sitio oficial de Sass</em></li>
+<li><a href="http://compass-style.org/">Compass</a> <em>Sitio oficial de Compass</em></li>
+<li><a href="http://thesassway.com/">The Sass Way</a> <em>Sitio web sobre Sass y Compass que no te puedes perder</em></li>
+<li><a href="http://sassmeister.com/gist/11032479">Sass meister</a> <em>Herramienta online para testear Sass</em></li>
+</ul>
+
 ]]></content>
   </entry>
   
