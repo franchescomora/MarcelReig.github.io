@@ -11,6 +11,7 @@ categories: [Sass, Compass, CSS]
 Sass es CSS con superpoderes!
 Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.
 <!--more-->
+Sass es una gema de Ruby y viene incluido con Ruby on Rails desde la versión 3.1 como lenguaje por defecto para escribir estilos.
 
 {% img /images/sass-logo.png 150px [Vintage glasses [Vintage Glasses]] %}
 
@@ -81,6 +82,11 @@ Crear un proyecto con Compass:
 ```
 $ compass create nombre-del-proyecto
 ```
+Compilar Sass, navega hasta el directorio raiz de tu proyecto y escribe:
+
+```
+$ compass watch
+```
 
 ##Terminal Haters
 
@@ -108,3 +114,10 @@ Aplicaciones GUI (graphical user interface), que puedes utilizar:
 Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
 Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir ```compass watch``` para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.
+
+___Enlaces útiles:___
+
++ [Sass-lang](http://sass-lang.com/) _Sitio oficial de Sass_
++ [Compass](http://compass-style.org/) _Sitio oficial de Compass_
++ [The Sass Way](http://thesassway.com/) _Sitio web sobre Sass y Compass que no te puedes perder_
++ [Sass meister](http://sassmeister.com/gist/11032479) _Herramienta online para testear Sass_
