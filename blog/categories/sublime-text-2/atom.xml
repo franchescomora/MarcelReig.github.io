@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sublime Text 2 | Noconode]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/sublime-text-2/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-14T22:14:56+02:00</updated>
+  <updated>2014-05-15T15:15:18+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sublime Text 2]]></title>
-    <link href="http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3-y-emmet/"/>
+    <link href="http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3/"/>
     <updated>2014-02-06T22:42:00+01:00</updated>
-    <id>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3-y-emmet</id>
+    <id>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3</id>
     <content type="html"><![CDATA[<p>Dicen que la herramienta no hace al programador, seguro que aspectos como la determinación y disciplina van a influir más en tu código que el editor que uses, pero a mi por lo menos, me gusta probar nuevos sabores y terminar por utilizar el que más se adapta a mi estilo de trabajo.</p>
 
 <!-- more -->
