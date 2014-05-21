@@ -2,36 +2,56 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/</loc>
-        <lastmod>2014-02-06T19:49:48+01:00</lastmod>
+        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
     </url>
     <url>
         <loc>
             http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/
         </loc>
-        <lastmod>2014-02-06T19:49:34+01:00</lastmod>
+        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3/</loc>
-        <lastmod>2014-02-08T21:27:52+01:00</lastmod>
+        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/</loc>
-        <lastmod>2014-05-15T15:04:51+02:00</lastmod>
+        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/archives/</loc>
-        <lastmod>2014-05-15T15:04:51+02:00</lastmod>
+        <lastmod>2014-05-21T14:02:01+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/blog/</loc>
+        <lastmod>2014-05-21T14:04:48+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/</loc>
-        <lastmod>2014-05-15T15:04:51+02:00</lastmod>
+        <lastmod>2014-05-21T14:02:01+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/no-sidebar/example-formatting/</loc>
+        <lastmod>2014-05-19T23:25:56+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/no-sidebar/</loc>
+        <lastmod>2014-05-19T23:25:56+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/no-sidebar/left-sidebar/</loc>
+        <lastmod>2014-05-19T23:25:56+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MarcelReig.github.io/no-sidebar/right-sidebar/</loc>
+        <lastmod>2014-05-19T23:25:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/robots.txt</loc>
-        <lastmod>2014-02-01T21:19:34+01:00</lastmod>
+        <lastmod>2014-05-17T20:01:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/sobre-mi/</loc>
-        <lastmod>2014-04-11T12:07:34+02:00</lastmod>
+        <lastmod>2014-05-21T13:56:55+02:00</lastmod>
     </url>
 </urlset>

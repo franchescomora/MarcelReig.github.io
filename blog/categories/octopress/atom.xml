@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Octopress | Noconode]]></title>
+  <title><![CDATA[Category: Octopress | Netinetidesign]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-15T15:15:18+02:00</updated>
+  <updated>2014-05-21T17:32:46+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -118,7 +118,7 @@ Ahora puedes abrir tu blog con POW, simplemente utiliza el comando <code>rake wa
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Primeros pasos con Octopress]]></title>
+    <title type="html"><![CDATA[Primeros Pasos Con Octopress]]></title>
     <link href="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/"/>
     <updated>2014-01-24T19:53:52+01:00</updated>
     <id>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress</id>
