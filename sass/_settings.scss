@@ -1,0 +1,118 @@
+// grid properties
+$row-width: 1050px;
+$column-gutter: 40px;
+$total-columns: 12;
+
+// image display properties
+$boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
+
+// colors
+$body-bg: #fff !default; /* white by default */
+$primary-color: #483D8B !default; /* blue by default */
+$secondary-color: #6A5ACD !default; /* light gray by default */
+$topbar-bg: #111; /* almost black by default */
+$bottom-border-color: #cccccc;
+// font colors
+$body-font-color: #222 !default; /* almost black by default */
+// $header-font-color: #af4976; /* magenta by default */
+$subheader-font-color: scale-color($body-font-color, $lightness: 35%); /* medium gray by default */ 
+$icon-color: #6A5ACD; /* medium-light gray by default */
+
+// body font properties
+// $body-font-family: 'Roboto', sans-serif !default;
+$body-font-size: 18px !default;
+$body-font-weight: normal !default;
+$body-font-style: normal !default;
+$body-line-height: 1.45 !default;
+$body-paragraph-margin: 25px !default;
+$bold-font-weight: 500 !default;
+$button-font-tny: 14px;
+
+// header font properties
+$small-font-size: 50%;
+// $header-font-family: 'Ubuntu', sans-serif;
+$header-font-weight: 500;
+
+// link properties
+$anchor-text-decoration: none;
+$anchor-font-color: $primary-color;
+$anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
+
+// navigation bar
+// $topbar-height: 4rem;
+$topbar-link-font-size: 14px;
+$topbar-link-letterspacing: 0.5px;
+$topbar-link-hover-lightness: -10%;
+$topbar-link-bg-hover: #2c2c2c;
+$topbar-link-color: #fff;
+
+// border radius
+$global-radius: 3px !default;
+$global-rounded: 1000px !default;
+
+// TOP BAR
+//
+
+// $include-html-top-bar-classes: $include-html-classes;
+
+// Background color for the top bar
+   $topbar-bg-color: rgba(255, 255, 255, 0.95);
+   $topbar-bg: $topbar-bg-color;
+
+// Height and margin
+   $topbar-height: 4rem;
+// $topbar-margin-bottom: 0;
+
+// Controlling the styles for the title in the top bar
+// $topbar-title-weight: normal;
+// $topbar-title-font-size: rem-calc(17);
+
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: #333;
+$topbar-dropdown-link-color: #fff;
+$topbar-dropdown-link-bg: #333;
+// $topbar-dropdown-link-weight: normal;
+// $topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #fff;
+// $topbar-dropdown-toggle-alpha: 0.4;
+
+// Set the link colors and styles for top-level nav
+// $topbar-link-color: #fff;
+// $topbar-link-color-hover: #fff;
+// $topbar-link-color-active: #fff;
+// $topbar-link-color-active-hover: #fff;
+// $topbar-link-weight: normal;
+// $topbar-link-font-size: rem-calc(13);
+// $topbar-link-hover-lightness: -10%; // Darken by 10%
+// $topbar-link-bg-hover: #272727;
+// $topbar-link-bg-active: $primary-color;
+// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+// $topbar-link-font-family: $body-font-family;
+// $topbar-link-text-transform: none;
+// $topbar-link-padding: $topbar-height / 3;
+
+// $topbar-button-font-size: 0.75rem;
+// $topbar-button-top: 7px;
+
+$topbar-dropdown-label-color: #777;
+$topbar-dropdown-label-text-transform: uppercase;
+$topbar-dropdown-label-font-weight: bold;
+// $topbar-dropdown-label-font-size: rem-calc(10);
+// $topbar-dropdown-label-bg: #333;
+
+// Top menu icon styles
+// $topbar-menu-link-transform: uppercase;
+// $topbar-menu-link-font-size: rem-calc(13);
+// $topbar-menu-link-weight: bold;
+$topbar-menu-link-color: #222;
+$topbar-menu-icon-color: #222;
+$topbar-menu-link-color-toggled: #222;
+$topbar-menu-icon-color-toggled: #222;
+
+// Transitions and breakpoint styles
+// $topbar-transition-speed: 300ms;
+// Using rem-calc for the below breakpoint causes issues with top bar
+$topbar-breakpoint: 999px; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;
+
+

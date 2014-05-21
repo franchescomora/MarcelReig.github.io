@@ -1,5 +1,6 @@
 ---
 layout: post
+sidebar: false
 title: "Primeros pasos con Octopress"
 date: 2014-01-24 19:53:52 +0100
 comments: true

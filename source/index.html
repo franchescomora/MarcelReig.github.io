@@ -1,29 +1,430 @@
 ---
-layout: default
+layout: landing
+comments: false
+sharing: false
+footer: true
+body_id: "main_page"
+sidebar: false
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
+<!-- /////////////////////////////////////////////// Landing //////////////
+    ////////////////////////////////////////////////////////////////////// -->
+
+<section id="home" class="pages" data-type="background" data-speed="10">
+  <article>
+    <div class="row">
+      <div id="muevelo" class="small-12 large-12 columns">
+        <h1 class="subheader text-white">Diseño Web para todas las pantallas.</h1>
+        <h4 class="subheader text-white">Hago sitios web modernos que se ven tan bien en tu portátil como en tu móvil.</h4>
+    </div>
+  </article>
+</section>
+
+<!-- /////////////////////////////////////////////// Servicios ////////////
+    ////////////////////////////////////////////////////////////////////// -->
+
+<section id="mis-servicios" class="ancla seccion">
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <h2 class="subheader titular text-center">Servicios</h2>
+        <hr class="line">
+        <div class="row">
+          <div class="small-12 medium-12 large-12  columns">
+          <h4 class="subheader text-center text-light slim ma-bottom-40">Mi propósito es equilibrar el punto de vista de la usabilidad, que se centra en la funcionalidad y la presentación efectiva de la información con la perspectiva puramente estética.</h4>
+          </div>
+        </div>
+
+<div class="row servicios">
+        <div class="small-12 large-4 columns">
+          <h2 class="icon-tools text-center"></h2>
+          <h4 class="text-center">Diseño Web</h4>
+         <p>Diseño pensando en la facilidad del usuario como objetivo y en el contenido como protagonista sin olvidar el aspecto visual y la imagen de marca.</p>
+        </div>
+
+        <div class="small-12 large-4 columns">
+          <h2 class="icon-gears text-center"></h2>
+          <h4 class="text-center">Desarrollo Web</h4>
+   <p>El diseño para la web y dispositivos se hace realidad codificando en lenguajes de marcado y de programación como <strong>HTML5, CSS3,</strong> y<strong> JavaScript.</strong></p>
+        </div>
+
+        <div class="small-12 large-4 columns">
+          <h2 class="icon-expand text-center"></h2>
+          <h4 class="text-center">Web Adaptable</h4>
+          <p>El modo de ver la web ha cambiado y no hay vuelta atrás, una web actual debe de adaptarse cualquier dispositivo, hacer zoom no es divertido!</p>
+        </div>
+	</div>
+      </div>
+    </div>
+ 
+  </section>
+
+<!-- ////////////////////////////////////////// WEB STANDARD ///////////////////
+     //////////////////////////////////////////////////////////////////////////// -->
+
+  <section id="web-standard" class="ancla bg-gray-light seccion">
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <h2 class="subheader titular left-center">Web Standard</h2>
+
+        <hr class="line-left">
+        <div class="row">
+         <div class="small-12 columns">
+         <h4 class="slim ma-bottom-40">Que elementos pueden marcar la diferencia en una página web?</h4>
+         </div>
+        </div>
+
+<h2 class="icon-heart2  left ma-right-20"></h2>
+<h4>Diseño exclusivo</h4>
+
+<p class="subheader">Por que la primera impresión es lo que cuenta.</p>
+
+<h4 class="subheader slim">Para crear una imágen limpia y atractiva utilizo:</h4>
+
+<ol>
+<li>Tipografías de <a href="http://www.fontsquirrel.com/" target="_blank">Fontsquirrel</a> o de <a href="https://www.google.com/fonts" target="_blank">Google fonts</a>.
+</li>
+
+<li>Iconografías de <a href="http://icomoon.io/#home" target="_blank">Icomoon</a> o <a href="http://weloveiconfonts.com/" target="_blank">Weloveicons</a>.
+
+</li>
+<li>Para hacer un buen uso del color, utilizo: <a href="https://kuler.adobe.com/create/color-wheel/" target="_blank">Adobe Kuler.</a>
+</li>
+</ol>
+
+<p>Ok, También tengo conocimientos básicos de tipografía, psicología de color y teoría del diseño, composición, simetría, armonía, contraste etc..</p>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-mobile  left ma-right-20"></h2>
+<h4>Diseño adaptable</h4>
+<p class="subheader">A día de hoy es inconcebible que una web no esté adaptada a dispositivos móviles.</p>
+<h4 class="subheader slim">Cuál es mi secreto para crear diseños adaptables?</h4>
+
+<div class="row">
+<div class="small-12 large-6 columns">
+              <div class="panel">
+                <div class="row">
+
+                  <div class="large-2 small-6 columns">
+                    <img src="images/foundation5.jpg" alt="foundation5" width="70" height="70">
+                  </div>
+
+                  <div class="large-10 small-6 columns">
+                    <strong><a href="http://foundation.zurb.com/" target="_blank">Foundation5</a><hr></strong>
+                  El framework front end responsive más avanzado del mundo.
+                  </div>
+
+                </div>
+              </div>
+</div>
+
+<div class="small-12 large-6 columns">
+              <div class="panel">
+                <div class="row">
+
+                  <div class="large-2 small-6 columns">
+                    <img src="images/bootstrap_logo.png" alt="Bootstrap" width="70" height="70">
+                  </div>
+
+                  <div class="large-10 small-6 columns">
+                    <strong><a href="http://getbootstrap.com/" target="_blank">Bootstrap for Sass</a><hr></strong>
+                  El framework más popular para desarrollar proyectos responsive movile first en la web.
+                  </div>
+
+                </div>
+              </div>
+</div>
+
+<div class="small-12 large-6 columns">
+              <div class="panel">
+                <div class="row">
+
+                  <div class="large-2 small-6 columns">
+                    <img src="images/sassaparilla.jpg" alt="sassaparilla" width="70" height="70">
+                  </div>
+
+                  <div class="large-10 small-6 columns">
+                    <strong><a href="http://sass.fffunction.co/" target="_blank">Sassaparilla</a><hr></strong>
+                  Una forma de iniciar proyectos de diseño web que aprovecha la potencia de Sass y Compass.
+                  </div>
+
+                </div>
+              </div>
+</div>
+
+<div class="small-12 large-6 columns">
+              <div class="panel">
+                <div class="row">
+
+                  <div class="large-2 small-6 columns">
+                    <img src="images/bourbon-neat.jpg" alt="bourbon neat" width="70" height="70">
+                  </div>
+
+                  <div class="large-10 small-6 columns">
+                    <strong><a href="http://neat.bourbon.io/" target="_blank">Bourbon Neat</a><hr></strong>
+                 Un ligero y semántico framework para Bourbon y Sass.
+                  </div>
+                </div>
+              </div>
+</div>
+</div>
+<p>Ok, Estás herramientas facilitan mucho el trabajo pero sin conocimientos de CSS, SASS y uso de <a href="https://developer.mozilla.org/es/docs/CSS/Media_queries" target="_blank">Media Queries</a> etc.. no harías gran cosa con ellas.</p>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-refresh  left ma-right-20"></h2>
+<h4>Elementos interactivos</h4>
+<p class="subheader">Los elementos interactivos normalmente se crean con <strong>Javascript</strong> y <strong>jQuery</strong> y mejoran considerablemente la experiencia de usuario.</p>
+<h4 class="subheader slim">Que elementos interactivos puedo incluir en tu página web?</h4>
+
+<div class="small-12 large-3 columns">
+<ul>
+  <li>Galerías de fotos</li>
+  <li>SlideShows</li>
+  <li>Bloques expandibles</li>
+  <li>Carrousels</li>
+</ul>
+</div>
+
+<div class="small-12 large-3 columns">
+<ul>
+  <li>Acordeones</li>
+  <li>Modales</li>
+  <li>Pestañas</li>
+</ul>
+</div>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-map  left ma-right-20"></h2>
+<h4>Google maps</h4>
+<p class="subheader">Esto es opcional pero si necesitas que tus clientes te encuentren físicamente, es recomendable incluir Google Maps en tu formulario de contacto.</p>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-speedometer  left ma-right-20"></h2>
+<h4>Velocidad!</h4>
+<p class="subheader">El mundo de la web requiere velocidad, la gente no va a tener paciencia para esperar a que carge una web lenta a causa de fotos pesadas o un código sin optimizar.</p>
+<p>Utilizo herramientas como <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed Insights</a> o <a href"http://developer.yahoo.com/yslow/" target="_blank">YSlow</a> y sigo sus sugerencias.</p>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-megaphone2 left ma-right-20"></h2>
+<h4>Estrategía de Marketing Online</h4>
+<p class="subheader">Ok, soy un Geek y mi pasión es crear sitios web responsive alucinantes, pero comprendo si esto no te excita demasiado.<br />
+Seguramente, estás más interesado en:</p>
+<ul>
+  <li>Dar a conocer tu negocio a clientes potenciales.</li>
+  <li>Aparecer en los primeros puestos en las busquedas de Google.</li>
+  <li>Mejorar tu imágen de marca.</li>
+</ul>
+<p class="subheader">Resumiendo, que el dinero y energía que has invertido en la creación de tu sitio web se vea recompensado en más clientes o más ventas.</p>
+
+<p>No soy experto en maketing online, ni es mi intención convertirme en uno, pero si hay cuatro cosas básicas que puedo hacer por ti al respecto:</p>
+
+<ol>
+  <li>Asesoramiento SEO Básico.</li>
+  <li>Incluir <a href="http://www.google.es/analytics/" target="_blank">Google analytics</a> en tu página web.</li>
+  <li>Dar de alta tu web en los principales buscadores, <strong>Google</strong>, <strong>Bing</strong> y <strong>Yahoo</strong>.</li>
+  <li>Añadir palabras clave.</li>
+</ol>
+
+<p class="subheader">Te voy a contar un secreto, lo mejor que puedes hacer por mejorar el SEO de tu web es crear contenido relevante.</p> 
+
+      </div>
+    </div>
+</section>
+
+<!-- ///////////////////////////////////////////// WEB AVANZADA ///////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section id="web-avanzada" class="ancla seccion">
+    <div class="row">
+      <div class="small-12 large-12 columns">
+        <h2 class="subheader titular left-center text-light">Web avanzada</h2>
+
+        <hr class="line-left">
+        <div class="row">
+         <div class="small-12 columns">
+         <h4 class="ma-bottom-40 subheader slim">En la sección Web Standard he nombrado todos los elementos básicos que a mi parecer debe de incluir por defecto cualquier página web moderna y es muy posible que con ellos ya tengas cubiertos los objetivos que tienes para tu web, pero si quieres ir más allá, podemos hacer mucho más, el cielo es el límite!</h4>
+         </div>
+        </div>
+
+<h2 class="icon-wordpress  left ma-right-20"></h2>
+<h4>Diseño Web con Wordpress</h4>
+<p>La ventaja de utilizar un <a href="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos" target="_blank">CMS</a> (Content Management System), es que tu mismo podrás actualizar y gestionar los contenidos de tu web desde el panel de administración, sin saber nada de programación.<br />
+Cualquier tipo de web que necesite actualizarse de forma fácil e intuitiva puede hacerse en wp, ya sea un sitio comercial, informativo o una tienda online y por supuesto también puedes hacer un Blog!</p>
+
+<hr class="ma-bottom-40">
+
+<h2 class="icon-shop  left ma-right-20"></h2>
+<h4>Tienda Online</h4>
+<p>Abre tu negocio 24 horas al día!!
+Estoy especializado en <a href="http://wordpress.org/" target="_blank">Wordpress</a>, y ahora gracias al pluguin <a href="http://www.woothemes.com/woocommerce/" target="_blank">Woocommerce</a>, puedo crear tu tienda online con el gestor de contenido que más me gusta.<br />
+Carro de la compra, analíticas de ventas, gestión de pedidos, gestión de stock, gestión de pagos mediante <a href="https://www.paypal.com/es/webapps/mpp/home" target="_blank">Paypal</a>, tarjeta de crédito (pasarela de Paypal) y sistema de newsletter.
+</p>
+
+      </div>
+    </div>
+</section>
+
+<!--///////////////////////////////////////////// PROCESO CREATIVO ////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section id="proceso" class="ancla bg-gray-light seccion">
+    <div class="row">
+      <div class="small-12 large-12 columns">
+
+<h2 class="subheader titular left-center">Proceso creativo</h2>
+
+<hr class="line-left">
+
+<div class="row">
+<div class="small-12 columns">
+<h4 class="ma-bottom-40 slim subheader">Cada proyecto es único y tiene sus propias necesidades y características, pero hay pautas que suelen repetirse en el proceso de creación de un nuevo sitio web.</h4>
+
+<div class="row" data-equalizer>
+<div class="small-12 medium-12 large-4 columns">
+  <div class="proceso" data-equalizer-watch>
+    <h4 class="subheader">Bases</h4> 
+    <h4 class="icon-chat  left ma-right-20"></h4>
+    <p>Quedar y conocernos, ya sea en persona o a través de Hangout de Google y empezar a trabajar juntos en los fundamentos de tu proyecto.<br>
+Definir las características y objetivos principales de tu web e identificar el público objetivo.</p>
   </div>
 </div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+
+<div class="small-12 large-4 columns">
+  <div class="proceso" data-equalizer-watch>
+    <h4 class="subheader">Investigación</h4>
+    <h4 class="icon-telescope left ma-right-20"></h4>
+    <p>Zambullirse en el mundo de tu negocio y empaparse de sus características, analizar la competencia para ver como está el mercado y encontrar inspiración relevante.</p>
+  </div>
+</div>
+
+<div class="small-12 large-4 columns">
+  <div class="proceso" data-equalizer-watch>
+    <h4 class="subheader">Prototipo</h4>
+    <h4 class="icon-browser left ma-right-20"></h4>
+    <p>Realizamos los primeros bocetos en papel y el wireframe inicial para definir la estructura de la web, la arquitectura de la información y la navegación, todo lo necesario para garantizar una buena experiencia de usuario.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="row" data-equalizer>
+<div class="small-12 large-4 columns">
+  <div class="proceso" data-equalizer-watch>
+  <h4 class="subheader">Diseño</h4>
+  <h4 class="icon-tools left ma-right-20"></h4> 
+    <p>Añadimos los elementos gráficos que harán que tu web luzca como se merece.</p>
+    <ul>
+      <li>Escala de colores.</li>
+      <li>Tipografías.</li>
+      <li>Iconografía.</li>
+      <li>Texturas.</li>
+      <li>Fotografías.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="small-12 large-4 columns">
+  <div class="proceso"  data-equalizer-watch>
+    <h4 class="subheader">Desarollo</h4>
+    <h4 class="icon-tools-2 left ma-right-20"></h4> 
+    <p>Una vez sabemos lo que queremos es hora de zambullirse en el código y convertir el diseño en una web que funcione correctamente en todos los navegadores web modernos y dispositivos móviles.
+    </p>
+  </div>
+</div>
+
+<div class="small-12 large-4 columns">
+  <div class="proceso"  data-equalizer-watch>
+    <h4 class="subheader">Lanzamiento</h4>
+    <h4 class="icon-wine left ma-right-20"></h4> 
+   <p>Tenemos el producto final en las manos, el esfuerzo a valido la pena, es hora de celebrarlo y compartirlo con el mundo!</p>
+  </div>
+</div>
+
+</div>
+
+         </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- /////////////////////////////////////////////////// Tarifas ///////////////////////////
+  ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section id="tarifas" class="ancla seccion">
+    <div class="row">
+      <div class="small-12 large-12 columns">
+       <h2 class="subheader titular left-center">Tarifas de diseño web responsive</h2>
+       <hr class="line-left">
+
+<h2 class="icon-wallet2  left ma-right-20"></h2>
+<h4>Precios</h4>
+<p class="subheader">Cada proyecto es único, por lo que hacer presupuestos genéricos es difícil, lo mejor es que te pongas en <a href="#contacto" class="scroll">contacto</a> conmigo y me cuentes de que trata tu proyecto para que pueda hacerte un presupuesto personalizado.<br />
+Si estás en Menorca, tomamos un café juntos y hablamos, sino, quedamos por Google Hangout o Skype.<br />
+En cualquier caso aquí dejo unas tablas orientativas de los precios de mis servicios.</p>
+
+<hr class="ma-bottom-40">
+
+<!-- Requires Foundation 4 | visit http://foundation.zurb.com to download -->
+<div class="row collapse">
+    <div class="large-4 columns">
+      <ul class="pricing-table left-side">
+        <li class="title">Micro Landing Page</li>
+        <li class="price">499€</li>
+        <li class="description">Micro Landing-Page</li>
+        <li class="bullet-item"><i class="foundicon-graph"></i> Responsive</li>
+        <li class="bullet-item"><i class="foundicon-cloud"></i> a partir de 1 semana</li>
+        <li class="bullet-item"><i class="foundicon-address-book"></i> hasta 3 secciones</li>
+        <li class="bullet-item"><i class="foundicon-phone"></i> Formulario de contacto</li>
+        <li class="cta-button"><a class="button" href="mailto:marcelreig@gmail.com">Encargar</a></li>
+      </ul>
+    </div>
+    <div class="large-4 columns recommended">
+      <ul class="pricing-table">
+        <li class="title">Web Standard</li>
+        <li class="price">699€</li>
+        <li class="description">Web Awesome</li>
+        <li class="bullet-item"><i class="foundicon-graph"></i> Responsive</li>
+        <li class="bullet-item"><i class="foundicon-cloud"></i> a partir de 2 semanas</li>
+        <li class="bullet-item"><i class="foundicon-address-book"></i> hasta 5 secciones</li>
+        <li class="bullet-item"><i class="foundicon-website"></i> Formulario de contacto</li>
+        <li class="cta-button"><a class="button" href="mailto:marcelreig@gmail.com">Encargar</a></li>
+      </ul>
+    </div>
+    <div class="large-4 columns">
+      <ul class="pricing-table right-side">
+        <li class="title">Web Avanzada</li>
+        <li class="price">1299€</li>
+        <li class="description">Web Autogestionable</li>
+        <li class="bullet-item"><i class="foundicon-graph"></i> Responsive</li>
+        <li class="bullet-item"><i class="foundicon-cloud"></i> a partir de 4 semanas</li>
+        <li class="bullet-item"><i class="foundicon-address-book"></i> hasta 10 secciones</li>
+        <li class="bullet-item"><i class="foundicon-website"></i> Formulario de contacto</li>
+        <li class="cta-button"><a class="button" href="mailto:marcelreig@gmail.com">Encargar</a></li>
+      </ul>
+    </div>
+  </div>        
+
+      </div>
+</section>
+
+  <!-- Scripting here ////////////////////////////////////////////////////////////////////////////////
+      ///////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+     <script src="../bower_components/foundation/js/foundation/foundation.topbar.js "></script>
+    <script src="js/app.js"></script>
+    <script src="js/scripts.js"></script>
+
+  <!--  <script src="js/foundation/foundation.offcanvas.js"></script> -->
+  <!-- Other JS plugins can be included here -->
+
+  <script>
+    $(document).foundation();
+  </script>
+

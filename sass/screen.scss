@@ -1,11 +1,697 @@
+@import "settings";
 @import "compass";
-@include global-reset;
-@include reset-html5;
+@import "foundation";
+@import "solarized";
+@import "syntax";
+@import "font-awesome/font-awesome";
+@import "icomoon.css";
+@import "animate.css";
 
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
-@import "base";
-@import "partials";
-@import "plugins/**/*";
-@import "custom/styles";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+/* applies default font properties to most of the body */
+
+
+
+p{
+	font-weight: $body-font-weight;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	border-bottom: $body-paragraph-margin;
+	@media #{$small-only} {
+	font-size: $body-font-size - 2px;
+	}
+}
+
+strong{
+	font-weight: $bold-font-weight;
+}
+
+/* applies link animations throughout site */
+
+a{
+	@include transition(color 0.3s ease);
+	cursor: pointer;
+	&:hover{
+		@include transition(color 0.3s ease);
+		i{
+			@include transition(color 0.3s ease);
+		}
+	}
+	i{
+		@include transition(color 0.3s ease);
+	}
+	&.button{
+		@include transition(background 0.3s ease, background-color 0.3s ease);
+		&:hover{
+			@include transition(background 0.3s ease, background-color 0.3s ease);
+		}
+	}
+}
+
+article{
+	header{
+
+		/* styles the date & icon that appear below entry titles */
+
+		p.meta{
+			margin-top: -8px;
+			font-size: $body-font-size + 2px;
+			i{
+				font-size: $body-font-size;
+				color: $icon-color;
+				padding-right: 4px;
+				padding-left: 3px;
+			}
+		}
+	}
+
+	footer{
+		.meta{
+			.categories{
+
+			/* styles category icon at the bottom of an entry page */
+
+				i{
+					color: $icon-color;
+					padding-right: 4px;
+				}
+			}
+		}
+		.sharing{
+			margin-bottom: 30px;
+			margin-top: 30px;
+		}
+	}
+}
+
+/* applies to pagination elements */
+
+.basic-alignment{
+	margin-bottom: 30px;
+	&.right, &.left{
+		width: 50%;
+		display: inline-block;
+	}
+	&.right{
+		text-align: right;
+	}
+	&.left{
+		text-align: left;
+	}
+}
+.pagination{
+	margin-top: 30px;
+
+	.next, .prev{
+		width: 50%;
+		display: inline-block;
+	}
+	.next{
+		float: right;
+		text-align: right;
+	}
+	.prev{
+		float: left;
+		text-align: left;
+	}
+}
+
+/* applies to <small></small> tags that can be used inside h1, h2, etc. */
+
+small{
+	font-weight: $body-font-weight;
+	font-style: italic;
+	font-family: $body-font-family;
+}
+
+/* formats main headers */
+
+h1{
+	font-size: 40px;
+
+	&.subheader{
+		font-size: 24px;
+		font-style: normal;
+		font-family: $body-font-family;
+		font-weight: $body-font-weight;
+		margin-top: -4px;
+	}
+
+	&.entry-title{
+		font-size: 30px;
+	}
+
+}
+
+aside h1, .page-header{
+	border-bottom: 3px solid $bottom-border-color;
+}
+
+.page-header{
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	h1.page-title{
+		margin-bottom: 0;
+	}
+}
+aside{
+	h1{
+		font-size: 30px;
+		i{
+			font-size: 26px;
+			padding-left: 2px;
+		}
+	}
+	.googleplus{
+		margin-top: 30px;
+		h3{
+			a{
+				i{
+					color: $icon-color;
+				}
+				&:hover{
+					i{
+						color: darken($icon-color, 5%);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* adds spacing between nav bar and content */
+
+#main{
+	padding-top: 0px;
+}
+
+/* formats footer at the bottom of the page */
+
+footer{
+	p{
+		font-size: $body-font-size - 2px;
+		padding-top: 30px;
+
+		@media #{$small-only} {
+			font-size: $body-font-size - 4px;
+		}
+		.copyright{
+			color: $header-font-color;
+			font-family: $header-font-family;
+			font-size: $body-font-size + 2px;
+			padding-bottom: 8px;
+			display: block;
+		}
+	}
+}
+
+/* formats "MENU" text that appears for mobile nav menu */
+
+.top-bar{
+	.toggle-topbar a{
+		font-family: $header-font-family;
+		font-weight: $header-font-weight;
+	}
+
+	/* protects title portion on small screen sizes */
+	/* you may need to change min-width, depending on how long your title is */
+
+	.name{
+		h1{
+			a{
+				padding: 0 0 0 15px;
+				min-width: 220px;
+
+				/* makes heart icon pink! */
+
+				i{
+					color: lighten($header-font-color, 15%);
+				}
+
+				&:hover{
+					color: darken($topbar-link-color, 10%);
+					i{
+						color: lighten($header-font-color, 8%);
+					}
+				}
+			}
+		}
+	}
+
+	/* increase letter spacing on menu links */
+
+	.top-bar-section ul li>a{
+		letter-spacing: $topbar-link-letterspacing;
+	}
+}
+
+/* formats pullquotes */
+
+.pullquote-right:before,
+.pullquote-left:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+
+  /* content */
+  content: attr(data-pullquote);
+
+  /* pull out to the right, modular scale based margins. */
+  float: right;
+  width: 45%;
+  margin: .5em 0 1em 1.5em;
+
+  /* baseline correction */
+  position: relative;
+  top: 7px;
+  font-size: 1.4em;
+  line-height: 1.45em;
+  color: black;
+  @media #{$small-only} {
+  	font-size: 1.2em;
+  	margin: 0.2em 0 0.5em 0.5em;
+  }
+}
+
+.pullquote-left:before {
+  /* makes left pullquotes align properly. */
+  float: left;
+  margin: .5em 1.5em 1em 0;
+}
+
+/* formats blockquotes */
+
+blockquote{
+	border-left: 3px solid $primary-color;
+	padding: 0.6rem 1.25rem;
+	font-size: $body-font-size + 4px;
+	color: black;
+	p{
+		font-size: $body-font-size + 2px;
+		color: black;
+	}
+	footer{
+		font-size: $body-font-size;
+		color: $body-font-color;
+		strong{
+			color: $body-font-color;
+		}
+		cite{
+			display: inline-block;
+			font-size: $body-font-size - 2px;
+			color: $body-font-color;
+		}
+	}
+}
+
+/* formats images */
+
+img.left, img.right{
+	@if $boxed_images == true {
+		@include border-radius($global-radius);
+		border: 12px solid white;
+		@include box-shadow(#aaaaaa 1px 1px 8px);
+	}
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img.left{
+	margin-right: 20px;
+}
+
+img.right{
+	margin-left: 20px;
+}
+
+/* formats line that separates blog entries */
+
+hr{
+	border-width: 1px 0 0;
+}
+
+/* formats date & category archive pages */
+
+#blog-archives{
+	footer, time{
+		padding-left: 20px;
+		font-size: $body-font-size + 2px;
+		i{
+			color: $icon-color;
+			font-size: $body-font-size;
+			padding-right: 6px;
+		}
+	}
+	footer{
+		line-height: $body-line-height;
+		margin-bottom: 20px;
+	}
+	time{
+		line-height: $body-line-height;
+
+	}
+	h1{
+		margin-bottom: 0;
+		padding-left: 10px;
+	}
+}
+
+/* applies font color to <code> tags */
+
+code{
+	color: $subheader-font-color;
+}
+
+/* 	Aquí los estilos de netinetidesign
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@font-face {
+    font-family: 'bira';
+    src: url('../fonts/bira_personal_use_only-webfont.eot');
+    src: url('../fonts/bira_personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bira_personal_use_only-webfont.woff') format('woff'),
+         url('../fonts/bira_personal_use_only-webfont.ttf') format('truetype'),
+         url('../fonts/bira_personal_use_only-webfont.svg#bira_personal_use_onlyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section.seccion {
+  padding-bottom: 4rem;
+}
+
+#home {
+  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
+  background-color: #bbb;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  height: 600px;
+  padding-top: 4rem;
+}
+
+#home article {
+    h1 {
+    font-size: 6vw;
+    font-weight: 600;
+    }
+    h4 {
+      font-weight: 300;
+    }
+  height: 400vh;
+  position: absolute;
+  top: 8vh;
+  width: 100%;
+  }
+
+ @media only screen and (min-width: 90.063em) { 
+
+ 	#home article {
+    h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    }
+}
+
+
+
+ }
+
+// Look ma, responsive images 
+
+@media #{$small-up} {   
+}
+@media #{$small-only} {
+  #home {
+  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$medium-up} {
+ }
+@media #{$medium-only} {
+  #home {
+  background: url("../images/medium.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$large-up} {
+}
+@media #{$large-only} {
+  #home {
+  background: url("../images/large.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$xlarge-up} {
+ }
+@media #{$xlarge-only} {
+  #home {
+  background: url("../images/xlarge.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$xxlarge-up} {
+ }
+@media #{$xxlarge-only} {
+  #home {
+  background: url("../images/xxlarge.jpg") 50% 0 no-repeat fixed;
+}
+
+ }
+
+
+// Clases utiles
+
+.slim {
+	font-weight: 300;
+}
+.spacer {
+    display: block;
+    height: 55px;
+}
+.ma-top-10 {
+  margin-top: 10px;
+}
+.pa-top-30 {
+  padding-top: 30px;}
+.ma-right-20 {
+  margin-right: 20px !important;
+}
+.ma-bottom-40 {
+    margin-bottom: 40px;
+}
+
+// Variables Colores
+  
+$text-light: #a5a5a5;      // Gris claro para el texto
+$bg-gray-light: #f5f5f5;   // Gris Claro fondo secciones
+$text-white: #fff;         // Blanco
+$gray-dark: #222;
+
+
+.text-white {color: $text-white;}
+.text-light {color: $text-light;}
+
+// BG Colors
+
+.bg-gray-light {
+  background-color: #f5f5f5;
+}
+
+.ancla {
+    padding-top: 4rem;    
+}
+
+.titular {
+    padding-top:40px;
+    text-transform: normal;
+    color: $gray-dark !important;
+    font-weight: 300;
+}
+
+.line {
+    max-width: 200px;
+    font-weight: 300;
+    border-color: $gray-dark;
+    border-width: 1px 0 0;
+    margin: 0 auto 30px auto;
+}
+.line-left {
+    max-width: 200px;
+    font-weight: 300;
+    border-color: $gray-dark;
+    border-width: 1px 0 0;
+    margin: 0 0 30px 0;
+}
+
+// Top bar 
+.contain-to-grid {
+	border-bottom: 2px solid #E2E2E2;
+}
+.top-bar .name h1{
+  font-family: "bira", helvetica;
+    font-size: 1.8em;
+    line-height: 3.8125rem;
+    margin: 0;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    color: $gray-dark;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 25px 0 0;
+    position: relative;
+}
+.top-bar .toggle-topbar a {
+    color: $gray-dark;
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    height: 4rem;
+    line-height: 3.8125rem;
+    padding: 0 26.6667px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.top-bar-section {
+	margin-right: 20px;
+  	background: transparent;
+}
+
+.top-bar-section ul li > a {
+    font-size: 1em;
+}
+
+.top-bar.expanded {
+  background: none no-repeat scroll 0 0 rgba(255, 255, 255, 0.90);
+  .top-bar-section li a:not(.button) {
+    line-height: 12px;
+    margin-top: 12px;
+    padding: 2px 0;
+    &:hover { color: $text-light; background: transparent;}
+    }
+    .top-bar-section ul li > a {
+     margin-left:20px;
+    }
+    li  { padding: 0;
+    }
+    ul { margin-bottom: 10px;}
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    color: #222;
+    background: transparent;
+    padding: 0 15px;
+    &:hover {color: $text-light; background: transparent;}
+}
+.top-bar {
+    background: transparent;
+    height: 4rem;
+    line-height: 3.8125rem;
+    &.expanded { background: transparent;}
+  
+}
+
+.top-bar-section ul {
+    background: transparent;
+}
+
+.top-bar .name h1 a {
+    color: $gray-dark;
+    &:hover {color: lighten($gray-dark, 20%) !important;}
+}
+
+// Descripcion de web standard
+
+.servicios  {
+  h4 {
+    color: $gray-dark;
+  }
+  p {
+  color: $text-light;
+  text-align: center;
+  }
+}
+
+.proceso [class^="icon-"]:before, .proceso [class*=" icon-"]:before {
+    font-family: "icomoon";
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.servicios [class^="icon-"]:before, .proceso [class*=" icon-"]:before {
+    font-family: "icomoon";
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.proceso h4 {
+  text-transform: uppercase;
+}
+ .proceso {
+    background: none no-repeat scroll 0 0 #F8F8F8;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    &:hover { 
+      background: none no-repeat scroll 0 0 rgba(52, 152, 219, 0.1);
+      cursor: crosshair;}
+}
+
+
+// Pricing tables 
+
+ul.pricing-table { margin-bottom: 0; 
+  .price { background: #f8f8f8;  }
+  i { display: inline-block; margin-right: 5px; } 
+}
+.recommended { box-shadow: 0 0 10px rgba(0,0,0,0.25); position: relative; z-index: 2; }
+@media only screen and (min-width: 768px){
+  .left-side { border-right: none; }
+  .right-side { border-left: none; }
+}
+
+
+
+

@@ -1,5 +1,33 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
-  <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-  <li><a href="{{ root_url }}/sobre-mi">Sobre mi</a></li>
-</ul>
+{% if site.fixed_navigation %}
+<div class="sticky contain-to-grid" data-options="">
+{% endif %}
+  <nav class="top-bar" data-topbar>
+
+    <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+        <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/">Home</a></li>
+          
+        <li {% if page.url == '/sobre-mi/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/sobre-mi">Sobre mi</a></li>
+
+        <li{% if page.url == '/blog/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/blog">Blog</a></li>
+
+        <li{% if page.url == '/blog/archives/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/blog/archives">Archives</a></li>
+
+      </ul>
+
+    </section>
+  </nav>
+{% if site.fixed_navigation %}
+</div>
+{% endif %}

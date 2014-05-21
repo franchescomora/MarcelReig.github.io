@@ -1,97 +1,33 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-// Mis fuentes
-
-@font-face {
-    font-family: 'bira';
-    src: url('/fonts/bira.eot');
-    src: url('/fonts/bira.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/bira.woff') format('woff'),
-         url('/fonts/bira.ttf') format('truetype'),
-         url('/fonts/bira.svg#bira') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Webfont: LatoLatinLight-Regular  para el texto */
-@font-face {
-    font-family: 'LatoLatinLight';
-    src: url('/fonts/LatoLatinLight-Regular.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/LatoLatinLight-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/LatoLatinLight-Regular.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/LatoLatinLight-Regular.ttf') format('truetype'); 
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: LatoLatin-Regular para titulares */
-@font-face {
-    font-family: 'LatoLatin';
-    src: url('/fonts/LatoLatin-Regular.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/LatoLatin-Regular.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/LatoLatin-Regular.ttf') format('truetype'); 
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-$text-color: #ddd;
-$titular-color: #7ACCC8;
-$titular-hover: #4AAAA5;
-$link-color: #A3D39C;
-$link-hover: #74AF6C;
-$black: #2B2B2A;
-
-
-h1, h2, h3 {
-	color: $titular-color;
-}
-.entry-content p, article p, ul li, ol li {
-	font-weight: 300;
-	font-size: 1.3em !important;
-	line-height: 1.5em;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-a {
-	color: $link-color;
-	&:hover { color: $link-hover;}
-}
-
+$white: #FFFFFF;
 
 html {
-	background: $black;
-	border-top: 5px solid $link-color;
+	background: $white;
 }
 
 body {
-	background: $black;
 	font-family: $sans !important;
-	font-size: 0.9em;
-	color: $text-color;
+	font-size: 1em;
+
 	> header {
-		background: $black;
+		background: $white;
 		text-align: center;
 
 		h1 {
-			a, a:visited {
-			font-family: "bira";
-			color: #ecf0f1;
-			&:hover { color: $text-color; }
+			a, a:visited, a:hover {
+			font-family: $heading-font-family;
+			color: $nav-color;
 			}
 		}
 	}
 	> nav {
-		background: $black;
 		a {
 			font-family: $sans;
-			font-size: 1em;
+			font-size: 0.9em;
 			padding-top: 0.3em;
 			line-height: 1.5em;
-			color: $text-color !important;
-			&:hover { color: #fff !important; }
 		}
 		li + li {
 			border-left: 0px;
@@ -103,17 +39,17 @@ body {
 	}
 
 	> div {
-		background: $black;
+		background: $white;
 		border-bottom: 0px;
 
 		> div {
-			background: $black;
+			background: $white;
 			border-right-width: 0px;
 		}
 	}
 
 	> footer {
-		background: $black;
+		background: $white;
 		text-shadow: none;
 		color: #AAAAAA;
 	  	padding-left: 0;
@@ -125,13 +61,7 @@ body {
 }
 
 article {
-	
-	background: none repeat scroll 0 0 #444444;
-    border-radius: 5px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-    padding: 20px;
-    padding-top: 2em;
+	padding-top: 2em;
 
 	.entry-content {
 		h3 {
@@ -143,17 +73,8 @@ article {
 		margin-left: 2em;
 	}
 
-	p code, p code a{
-    color: $black !important;
-    text-shadow: none;
-    text-decoration: none;
-    &:hover {color: $black !important; }
-	}
-
-	a, a:visited, a:active, {
-		text-decoration: none;
-		color: $link-color;
-		&:hover { color: $link-hover; }
+	a, a:visited, a:active, a:hover, {
+		color: #1863A1;
 	}
 
 	header {
@@ -162,7 +83,6 @@ article {
 			font-weight: 400;
 		}
 	}
-	
 }
 
 #content {
@@ -174,18 +94,13 @@ article {
 		margin-top: 4em;
 		position: relative;
 		text-align: center;		
-	
-
-		a:hover {
-			color: $text-color;
-		}
+		border-top: dotted 1px #D1D1D1;
+		border-bottom: dotted 1px #D1D1D1;
 	}
 
 	.blog-index {
 		article {
 			padding-top: 4em;
-			margin-top: 2em;
-			background: none repeat scroll 0 0 #444444; 
 
 			header {
 				padding-left: 0;
@@ -200,21 +115,9 @@ article {
 			}
 
 			a:hover {
-				color: $titular-hover !important;
 				text-decoration: none;
 			}
-			
 		}
-
-		a[rel="full-article"] {
-    		font-family: $sans;
-    		background: none repeat scroll 0 0 $text-color !important;
-			}
-
-		a[rel="full-article"]:hover {
-				background: none repeat scroll 0 0 $titular-hover !important;
-			}
-
 	}
 
 	.hentry {
@@ -224,56 +127,286 @@ article {
 			font-size: 2.2em;
 		}
 	}
-
+	
 }
 
 aside {
-	display: none; // cambia esto si quieres tu sidebar
+	display: none;
 }
 
 
-#blog-archives {
-	h1 a {
-    color: $titular-color;
-    &:hover { color: $titular-hover; }
-    text-decoration: none !important;
-    font-family: 'LatoLatin';
-	}
-	a.category:hover {
-		color: $link-color;
-	}
+/* 	Aquí los estilos de netinetidesign
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-	article {
-		box-shadow: none;
-	}
+@font-face {
+    font-family: 'bira';
+    src: url('../fonts/bira_personal_use_only-webfont.eot');
+    src: url('../fonts/bira_personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bira_personal_use_only-webfont.woff') format('woff'),
+         url('../fonts/bira_personal_use_only-webfont.ttf') format('truetype'),
+         url('../fonts/bira_personal_use_only-webfont.svg#bira_personal_use_onlyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-article img, article video, article .flash-video {
-    //border: 0.5em solid rgba(127, 140, 141, 0.5);
-    border-radius: 0.3em;
-    //box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-}
-article img, article video, article .flash-video {
-    border: none;
-    box-shadow: none;
+section.seccion {
+  padding-bottom: 4rem;
 }
 
-// Code 
-
-.highlight, html .gist .gist-file .gist-syntax .gist-highlight {
-    border: 1px solid #000 !important;
+#home {
+  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
+  background-color: #bbb;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  height: 600px;
+  padding-top: 4rem;
 }
 
-// Mediaqueries de la muerte
+#home article {
+    h1 {
+    font-weight: 600;
+    }
+    h4 {
+      font-weight: 300;
+    }
+  height: 400vh;
+  position: absolute;
+  top: 8vh;
+  width: 100%;
+  }
 
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 480px) { 
+// Look ma, responsive images 
 
-article header p.meta {
-    top: -30px;
+@media #{$small-up} {   
 }
-    
+@media #{$small-only} {
+  #home {
+  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$medium-up} {
+ }
+@media #{$medium-only} {
+  #home {
+  background: url("../images/medium.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$large-up} {
+}
+@media #{$large-only} {
+  #home {
+  background: url("../images/large.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$xlarge-up} {
+ }
+@media #{$xlarge-only} {
+  #home {
+  background: url("../images/xlarge.jpg") 50% 0 no-repeat fixed;
+}
+ }
+
+@media #{$xxlarge-up} {
+ }
+@media #{$xxlarge-only} {
+  #home {
+  background: url("../images/xxlarge.jpg") 50% 0 no-repeat fixed;
+}
+
+ }
+
+
+// Clases utiles
+
+.slim {
+	font-weight: 300;
+}
+.spacer {
+    display: block;
+    height: 55px;
+}
+.ma-top-10 {
+  margin-top: 10px;
+}
+.pa-top-30 {
+  padding-top: 30px;}
+.ma-right-20 {
+  margin-right: 20px !important;
+}
+.ma-bottom-40 {
+    margin-bottom: 40px;
+}
+
+// Variables Colores
+  
+$text-light: #a5a5a5;      // Gris claro para el texto
+$bg-gray-light: #f5f5f5;   // Gris Claro fondo secciones
+$text-white: #fff;         // Blanco
+$gray-dark: #222;
+
+
+.text-white {color: $text-white;}
+.text-light {color: $text-light;}
+
+// BG Colors
+
+.bg-gray-light {
+  background-color: #f5f5f5;
+}
+
+.ancla {
+    padding-top: 4rem;    
+}
+
+.titular {
+    padding-top:40px;
+    text-transform: normal;
+    color: $gray-dark !important;
+    font-weight: 300;
+}
+
+.line {
+    max-width: 200px;
+    font-weight: 300;
+    border-color: $gray-dark;
+    border-width: 1px 0 0;
+    margin: 0 auto 30px auto;
+}
+.line-left {
+    max-width: 200px;
+    font-weight: 300;
+    border-color: $gray-dark;
+    border-width: 1px 0 0;
+    margin: 0 0 30px 0;
+}
+
+// Top bar 
+
+.top-bar .name h1{
+  font-family: "bira", helvetica;
+    font-size: 1.8em;
+    line-height: 3.8125rem;
+    margin: 0;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    color: $gray-dark;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 25px 0 0;
+    position: relative;
+}
+.top-bar .toggle-topbar a {
+    color: $gray-dark;
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    height: 4rem;
+    line-height: 3.8125rem;
+    padding: 0 26.6667px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.top-bar-section {
+	margin-right: 20px;
+  background: transparent;
+}
+
+.top-bar-section ul li > a {
+    font-size: 1em;
+}
+
+.top-bar.expanded {
+  background: none no-repeat scroll 0 0 rgba(255, 255, 255, 0.90);
+  .top-bar-section li a:not(.button) {
+    line-height: 12px;
+    margin-top: 12px;
+    padding: 2px 0;
+    &:hover { color: $text-light; background: transparent;}
+    }
+    .top-bar-section ul li > a {
+     margin-left:20px;
+    }
+    li  { padding: 0;
+    }
+    ul { margin-bottom: 10px;}
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    color: #222;
+    background: transparent;
+    padding: 0 15px;
+    &:hover {color: $text-light; background: transparent;}
+}
+.top-bar {
+    background: none no-repeat scroll 0 0 rgba(255, 255, 255, 0.90);
+    height: 4rem;
+    line-height: 3.8125rem;
+    &.expanded { background: transparent;}
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.top-bar-section ul {
+    background: transparent;
+}
+
+.top-bar .name h1 a {
+    color: $gray-dark;
+    &:hover {color: lighten($gray-dark, 20%) !important;}
+}
+
+// Descripcion de web standard
+
+.servicios  {
+  h4 {
+    color: $gray-dark;
+  }
+  p {
+  color: $text-light;
+  text-align: center;
+  }
+}
+
+.proceso [class^="icon-"]:before, .proceso [class*=" icon-"]:before {
+    font-family: "icomoon";
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.servicios [class^="icon-"]:before, .proceso [class*=" icon-"]:before {
+    font-family: "icomoon";
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.proceso h4 {
+  text-transform: uppercase;
+}
+ .proceso {
+    background: none no-repeat scroll 0 0 #F8F8F8;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    &:hover { 
+      background: none no-repeat scroll 0 0 rgba(52, 152, 219, 0.1);
+      cursor: crosshair;}
 }
 
 
+// Pricing tables 
+
+ul.pricing-table { margin-bottom: 0; 
+  .price { background: #f8f8f8;  }
+  i { display: inline-block; margin-right: 5px; } 
+}
+.recommended { box-shadow: 0 0 10px rgba(0,0,0,0.25); position: relative; z-index: 2; }
+@media only screen and (min-width: 768px){
+  .left-side { border-right: none; }
+  .right-side { border-left: none; }
+}
