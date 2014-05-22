@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bg-gray
 title: "Sobre mi"
 comments: false
 sharing: false
@@ -7,11 +7,11 @@ footer: true
 sidebar: false
 ---
 
+
 <!-- ////////////////////////////////////////////// SOBRE MI /////////////////
     ///////////////////////////////////////////////////////////////////////// -->
 
 {% img left https://s.gravatar.com/avatar/284eef9ebcb1e26b8e9a61ba9a0af36b?s=100 [Tio sexy [Tio sexy]] %}
-
 
 Hola mi nombre es Marcel Reig, soy Diseñador y desarrollador web front-end, autodidacta, Geek, usuario de Mac <span class="icon-finder"></span> y completamente apasionado por la web.<br>
 Tengo la suerte de vivir en la isla de Menorca, un lugar realmente tránquilo donde su naturaleza ofrece muchos sitos para perderse y renovar las energías.<br>
@@ -35,10 +35,11 @@ ___Proyectos en los que he colaborado:___
 + [Inmove](http://www.inmove.co/)
 + [Delights Distribution](http://www.delightsdistribution.com/)
 
-###Contacto
+<h3>Contacto</h3>
 
 + Twitter: [@Netinetidesign](https://twitter.com/Netinetidesign)
 + Email: marcelreig@gmail.com
+
 
 
 
