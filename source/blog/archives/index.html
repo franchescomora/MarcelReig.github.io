@@ -1,12 +1,23 @@
 ---
-layout: page
-title: Archivos del Blog
+title: "Archives"
+layout: bg-gray
 footer: true
-subtitle: 
 sidebar: false
 ---
 
+<div class="spacer"></div>
+
+
+ {% if page.title %}
+    <header class="page-header">
+      <h1 class="page-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% if page.subtitle %}<h1 class="subheader">{{ page.subtitle }}</h1>{% endif %}
+    </header>
+  {% endif %}
+
 <div id="blog-archives">
+
+
 {% for post in site.posts reverse %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
@@ -18,3 +29,5 @@ sidebar: false
 </article>
 {% endfor %}
 </div>
+
+<div class="spacer"></div>
