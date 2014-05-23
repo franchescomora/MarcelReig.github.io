@@ -2,29 +2,29 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/</loc>
-        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
+        <lastmod>2014-05-23T15:31:06+02:00</lastmod>
     </url>
     <url>
         <loc>
             http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/
         </loc>
-        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
+        <lastmod>2014-05-23T15:31:06+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3/</loc>
-        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
+        <lastmod>2014-05-23T15:31:06+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/</loc>
-        <lastmod>2014-05-21T14:02:36+02:00</lastmod>
+        <lastmod>2014-05-23T15:31:06+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/archives/</loc>
-        <lastmod>2014-05-21T14:02:01+02:00</lastmod>
+        <lastmod>2014-05-23T18:37:47+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/blog/</loc>
-        <lastmod>2014-05-21T14:04:48+02:00</lastmod>
+        <lastmod>2014-05-23T18:09:13+02:00</lastmod>
     </url>
     <url>
         <loc>http://MarcelReig.github.io/</loc>
@@ -52,6 +52,6 @@
     </url>
     <url>
         <loc>http://MarcelReig.github.io/sobre-mi/</loc>
-        <lastmod>2014-05-21T22:17:42+02:00</lastmod>
+        <lastmod>2014-05-23T18:27:04+02:00</lastmod>
     </url>
 </urlset>
