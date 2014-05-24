@@ -9,7 +9,7 @@ figure.code{
     overflow: auto;
     margin-bottom: 1.25rem;
     table{
-      width: 100%;
+      // width: 100%;
       max-width: 100%;
       background: $highlight-bg;
       border: 0;
@@ -25,6 +25,7 @@ figure.code{
     }
   }
 }
+
 
 .c      { color: $base01 !important; font-style: italic !important; }                     /* Comment */
 .cm     { color: $base01 !important; font-style: italic !important; }                     /* Comment.Multiline */

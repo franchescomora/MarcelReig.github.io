@@ -171,7 +171,7 @@ h1{
 		font-size: 24px;
 		font-style: normal;
 		font-family: $body-font-family;
-		font-weight: $body-font-weight;
+		font-weight: normal;
 		margin-top: -4px;
 	}
 
@@ -400,9 +400,17 @@ code{
 	color: $subheader-font-color;
 }
 
-/* 	Aquí los estilos de netinetidesign
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  Aquí los estilos de netinetidesign
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
 
 @font-face {
     font-family: 'bira';
@@ -433,10 +441,10 @@ section.seccion {
 #home article {
     h1 {
     font-size: 6vw;
-    font-weight: 200;
+    font-weight: 300;
     }
     h4 {
-      font-weight: 100;
+      font-weight: 200;
     }
   height: 400vh;
   position: absolute;
@@ -446,7 +454,7 @@ section.seccion {
 
  @media only screen and (min-width: 90.063em) { 
 
- 	#home article {
+  #home article {
     h1 {
     font-size: 4vw;
     font-weight: 300;
@@ -504,7 +512,7 @@ section.seccion {
 // Clases utiles
 
 .slim {
-	font-weight: 300;
+  font-weight: 300;
 }
 .spacer {
     display: block;
@@ -567,7 +575,7 @@ $gray-dark: #222;
 
 // Top bar 
 .contain-to-grid {
-	border-bottom: 2px solid #E2E2E2;
+  border-bottom: 2px solid #E2E2E2;
 }
 .top-bar .name h1{
   font-family: "bira", helvetica;
@@ -595,8 +603,8 @@ $gray-dark: #222;
 }
 
 .top-bar-section {
-	margin-right: 20px;
-  	background: transparent;
+  margin-right: 20px;
+    background: transparent;
 }
 
 .top-bar-section ul li > a {
@@ -693,11 +701,11 @@ ul.pricing-table { margin-bottom: 0;
 }
 
 aside.sidebar {
-	background: #fbfbfb;
-	border-radius: 5px;
-	margin: 20px 0 20px 0;
-	padding-bottom: 20px;
-	border: 1px solid #3A316F;
+  background: #fbfbfb;
+  border-radius: 5px;
+  margin: 20px 0 20px 0;
+  padding-bottom: 20px;
+  border: 1px solid #3A316F;
 }
 
 article img, article video, article .flash-video, aside img{
@@ -705,9 +713,20 @@ article img, article video, article .flash-video, aside img{
 
 }
 .rounded {
-	border-radius: 0.33em;
+  border-radius: 0.33em;
 }
 
 .horizontal-rule {
-	border-top: 2px solid #E2E2E2;
+  border-top: 2px solid #E2E2E2;
+}
+
+// Un poquito más grande el tamaño de fuente de las listas
+ul, ol, dl {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.entry-title a {
+	color: $primary-color;
 }

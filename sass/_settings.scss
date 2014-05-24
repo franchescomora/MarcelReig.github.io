@@ -15,11 +15,11 @@ $bottom-border-color: #cccccc;
 // font colors
 $body-font-color: #222 !default; /* almost black by default */
 // $header-font-color: #af4976; /* magenta by default */
-$subheader-font-color: scale-color($body-font-color, $lightness: 35%); /* medium gray by default */ 
-$icon-color: #6A5ACD; /* medium-light gray by default */
+$subheader-font-color: $primary-color; /* medium gray by default */ 
+$icon-color: $primary-color; /* medium-light gray by default */
 
 // body font properties
-// $body-font-family: 'Roboto', sans-serif !default;
+$body-font-family: 'Lato', sans-serif !default;
 $body-font-size: 18px !default;
 $body-font-weight: normal !default;
 $body-font-style: normal !default;
@@ -35,8 +35,8 @@ $header-font-weight: 500;
 
 // link properties
 $anchor-text-decoration: none;
-$anchor-font-color: $primary-color;
-$anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
+$anchor-font-color: #2980b9;
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -25%);
 
 // navigation bar
 // $topbar-height: 4rem;
