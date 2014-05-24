@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CSS | Netinetidesign]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-05-23T19:00:35+02:00</updated>
+  <updated>2014-05-24T18:00:21+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -94,22 +94,20 @@ Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt e
 
 <p><code>
 $ gem install compass
-</code>
-Comprobar que se ha instalado correctamente:</p>
-
-<p><code>
-$ compass version
-</code>
-Crear un proyecto con Compass:</p>
-
-<p><code>
-$ compass create nombre-del-proyecto
-</code>
-Compilar Sass, navega hasta el directorio raiz de tu proyecto y escribe:</p>
-
-<p><code>
-$ compass watch
 </code></p>
+
+<p><code>
+$ compass version #Comprobar que se ha instalado correctamente:
+</code></p>
+
+<p><code>
+$ compass create nombre-del-proyecto #Crear un proyecto con Compass
+</code></p>
+
+<p>```
+$ compass watch #Compilar Sass, navega hasta el directorio raiz de tu proyecto y escribe</p>
+
+<p>```</p>
 
 <h2>Terminal Haters</h2>
 
