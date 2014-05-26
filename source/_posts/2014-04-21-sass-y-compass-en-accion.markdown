@@ -71,24 +71,26 @@ Para decirle a Sass que "vigile" si hay cambios y compile nuestros archivos .scs
 
 Compass ya lleva Sass incorporado, por lo que no tienes que instalarlo aparte.<br />
 Utilzar Compass es una manera fácil de empezar con Sass, cuando creas un proyecto nuevo, Compass te crea las carpetas necesarias para tus archivos .scss/.css así como un archivo config.rb donde puedes indicar distintos paramentros de configuración.<br />
-Para instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:
 
+Instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:
 
 ```
 $ gem install compass
 ```
+Comprobar que se ha instalado correctamente:
 
 ```
-$ compass version #Comprobar que se ha instalado correctamente:
+$ compass version 
 ```
+Crear un proyecto con Compass:
 
 ```
-$ compass create nombre-del-proyecto #Crear un proyecto con Compass
+$ compass create nombre-del-proyecto 
 ```
+Compilar Sass y decirle a Compass que vijile si hay cambios (ejecutar desde el directorio raiz de tu proyecto)
 
 ```
-$ compass watch #Compilar Sass, navega hasta el directorio raiz de tu proyecto y escribe
-
+$ compass watch 
 ```
 
 ##Terminal Haters
