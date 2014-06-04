@@ -9,11 +9,11 @@ $boxed_images: false; /* true if you want your images to have polaroid effects, 
 // colors
 $body-bg: #fff !default; /* white by default */
 $primary-color: #483D8B !default; /* blue by default */
-$secondary-color: #6A5ACD !default; /* light gray by default */
+//$secondary-color: #BF55EC !default; /* light gray by default */
 $topbar-bg: #111; /* almost black by default */
 $bottom-border-color: #cccccc;
 // font colors
-$body-font-color: #222 !default; /* almost black by default */
+$body-font-color: #22313F !default; /* almost black by default */
 // $header-font-color: #af4976; /* magenta by default */
 $subheader-font-color: $primary-color; /* medium gray by default */ 
 $icon-color: $primary-color; /* medium-light gray by default */
@@ -35,7 +35,7 @@ $header-font-weight: 500;
 
 // link properties
 $anchor-text-decoration: none;
-$anchor-font-color: #2980b9;
+$anchor-font-color: #9A12B3; // El color de los enlaces
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -25%);
 
 // navigation bar

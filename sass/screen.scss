@@ -536,7 +536,8 @@ $text-light: #a5a5a5;      // Gris claro para el texto
 $bg-gray-light: #f5f5f5;   // Gris Claro fondo secciones
 $text-white: #fff;         // Blanco
 $gray-dark: #222;
-
+$lila: #483D8B;
+$lila-hover: scale-color($lila, $lightness: -25%);
 
 .text-white {color: $text-white;}
 .text-light {color: $text-light;}
@@ -701,11 +702,8 @@ ul.pricing-table { margin-bottom: 0;
 }
 
 aside.sidebar {
-  background: #fbfbfb;
-  border-radius: 5px;
   margin: 20px 0 20px 0;
   padding-bottom: 20px;
-  border: 1px solid #3A316F;
 }
 
 article img, article video, article .flash-video, aside img{
@@ -729,4 +727,10 @@ ul, ol, dl {
 
 .entry-title a {
 	color: $primary-color;
+	&:hover {color: $lila-hover;}
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: $lila;
+}
+
