@@ -49,9 +49,10 @@
 /* applies default font properties to most of the body */
 
 
+$body-font-size: 18px;
 
 p{
-	font-weight: $body-font-weight;
+	font-weight: $body-font-weight; // Donde carajo se declaran estas variables?
 	font-size: $body-font-size;
 	line-height: $body-line-height;
 	border-bottom: $body-paragraph-margin;
@@ -404,13 +405,10 @@ code{
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-// Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 
 // Font Variables
-$roboto-slab: 'Roboto Slab', serif;   
-$open-sans: 'Open Sans', sans-serif;
 
+$open-sans: 'Open Sans', sans-serif;
 
 @font-face {
     font-family: 'bira';
@@ -460,10 +458,7 @@ section.seccion {
     font-weight: 300;
     }
 }
-
-
-
- }
+}
 
 // Look ma, responsive images 
 
@@ -506,8 +501,7 @@ section.seccion {
   background: url("../images/xxlarge.jpg") 50% 0 no-repeat fixed;
 }
 
- }
-
+}
 
 // Clases utiles
 
@@ -575,11 +569,12 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 }
 
 // Top bar 
+
 .contain-to-grid {
-  border-bottom: 2px solid #E2E2E2;
+  	border-bottom: 2px solid #E2E2E2;
 }
 .top-bar .name h1{
-  font-family: "bira", helvetica;
+  	font-family: "bira", helvetica;
     font-size: 1.8em;
     line-height: 3.8125rem;
     margin: 0;
@@ -604,7 +599,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 }
 
 .top-bar-section {
-  margin-right: 20px;
+  	margin-right: 20px;
     background: transparent;
 }
 
@@ -613,12 +608,13 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 }
 
 .top-bar.expanded {
-  background: none no-repeat scroll 0 0 rgba(255, 255, 255, 0.90);
-  .top-bar-section li a:not(.button) {
-    line-height: 12px;
-    margin-top: 12px;
-    padding: 2px 0;
-    &:hover { color: $text-light; background: transparent;}
+  	background: none no-repeat scroll 0 0 rgba(255, 255, 255, 0.90);
+  	.top-bar-section li a:not(.button) {
+    	line-height: 12px;
+    	margin-top: 12px;
+    	padding: 2px 0;
+    	&:hover { color: $text-light; background: transparent;
+    	}
     }
     .top-bar-section ul li > a {
      margin-left:20px;
@@ -640,11 +636,9 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     &.expanded { background: transparent;}
   
 }
-
 .top-bar-section ul {
     background: transparent;
 }
-
 .top-bar .name h1 a {
     color: $gray-dark;
     &:hover {color: lighten($gray-dark, 20%) !important;}
@@ -675,9 +669,8 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     font-style: normal;
     font-weight: normal;
 }
-
 .proceso h4 {
-  text-transform: uppercase;
+  	text-transform: uppercase;
 }
  .proceso {
     background: none no-repeat scroll 0 0 #F8F8F8;
@@ -685,9 +678,9 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     padding: 15px 30px;
     &:hover { 
       background: none no-repeat scroll 0 0 rgba(52, 152, 219, 0.1);
-      cursor: crosshair;}
+      cursor: crosshair;
+  	}
 }
-
 
 // Pricing tables 
 
@@ -719,9 +712,10 @@ article img, article video, article .flash-video, aside img{
 }
 
 // Un poquito más grande el tamaño de fuente de las listas
+
 ul, ol, dl {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.6;
 }
 

@@ -120,7 +120,7 @@ Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único
 Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir ```compass watch``` para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.
 
-###Por defecto tu editor no coloreara el codigo .scss Utiliza uno de estos pluguins según el editor que uses:
+###Si tu editor no colorea el codigo .scss por defecto, puedes probar con uno de estos pluguins:
 
 + [Atom, Sublime Text, TextMate](https://github.com/P233/Syntax-highlighting-for-Sass)
 + [Atom](https://atom.io/packages/Atom-Syntax-highlighting-for-Sass)

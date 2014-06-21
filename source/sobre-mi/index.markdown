@@ -43,6 +43,13 @@ ___Proyectos en los que he colaborado:___
 + [Look4plan](http://www.look4plan.com/)
 + [Inmove](http://www.inmove.co/)
 + [Delights Distribution](http://www.delightsdistribution.com/)
++ [EncargaTuWeb](http://www.encargatuweb.com/)
+
+___Trabajos:___
+
++ [Nebot Lucas](http://www.nebotlucas.com/)
+
+
 
 <h3>Contacto</h3>
 
