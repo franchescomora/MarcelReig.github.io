@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CSS | Netinetidesign]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-06-04T17:02:32+02:00</updated>
+  <updated>2014-06-21T14:26:04+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -144,7 +144,7 @@ $ compass watch
 Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir <code>compass watch</code> para que Compass compile tus archivos scss en css. <br />
 Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
 
-<h3>Por defecto tu editor no coloreara el codigo .scss Utiliza uno de estos pluguins según el editor que uses:</h3>
+<h3>Si tu editor no colorea el codigo .scss por defecto, puedes probar con uno de estos pluguins:</h3>
 
 <ul>
 <li><a href="https://github.com/P233/Syntax-highlighting-for-Sass">Atom, Sublime Text, TextMate</a></li>
