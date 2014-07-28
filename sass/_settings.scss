@@ -13,15 +13,14 @@ $primary-color: #483D8B !default; /* blue by default */
 $topbar-bg: #111; /* almost black by default */
 $bottom-border-color: #cccccc;
 // font colors
-$body-font-color: #22313F !default; /* almost black by default */
-// $header-font-color: #af4976; /* magenta by default */
+$body-font-color: #222 !default; /* almost black by default */
 $subheader-font-color: $primary-color; /* medium gray by default */ 
 $icon-color: $primary-color; /* medium-light gray by default */
 
 // body font properties
-$body-font-family: 'Lato', sans-serif !default;
+$body-font-family: 'LatoLatin-Regular' sans-serif;
 $body-font-size: 18px !default;
-$body-font-weight: normal !default;
+$body-font-weight: 300 !default;
 $body-font-style: normal !default;
 $body-line-height: 1.45 !default;
 $body-paragraph-margin: 25px !default;

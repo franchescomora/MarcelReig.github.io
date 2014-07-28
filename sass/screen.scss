@@ -49,9 +49,49 @@
 /* applies default font properties to most of the body */
 
 
-$body-font-size: 18px;
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/nexa_light-webfont.eot');
+    src: url('../fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_light-webfont.woff') format('woff'),
+         url('../fonts/nexa_light-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-p{
+}
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.eot');
+    src: url('../fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_bold-webfont.woff') format('woff'),
+         url('../fonts/nexa_bold-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'LatoLatin-Regular';
+    src: url('../fonts/LatoLatin-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/LatoLatin-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/LatoLatin-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+	font-family: LatoLatin-Regular, sans-serif;
+}
+
+$body-font-size: 18px;  // No deberian ser ems?
+
+p {	
+	font-family: $body-font-family;
 	font-weight: $body-font-weight; // Donde carajo se declaran estas variables?
 	font-size: $body-font-size;
 	line-height: $body-line-height;
@@ -408,19 +448,6 @@ code{
 
 // Font Variables
 
-$open-sans: 'Open Sans', sans-serif;
-
-@font-face {
-    font-family: 'bira';
-    src: url('../fonts/bira_personal_use_only-webfont.eot');
-    src: url('../fonts/bira_personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bira_personal_use_only-webfont.woff') format('woff'),
-         url('../fonts/bira_personal_use_only-webfont.ttf') format('truetype'),
-         url('../fonts/bira_personal_use_only-webfont.svg#bira_personal_use_onlyregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 section.seccion {
   padding-bottom: 4rem;
 }
@@ -505,6 +532,8 @@ section.seccion {
 
 // Clases utiles
 
+// Esto debería de ser un parcial que puedas utilizar en todos tus proyectos
+
 .slim {
   font-weight: 300;
 }
@@ -530,7 +559,7 @@ $text-light: #a5a5a5;      // Gris claro para el texto
 $bg-gray-light: #f5f5f5;   // Gris Claro fondo secciones
 $text-white: #fff;         // Blanco
 $gray-dark: #222;
-$lila: #483D8B;
+$lila: #483D8B;	
 $lila-hover: scale-color($lila, $lightness: -25%);
 
 .text-white {color: $text-white;}
@@ -549,7 +578,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 .titular {
     padding-top:40px;
     text-transform: normal;
-    color: $gray-dark !important;
+    color: $lila !important;
     font-weight: 300;
 }
 
@@ -574,10 +603,19 @@ $lila-hover: scale-color($lila, $lightness: -25%);
   	border-bottom: 2px solid #E2E2E2;
 }
 .top-bar .name h1{
-  	font-family: "bira", helvetica;
+  	font-family: "nexa_boldregular", helvetica;
     font-size: 1.8em;
     line-height: 3.8125rem;
     margin: 0;
+    span { font-family: "nexa_lightregular", helvetica;
+     	color: #bbb;
+     	font-weight: 100;
+    }
+    &:hover {
+    	span{
+     		color: $lila;	
+    	}
+     	}
 }
 .top-bar .toggle-topbar.menu-icon a {
     color: $gray-dark;
