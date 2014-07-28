@@ -27,6 +27,7 @@
   <script src="/js/vendor/fastclick.js"></script>
 
   <script src="/js/foundation.min.js"></script>
+  <script src="/js/scripts.js"></script>
 
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
 
@@ -49,16 +50,6 @@
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
-<!--
-
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:MarcelReig.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-
--->
 
 
 <div class="sticky contain-to-grid" data-options="">
@@ -76,16 +67,28 @@
 
       <ul class="main-navigation right">
 
-        <li class="active"><a href="/">Home</a></li>
-          
-        <li ><a href="/sobre-mi">Sobre mi</a></li>
+        <li class="has-dropdown active">
+            <a href="/#mis-servicios">Servicios</a>
 
-        <li><a href="/blog">Blog</a></li>
+            <ul class="dropdown">
+              <li><a class="scroll" href="/#web-standard">Web Standard</a></li>
+              <li><a class="scroll" href="/#web-avanzada">Web Avanzada</a></li>
+              <li><a class="scroll" href="/#proceso">Proceso</a></li>
+              <li><a class="scroll" href="/#tarifas">Tarifas</a></li>
+            </ul>
 
-        <li><a href="/blog/archives">Archives</a></li>
+        </li>
+        <li class="has-dropdown">
+        <a href="/blog">Blog</a>
+        <ul class="dropdown">
+          <li><a href="/blog/archives">Archives</a></li>
+        </ul>
+        </li>
+        <li ><a href="/sobre-mi">Sobre mi / Contacto</a></li>
 
       </ul>
 
+  
     </section>
   </nav>
 
@@ -117,7 +120,7 @@
         <hr class="line">
         <div class="row">
           <div class="small-12 medium-12 large-12  columns">
-          <h4 class="subheader text-center text-light slim ma-bottom-40">Mi propósito es equilibrar el punto de vista de la usabilidad, que se centra en la funcionalidad y la presentación efectiva de la información con la perspectiva puramente estética.</h4>
+          <h4 class="subheader text-center slim ma-bottom-40">Mi propósito es equilibrar el punto de vista de la usabilidad, que se centra en la funcionalidad y la presentación efectiva de la información con la perspectiva puramente estética.</h4>
           </div>
         </div>
 
@@ -501,6 +504,9 @@ En cualquier caso aquí dejo unas tablas orientativas de los precios de mis serv
 
   <!-- Scripting here ////////////////////////////////////////////////////////////////////////////////
       ///////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <script src="js/scripts.js"></script>
 
     <script src="js/app.js"></script>
     <script src="js/scripts.js"></script>
