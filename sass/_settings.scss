@@ -29,7 +29,6 @@ $button-font-tny: 14px;
 
 // header font properties
 $small-font-size: 50%;
-// $header-font-family: 'Ubuntu', sans-serif;
 $header-font-weight: 500;
 
 // link properties
@@ -38,11 +37,11 @@ $anchor-font-color: #4183D7; // El color de los enlaces
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -25%);
 
 // navigation bar
-// $topbar-height: 4rem;
+$topbar-height: 4rem;
 $topbar-link-font-size: 14px;
 $topbar-link-letterspacing: 0.5px;
 $topbar-link-hover-lightness: -10%;
-$topbar-link-bg-hover: #2c2c2c;
+$topbar-link-bg-hover: #483D8B;
 $topbar-link-color: #fff;
 
 // border radius
@@ -73,7 +72,7 @@ $topbar-dropdown-link-bg: #333;
 // $topbar-dropdown-link-weight: normal;
 // $topbar-dropdown-toggle-size: 5px;
 $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.4;
+$topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
@@ -96,7 +95,7 @@ $topbar-dropdown-toggle-color: #fff;
 $topbar-dropdown-label-color: #777;
 $topbar-dropdown-label-text-transform: uppercase;
 $topbar-dropdown-label-font-weight: bold;
-// $topbar-dropdown-label-font-size: rem-calc(10);
+$topbar-dropdown-label-font-size: rem-calc(10);
 $topbar-dropdown-label-bg: #333;
 
 // Top menu icon styles

@@ -775,3 +775,18 @@ background-color: $lila;
 	background-color: $lila-hover;
 	}
 }
+
+ul.dropdown {
+	margin-left: 2rem;
+}
+
+.top-bar-section .has-dropdown.moved {
+
+	li:not(.has-form) a:not(.button) {
+background-color: transparent;
+}
+
+	}
+.top-bar-section .dropdown li.title h5 a {
+	color: black;
+}
