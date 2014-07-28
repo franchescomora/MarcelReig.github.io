@@ -34,7 +34,7 @@ $header-font-weight: 500;
 
 // link properties
 $anchor-text-decoration: none;
-$anchor-font-color: #9A12B3; // El color de los enlaces
+$anchor-font-color: #4183D7; // El color de los enlaces
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -25%);
 
 // navigation bar
@@ -97,7 +97,7 @@ $topbar-dropdown-label-color: #777;
 $topbar-dropdown-label-text-transform: uppercase;
 $topbar-dropdown-label-font-weight: bold;
 // $topbar-dropdown-label-font-size: rem-calc(10);
-// $topbar-dropdown-label-bg: #333;
+$topbar-dropdown-label-bg: #333;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;

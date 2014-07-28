@@ -766,3 +766,12 @@ h1, h2, h3, h4, h5, h6 {
     color: $lila;
 }
 
+.top-bar-section .has-dropdown>a {
+padding-right: 6rem !important;
+}
+.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+background-color: $lila;
+&:hover {
+	background-color: $lila-hover;
+	}
+}
