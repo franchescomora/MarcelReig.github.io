@@ -681,7 +681,12 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     color: $gray-dark;
     &:hover {color: lighten($gray-dark, 20%) !important;}
 }
-
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: transparent !important;
+    color: $lila !important;
+    line-height: 4rem;
+    padding: 0 1.33333rem;
+}
 // Descripcion de web standard
 
 .servicios  {

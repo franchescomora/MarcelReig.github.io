@@ -14,25 +14,14 @@
 
       <ul class="main-navigation right">
 
-        <li class="has-dropdown{% if page.url == '/index.html' or page.url == '/index.html#servicios' or page.url == '/index.html#web_standard' or page.url == '/index.html#web_avanzada' %} active{% endif %}">
-            <a href="{{ root_url }}/#mis-servicios">Servicios</a>
+        <li {% if page.url == '/index.html' %} class="active{% endif %}"><a href="{{ root_url }}/index.html">Servicios</a>
 
-            <ul class="dropdown">
-              <li><a class="scroll" href="{{ root_url }}/#web-standard">Web Standard</a></li>
-              <li><a class="scroll" href="{{ root_url }}/#web-avanzada">Web Avanzada</a></li>
-              <li><a class="scroll" href="{{ root_url }}/#proceso">Proceso</a></li>
-              <li><a class="scroll" href="{{ root_url }}/#tarifas">Tarifas</a></li>
-            </ul>
+        <li {% if page.url == '/sobre-mi/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/sobre-mi">Sobre mi</a></li>
 
-        </li>
-        <li class="has-dropdown{% if page.url == '/blog/index.html' or page.url == '/blog/archives/index.html' %} active{% endif %}">
-        <a href="{{ root_url }}/blog">Blog</a>
-        <ul class="dropdown">
-          <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-        </ul>
-        </li>
-        <li {% if page.url == '/sobre-mi/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/sobre-mi">Sobre mi / Contacto</a></li>
+        <li {% if page.url == '/blog/index.html' %} class="active{% endif %}"><a href="{{ root_url }}/blog">Blog</a></li>
 
+        <li {% if page.url == '/blog/archives/index.html' %} class="active{% endif %}"><a href="{{ root_url }}/blog/archives">Archives</a></li>
+       
       </ul>
 
   

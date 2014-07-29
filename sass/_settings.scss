@@ -14,7 +14,7 @@ $topbar-bg: #111; /* almost black by default */
 $bottom-border-color: #cccccc;
 // font colors
 $body-font-color: #222 !default; /* almost black by default */
-$subheader-font-color: $primary-color; /* medium gray by default */ 
+//$subheader-font-color: $primary-color; /* medium gray by default */ 
 $icon-color: $primary-color; /* medium-light gray by default */
 
 // body font properties
@@ -75,17 +75,17 @@ $topbar-dropdown-toggle-color: #fff;
 $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
+$topbar-link-color: #fff;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: blue;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg-hover: #272727;
-// $topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
-// $topbar-link-font-family: $body-font-family;
+$topbar-link-bg-active: $primary-color;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
 
