@@ -6,6 +6,7 @@
 @import "font-awesome/font-awesome";
 @import "icomoon.css";
 @import "animate.css";
+@import "foundation/components/visibility";
 
 
 // Or selectively include components
@@ -83,6 +84,21 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
+
+
+@media #{$small-only} { 
+
+
+	.logo-img {
+		visibility: hidden;
+		display: none;
+	}
+
+
+
+} 
+
+
 
 body {
 	font-family: LatoLatin-Regular, sans-serif;
