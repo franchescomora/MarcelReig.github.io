@@ -4,7 +4,7 @@
   <title><![CDATA[Netinetidesign]]></title>
   <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-09-04T16:28:09+02:00</updated>
+  <updated>2014-09-18T21:02:16+02:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -12,6 +12,196 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elije Tu Aventura Digital]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/09/17/elije-tu-aventura-digital/"/>
+    <updated>2014-09-17T20:39:41+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/09/17/elije-tu-aventura-digital</id>
+    <content type="html"><![CDATA[<p>Que tipo de aventurero digital eres?</p>
+
+<!--more-->
+
+
+<p><img src="http://MarcelReig.github.io/images/unsplash.jpg" width="400"></p>
+
+<hr>
+
+
+<ol>
+<li><h4>¿Que hay que saber para hacer una página web?</h4>
+
+<ul>
+<li><em>Respuesta rápida:</em> Nada.</li>
+<li><em>Respuesta real:</em> Depende.</li>
+</ul>
+</li>
+<li><h4>¿Cuanto dinero cuesta una página web?</h4>
+
+<ul>
+<li><em>Respuesta rápida:</em> Nada.</li>
+<li><em>Respuesta real:</em> Depende.</li>
+</ul>
+</li>
+</ol>
+
+
+<hr>
+
+
+<p>En un intento por dar una respuesta acertada a estas preguntas, pondremos en escena a varios supuestos aventureros digitales, con distintos perfiles y con distintas necesidades.</p>
+
+<p>Con cual de ellos te sientes más identificado?</p>
+
+<h4>Tipical Nerd</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/nerd-cat.jpg" width="110"></p>
+
+<p>Eres curioso por naturaleza y quieres saber como se construye la web, no quieres que te lo cuenten, quieres ensuciarte las manos, romper cosas y arreglarlas, puede que uses Ubuntu u otra distro de Linux&hellip;</p>
+
+<p>Quien sabe lo lejos que puedes llegar, pero a quien le importa, vamos a escribir código!</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://www.bento.io/">bento</a></li>
+<li><a href="http://www.skilledup.com/learn-web-design-guide/">Skilledup learn web design guide</a></li>
+<li><a href="http://stackoverflow.com/">Stack Overflow</a> Para nunca sentirte solo.</li>
+<li><a href="http://codepen.io/">Codepen</a> Para ver que hacen otros Nerds y subir tus experimentos cuando estés listo!</li>
+<li><a href="http://shoptalkshow.com/">Shop Talk show</a> Momento de relax, Spotify? Que tal escuchar una charla sobre las últimas tendencias en desarrollo web?</li>
+</ul>
+
+
+<p> <hr></p>
+
+<h4>El Primo que hace todas las webs</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_rocker.gif" width="110">
+Eres un usuario tecnológico avanzado pero no eres un Nerd, tienes vida social y todo eso, además tienes un grupo de rock y quieres hacer tu mismo la web, buscas una solución rápida y cool.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="http://www.squarespace.com/">Squarespace</a></li>
+<li><a href="http://es.wix.com/">Wix</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Tienes alma de periodista</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/journalist_cat.jpg" width="110">
+Te apasiona escribir y contarle a todo el mundo lo que piensas, buscas una solución minimalista que se centre en la experiencia de escritura sin distracciones ni complicaciones.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://medium.com/">Medium</a></li>
+<li><a href="https://ghost.org/">Ghost</a></li>
+<li><a href="https://svbtle.com/">Svbtle</a></li>
+<li><a href="https://www.silvrback.com/">Silvrback</a></li>
+<li><a href="https://roon.io/">Roon</a></li>
+<li><a href="http://www.postagon.com/">Postagon</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Eres Diseñador gráfico o fotógrafo</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/photographer_cat.jpg" width="110">
+ Necesitas tener una muestra de tus trabajos online.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://www.behance.net/">Behance</a></li>
+<li><a href="https://dribbble.com/">Dribble</a></li>
+<li><a href="http://cargocollective.com/">Cargo</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Quieres crear tu currículum online</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_resume.jpg" width="110"></p>
+
+<p> Tal vez gustaría tener un sitio web donde consten tus estudios, tu trayectoría profesional y además poder hacer nuevos contactos profesionales?</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://es.linkedin.com/">Linkedin</a></li>
+<li><a href="http://cvmkr.com/">cvmkr</a></li>
+<li><a href="http://www.doyoubuzz.com/us/">doyoubuzz</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Hey mi name is Jhon Doe!</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_selfie.jpg" width="110">
+Quieres una web para presentarte en sociedad rápidamente.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://about.me/">about.me</a></li>
+<li><a href="http://es.flavors.me/">flavors.me</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Tienes una empresa</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/businesscat.jpg" width="110">
+Necesitas promocionar tu negocio, dar a conocer tus productos o servicios y atraer clientes.</p>
+
+<p>La página  web suele ser el centro de operaciones, pero es muy posible que también necesites una estrategia de marketing y un especialista en SEO.</p>
+
+<p>No pierdas tiempo y dinero y busca un buen profesional que te asesore.</p>
+
+<hr>
+
+
+<h4>Quieres vender accesorios de lujo para mascotas</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/rose.jpg" width="110">
+Hacer una tienda online es muy fácil, que funcione y venda es otra cosa, de nuevo mi consejo, no pierdas tiempo y dinero y busca un buen profesional que te asesore.</p>
+
+<hr>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Primeros Pasos Con Sass Y Compass]]></title>
