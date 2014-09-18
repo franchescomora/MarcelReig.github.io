@@ -12,7 +12,7 @@ Que tipo de aventurero digital eres?
 <!--more-->
 
 
-{% img /images/unsplash.jpg 400px [escritorio [escritorio]] %}
+{% img /images/problematic.jpg 400px [escritorio [escritorio]] %}
 
 <hr>
 
