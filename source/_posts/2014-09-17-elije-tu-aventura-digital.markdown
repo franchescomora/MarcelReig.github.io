@@ -3,16 +3,15 @@ layout: post
 title: "Elije tu aventura digital"
 date: 2014-09-17 20:39:41 +0200
 comments: true
-categories: 
+categories: Diseño 
 ---
 
 
 Que tipo de aventurero digital eres?
-
 <!--more-->
 
+{% img /images/problematic.jpg 800px [escritorio [escritorio]] %}
 
-{% img /images/problematic.jpg 400px [escritorio [escritorio]] %}
 
 <hr>
 
@@ -100,7 +99,7 @@ Prueba con:
 ####Quieres crear tu currículum online
 {% img left /images/cat_resume.jpg 110px [cat [cat]] %}
 
- Tal vez gustaría tener un sitio web donde consten tus estudios, tu trayectoría profesional y además poder hacer nuevos contactos profesionales?
+ Te gustaría tener un sitio web donde consten tus estudios, tu trayectoría profesional y además poder hacer nuevos contactos profesionales?
 
 <div class="clearfix"></div>
 
