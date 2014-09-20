@@ -69,14 +69,14 @@ Las decisiones de diseño acertadas harán que el usuario no se desoriente y dec
 
 <hr>
 
-{% img left /images/diseño_tradicional.jpg 200px %}
+{% img left /images/diseno_tradicional.jpg 200px %}
 
 Estamos hablando de diseño, eso quiere decir que trabajamos en mesas blancas inclinadas, con portaminas, rotuladores y lápicess de colores? Nostalgia...
 Bueno si tienes todo eso en tu estudio, te felicito y puede que el resultado final sea excelente, una vez digitalices todo eso.
 
 <div class="clearfix"></div>
 
-{% img left /images/aplicaciones_diseño.png 200px %}
+{% img left /images/aplicaciones_diseno.png 200px %}
 
 Entonces para diseñar para la web utilizamos software de diseño como Photoshop, Illustrator, Sketch?
 
