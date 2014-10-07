@@ -88,16 +88,11 @@
 
 @media #{$small-only} { 
 
-
 	.logo-img {
 		visibility: hidden;
 		display: none;
 	}
-
-
-
 } 
-
 
 
 body {
@@ -584,7 +579,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 // BG Colors
 
 .bg-gray-light {
-  background-color: #f5f5f5;
+  background-color: $bg-gray-light;
 }
 
 .ancla {
@@ -703,6 +698,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     line-height: 4rem;
     padding: 0 1.33333rem;
 }
+
 // Descripcion de web standard
 
 .servicios  {
@@ -810,4 +806,29 @@ background-color: transparent;
 	}
 .top-bar-section .dropdown li.title h5 a {
 	color: black;
+}
+.blog-index {
+	article {
+		background-color: #fff;
+		padding: 20px;
+		border-radius: 4px;
+	}
+}
+.sidebar {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	margin-top: 137px !important;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+
+}
+.sidebar li {
+	list-style: none;
+}
+
+li.post {
+	border-bottom: 1px solid #ccc;
 }

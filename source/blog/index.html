@@ -4,6 +4,7 @@ layout: bg-gray
 sidebar: true
 ---
 
+<div class="row">
 <div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-8 large-push-4 {% else %}large-8 {% endif %}columns">
 
 <div class="spacer"></div>
@@ -15,7 +16,6 @@ sidebar: true
     </header>
   {% endif %}
 
-
   <div class="blog-index">
     {% assign index = true %}
     {% for post in paginator.posts %}
@@ -24,7 +24,7 @@ sidebar: true
         {% include article.html %}
       </article>
       {% unless post == paginator.posts.last %}
-      <hr>
+      <br>
       {% endunless %}
     {% endfor %}
     <div class="pagination">
@@ -47,5 +47,7 @@ sidebar: true
     {% endif %}
   </aside>
   {% endunless %}
+
+  </div>
 
   <div class="spacer"></div>
