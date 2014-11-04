@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Diseño | Netinetidesign]]></title>
   <link href="http://MarcelReig.github.io/blog/categories/diseno/atom.xml" rel="self"/>
   <link href="http://MarcelReig.github.io/"/>
-  <updated>2014-10-07T11:00:39+02:00</updated>
+  <updated>2014-11-04T16:09:05+01:00</updated>
   <id>http://MarcelReig.github.io/</id>
   <author>
     <name><![CDATA[Marcel Reig]]></name>
@@ -12,6 +12,147 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Que Es El Diseño Web?]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/09/19/que-es-el-diseno-web/"/>
+    <updated>2014-09-19T00:03:43+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/09/19/que-es-el-diseno-web</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p><img src="/images/aurea.jpg" width="800"></p>
+
+<p>La palabra &ldquo;diseño&rdquo; tiene connotaciones distintas en diferentes campos.</p>
+
+<p>Para crear y mantener sitios web son necesarias habilidades y disciplinas muy distintas.</p>
+
+<p>Areas que convergen en el diseño web:</p>
+
+<ul>
+<li>Diseño gráfico</li>
+<li>Diseño de interfaces de usuario</li>
+<li>Diseño de experiencia de usuario</li>
+<li>Arquitectura de la información</li>
+<li>Optimización en buscadores</li>
+<li>Marketing Online</li>
+<li>Creación de contenido o Copywriting</li>
+<li>Analítica web</li>
+<li>Gestión de proyectos</li>
+<li>Desarrollo de aplicaciones</li>
+</ul>
+
+
+<p>Si no quieres quedarte hablando solo en las fiestas, será mejor que tengas una respuesta rápida preparada a la pregunta, a que te dedicas?  Algo como hago webs y cambiar de tema rápidamente suele funcionar.</p>
+
+<hr>
+
+
+<p>En agencias grandes cada profesional se dedica a su especialidad, pero muy a menudo cuando eres freelance o en trabajos pequeños se hace un poco de todo.</p>
+
+<p>De todos modos siempre es positivo y muchas veces necesario, tener conocimientos de lo que hacen tus compañeros para poder comunicarte eficazmente.</p>
+
+<p>Si eres diseñador a secas, podrás hacer grandes trabajos como logotipos, ilustraciones e infografías, pero si eres diseñador web, deberías por lo menos saber HTML, CSS y algo de JS.</p>
+
+<p>Un desarrollador front-end es bueno que tenga nociones de diseño, así como de lenguajes de servidor, ya que va a tener que trabajar y comunicarse con ambos perfiles, diseñadores y programadores.</p>
+
+<hr>
+
+
+<h3>Entonces que es el diseño web?</h3>
+
+<p>El diseño web es la parte visual, lo que se ve en pantalla, por lo que si eres el responsable del aspecto visual y del look &amp; feel de un sitio web entonces, eres el diseñador web.</p>
+
+<p>Como hemos visto, algunas agencias separan los roles y tienen un diseñador que realiza el diseño en PSD.
+Si es una agencia muy cool el diseñador hará una guía de estilo, algo mucho más útil y acorde con el desarrollo web actual.</p>
+
+<p>El desarrollador front-end implementará el diseño siguiendo las directrices de la guía de estilo con HTML5, CSS y JS.</p>
+
+<p>En muchos casos ya sea por minimizar costes o porque tienen un ninja polivalente en la empresa, la misma persona se encarga de ambas cosas, el diseño y su implementación, cubriendo así toda la parte frontal de la web.</p>
+
+<p>Los desarrolladores back-end se encargan de toda la parte de la lógica de la web o aplicación, registro y gestión de usuarios, almacenamiento y gestión de datos etc&hellip;
+No incluiría esto en la definición de &ldquo;diseño web&rdquo;, esto encaja más dentro de lo que se conoce como programación o desarrollo web.</p>
+
+<hr>
+
+
+<h3>Que implica el diseño web?</h3>
+
+<p>El diseño web implica aspectos como la composición y disposición de los elementos en pantalla, la elección de una paleta de color y tipografías acertada, el equilibrio entre información y espacio en blanco.</p>
+
+<p>Las decisiones de diseño acertadas harán que el usuario no se desoriente y decida no volver más a tu sitio, si encuentra fácilmente lo que está buscando,  sentirá que está en un sitio de calidad y se lo guardará en sus favoritos.</p>
+
+<blockquote><p>&ldquo;El mejor diseño es el que no se ve&rdquo;.</p></blockquote>
+
+<hr>
+
+
+<p><img class="left" src="/images/diseno_tradicional.jpg" width="200"></p>
+
+<p>Estamos hablando de diseño, eso quiere decir que trabajamos en mesas blancas inclinadas, con portaminas, rotuladores y lápicess de colores? Nostalgia&hellip;
+Bueno si tienes todo eso en tu estudio, te felicito y puede que el resultado final sea excelente, una vez digitalices todo eso.</p>
+
+<div class="clearfix"></div>
+
+
+<p><img class="left" src="/images/aplicaciones_diseno.png" width="200"></p>
+
+<p>Entonces para diseñar para la web utilizamos software de diseño como Photoshop, Illustrator, Sketch?</p>
+
+<div class="clearfix"></div>
+
+
+
+
+<hr>
+
+
+<p>Lo cierto es que la web no solo es para mirarla, en la web se navega por sus secciones, se interactua, se hace click aquí y allá, se introducen datos y se espera una respuesta adecuada.</p>
+
+<p>La web tampoco tiene un tamaño fijo, el usuario espera ver tu web perfectamente tanto si accede desde un móvil como si lo hace desde un iMac de 27 pulgadas.</p>
+
+<p>La usabilidad y la experiencia de usuario son las ciencias que estudian el grado de dificultad que proporciona el diseño de una web a la hora de navegar por sus seciones.</p>
+
+<p>Un estudio de usabilidad determina si es fácil encontrar la información relevante o si el usuario va a sentirse perdido y desconcertado en tu sitio.</p>
+
+<hr>
+
+
+<p>Hemos visto que para crear sitios web estupendos hay que tener ciertos conocimiento de diseño, pero también hemos visto que la web no es un Flyer, ni la tapa de un CD y no podemos utilizar las mismas herramientas que se utilizan para imprenta.</p>
+
+<p>Tradicionalmente el proceso de diseño se basaba en crear primero el diseño de la web en Psd con Photoshop para después pasarlo a código HTML y CSS recortando secciones e incluyéndolas como imágenes en los menús y en todas partes, pero esa manera de proceder ya no funciona hoy en día, muchas cosas han cambiado.</p>
+
+<p>Desde que salió CSS3 tenemos mucho más juego para añadir efectos visuales solo con código.</p>
+
+<p>Desde que la web no tiene un tamaño fijo ya no podemos enseñarle al cliente un PSD y decirle, tu web va a ser así, por que no es cierto, tendríamos que mostrarle todas las posibles variables de diseño.</p>
+
+<p>Y podríamos hacer un intento, pero realmente vale la pena el esfuerzo?</p>
+
+<p>No sería más lógico invertir ese tiempo en diseñar la web directamente en su elemento es decir el navegador y enseñarle al cliente capturas de pantalla reales, o pasarle un link, si tenemos la web en un servidor de pruebas, para que pueda ver como avanza?</p>
+
+<p>Esa es la razón por la que he eliminado Photoshop de mi proceso de diseño.</p>
+
+<p>Mi proceso de diseño actual se basa en: un boceto en una hoja de cuadros normalmente con el cliente, después un wireframing con Sketch y pasar directamente a diseñar en el navegador.</p>
+
+<p><img class="left" src="/images/sketch.jpg" width="200">
+<img class="left" src="/images/wireframe.jpg" width="200">
+<img class="left" src="/images/code.png" width="200"></p>
+
+<div class="clearfix"></div>
+
+
+<br>
+
+
+<p><em>Artículos relacionados:</em></p>
+
+<ul>
+<li><p><a href="http://design.tutsplus.com/articles/photoshop-role-in-web-design--psd-25137">photoshop role in web design</a></p></li>
+<li><p><a href="http://dotjay.co.uk/2004/11/web-design-roles">web design roles</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elije Tu Aventura Digital]]></title>
