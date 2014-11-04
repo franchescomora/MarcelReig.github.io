@@ -3,7 +3,7 @@ layout: post
 title: "Que es el diseño web?"
 date: 2014-09-19 00:03:43 +0200
 comments: true
-categories: 
+categories: Diseño Web
 <!-- published: false -->
 ---
 

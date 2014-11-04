@@ -50,29 +50,6 @@
 /* applies default font properties to most of the body */
 
 
-@font-face {
-    font-family: 'nexa_lightregular';
-    src: url('../fonts/nexa_light-webfont.eot');
-    src: url('../fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/nexa_light-webfont.woff') format('woff'),
-         url('../fonts/nexa_light-webfont.ttf') format('truetype'),
-         url('../fonts/nexa_light-webfont.svg#nexa_lightregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'nexa_boldregular';
-    src: url('../fonts/nexa_bold-webfont.eot');
-    src: url('../fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/nexa_bold-webfont.woff') format('woff'),
-         url('../fonts/nexa_bold-webfont.ttf') format('truetype'),
-         url('../fonts/nexa_bold-webfont.svg#nexa_boldregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 @font-face {
     font-family: 'LatoLatin-Regular';
@@ -85,6 +62,29 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.eot');
+    src: url('../fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_bold-webfont.woff') format('woff'),
+         url('../fonts/nexa_bold-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/nexa_light-webfont.eot');
+    src: url('../fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_light-webfont.woff') format('woff'),
+         url('../fonts/nexa_light-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @media #{$small-only} { 
 
@@ -93,7 +93,6 @@
 		display: none;
 	}
 } 
-
 
 body {
 	font-family: LatoLatin-Regular, sans-serif;
@@ -452,16 +451,16 @@ code{
 	color: $subheader-font-color;
 }
 
-/*  Aquí los estilos de netinetidesign
-  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+// estilos de netinetidesign
 
 
 // Font Variables
 
 section.seccion {
-  padding-bottom: 4rem;
+  padding-bottom: 0 !important;
 }
+
+
 
 #home {
   background: url("../images/small.jpg") 50% 0 no-repeat fixed;
@@ -501,45 +500,32 @@ section.seccion {
 // Look ma, responsive images 
 
 @media #{$small-up} {   
-}
-@media #{$small-only} {
-  #home {
+	  #home {
   background: url("../images/small.jpg") 50% 0 no-repeat fixed;
 }
- }
+}
 
 @media #{$medium-up} {
- }
-@media #{$medium-only} {
-  #home {
+	  #home {
   background: url("../images/medium.jpg") 50% 0 no-repeat fixed;
 }
- }
+}
 
 @media #{$large-up} {
-}
-@media #{$large-only} {
-  #home {
+	  #home {
   background: url("../images/large.jpg") 50% 0 no-repeat fixed;
 }
- }
+}
 
 @media #{$xlarge-up} {
- }
-@media #{$xlarge-only} {
-  #home {
+	  #home {
   background: url("../images/xlarge.jpg") 50% 0 no-repeat fixed;
-}
- }
-
-@media #{$xxlarge-up} {
- }
-@media #{$xxlarge-only} {
-  #home {
-  background: url("../images/xxlarge.jpg") 50% 0 no-repeat fixed;
-}
+} 
 
 }
+
+
+
 
 // Clases utiles
 
@@ -613,6 +599,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
 .contain-to-grid {
   	border-bottom: 2px solid #E2E2E2;
 }
+
 .top-bar .name h1{
   	font-family: "nexa_boldregular", helvetica;
     font-size: 1.8em;
@@ -832,3 +819,18 @@ background-color: transparent;
 li.post {
 	border-bottom: 1px solid #ccc;
 }
+
+
+// Pestañas 
+
+.tabs-content {
+    background-color: #fff;
+    padding: 20px;
+}
+dd.active {
+	background-color: #fff;
+}
+
+
+
+
