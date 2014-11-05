@@ -98,11 +98,11 @@ body {
 	font-family: LatoLatin-Regular, sans-serif;
 }
 
-$body-font-size: 18px;  // No deberian ser ems?
+$body-font-size: 18px;
 
 p {	
 	font-family: $body-font-family;
-	font-weight: $body-font-weight; // Donde carajo se declaran estas variables?
+	font-weight: $body-font-weight;
 	font-size: $body-font-size;
 	line-height: $body-line-height;
 	border-bottom: $body-paragraph-margin;
@@ -277,6 +277,7 @@ aside{
 /* formats footer at the bottom of the page */
 
 footer{
+
 	p{
 		font-size: $body-font-size - 2px;
 		padding-top: 30px;
@@ -451,8 +452,8 @@ code{
 	color: $subheader-font-color;
 }
 
-// estilos de netinetidesign
-
+/* // estilos de netinetidesign ///////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////// */
 
 // Font Variables
 
@@ -460,71 +461,29 @@ section.seccion {
   padding-bottom: 0 !important;
 }
 
+// //////////////////////////////////////////////////
 
 
-#home {
-  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
-  background-color: #bbb;
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
+.intro { 
+  background: url(../images/large.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 600px;
-  padding-top: 4rem;
+  height: 70vh;
 }
-
-#home article {
-    h1 {
-    font-size: 6vw;
-    font-weight: 300;
-    }
-    h4 {
-      font-weight: 200;
-    }
-  height: 400vh;
-  position: absolute;
-  top: 30vh;
-  width: 100%;
-  }
-
- @media only screen and (min-width: 90.063em) { 
-
-  #home article {
-    h1 {
-    font-size: 4vw;
-    font-weight: 300;
-    }
+.content-intro {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	h1, h3 {
+		color: #fff;
+	}
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
-}
-
-// Look ma, responsive images 
-
-@media #{$small-up} {   
-	  #home {
-  background: url("../images/small.jpg") 50% 0 no-repeat fixed;
-}
-}
-
-@media #{$medium-up} {
-	  #home {
-  background: url("../images/medium.jpg") 50% 0 no-repeat fixed;
-}
-}
-
-@media #{$large-up} {
-	  #home {
-  background: url("../images/large.jpg") 50% 0 no-repeat fixed;
-}
-}
-
-@media #{$xlarge-up} {
-	  #home {
-  background: url("../images/xlarge.jpg") 50% 0 no-repeat fixed;
-} 
-
-}
-
-
+// ///////////////////////////////////////////////////
 
 
 // Clases utiles
@@ -830,7 +789,4 @@ li.post {
 dd.active {
 	background-color: #fff;
 }
-
-
-
 

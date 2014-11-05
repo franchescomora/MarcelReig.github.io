@@ -19,6 +19,8 @@ $(function(){
 
 // Esto es para crear el efecto parallax scrolling
 
+/*
+
 $(document).ready(function(){
 
 var $window = $(window); //El muy notas del tutorial de tut+ se dejo esta línea!
@@ -34,6 +36,7 @@ $bgobj.css({ backgroundPosition: coords });
 });
 });
 });
+*/
 
 // Animation css
 
