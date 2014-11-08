@@ -62,6 +62,7 @@
     text-rendering: optimizeLegibility;
 }
 
+
 @font-face {
     font-family: 'nexa_boldregular';
     src: url('../fonts/nexa_bold-webfont.eot');
@@ -452,43 +453,56 @@ code{
 	color: $subheader-font-color;
 }
 
-/* // estilos de netinetidesign ///////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////// */
 
-// Font Variables
+/* // $my-design ///////////////////////////////////////////////////
+   ////////////////////////////////////////////////////////////// */
+
 
 section.seccion {
   padding-bottom: 0 !important;
 }
 
-// //////////////////////////////////////////////////
+// Landing image Responsive Mortal 
 
 
 .intro { 
-  background: url(../images/large.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 70vh;
-}
-.content-intro {
-	margin: 0 auto;
-	text-align: center;
-	vertical-align: middle;
-	h1, h3 {
-		color: #fff;
+	height: 80vh;
+	img {
+  	max-width: 100%;
+  	height: auto;
 	}
 	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
+	overflow: hidden;
 }
-// ///////////////////////////////////////////////////
+
+#muevelo {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+// Small screens
+@media only screen {
+
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+	.intro { 
+	height: 30vh;
+	h1, h3 {
+		font-size: 18px;
+
+	}
+}
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
 
 
 // Clases utiles
-
-// Esto debería de ser un parcial que puedas utilizar en todos tus proyectos
 
 .slim {
   font-weight: 300;
@@ -511,15 +525,15 @@ section.seccion {
 
 // Variables Colores
   
-$text-light: #a5a5a5;      // Gris claro para el texto
+$gray-light: #a5a5a5;      // Gris claro para el texto
 $bg-gray-light: #f5f5f5;   // Gris Claro fondo secciones
-$text-white: #fff;         // Blanco
+$white: #fff;         // Blanco
 $gray-dark: #222;
 $lila: #483D8B;	
 $lila-hover: scale-color($lila, $lightness: -25%);
 
-.text-white {color: $text-white;}
-.text-light {color: $text-light;}
+.white {color: $white;}
+.gray-light {color: $gray-light;}
 
 // BG Colors
 
@@ -608,7 +622,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     	line-height: 12px;
     	margin-top: 12px;
     	padding: 2px 0;
-    	&:hover { color: $text-light; background: transparent;
+    	&:hover { color: $gray-light; background: transparent;
     	}
     }
     .top-bar-section ul li > a {
@@ -622,7 +636,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     color: #222;
     background: transparent;
     padding: 0 15px;
-    &:hover {color: $text-light; background: transparent;}
+    &:hover {color: $gray-light; background: transparent;}
 }
 .top-bar {
     background: transparent;
@@ -652,7 +666,7 @@ $lila-hover: scale-color($lila, $lightness: -25%);
     color: $gray-dark;
   }
   p {
-  color: $text-light;
+  color: $gray-light;
   text-align: center;
   }
 }
