@@ -466,7 +466,7 @@ section.seccion {
 
 
 .intro { 
-	height: 80vh;
+	max-height: 80vh;
 	img {
   	max-width: 100%;
   	height: auto;
@@ -485,21 +485,29 @@ section.seccion {
 }
 
 // Small screens
-@media only screen {
 
-} /* Define mobile styles */
+/* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
 	.intro { 
-	height: 30vh;
 	h1, h3 {
 		font-size: 18px;
 
 	}
 }
+} 
 
-} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+// Medium screens
 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.intro { 
+	h1, h3 {
+		font-size: 24px;
+
+	}
+}
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
 // Clases utiles
