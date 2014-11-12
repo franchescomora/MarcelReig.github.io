@@ -40,7 +40,7 @@ $bgobj.css({ backgroundPosition: coords });
 
 // Animation css
 
-$('#muevelo').addClass('animated bounceInDown');
+$('#muevelo').addClass('animated fadeIn');
 
 /* Probando Picturefill */
 
