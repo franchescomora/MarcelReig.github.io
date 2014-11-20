@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sublime Text 2 | Netinetidesign]]></title>
+  <link href="http://MarcelReig.github.io/blog/categories/sublime-text-2/atom.xml" rel="self"/>
+  <link href="http://MarcelReig.github.io/"/>
+  <updated>2014-11-12T12:48:16+01:00</updated>
+  <id>http://MarcelReig.github.io/</id>
+  <author>
+    <name><![CDATA[Marcel Reig]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3/"/>
+    <updated>2014-02-06T22:42:00+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3</id>
+    <content type="html"><![CDATA[<p>Dicen que la herramienta no hace al programador, seguro que aspectos como la determinación y disciplina van a influir más en tu código que el editor que uses, pero a mi por lo menos, me gusta probar nuevos sabores y terminar por utilizar el que más se adapta a mi estilo de trabajo.</p>
+
+<!-- more -->
+
+
+<p>Llevo escribiendo código desde el 2007, desde entonces he probado varios editores: Dreamweaver, Aptana, Komodo, Coda y actualmente Sublime Text 3 y los nuevos editores de Adobe: <a href="http://brackets.io/">Brackets</a> y <a href="http://html.adobe.com/edge/code/">Adobe Edge Code CC.</a></p>
+
+<p>Que puedo decir de Sublime Text 2? Para mi, simplemente el mejor editor que existe.</p>
+
+<h2>Sobre Sublime Text</h2>
+
+<p><img class="left" src="/images/sublimetext.png" width="150"></p>
+
+<p>Sublime Text 2 es un editor de texto pensado para escribir código en la mayoría de lenguajes de programación utilizados en la actualidad : Ruby, Java, Python, Perl, HTML, JavaScript, CSS, HTML, XML, PHP, C, C++, etc..
+Vale 59$, pero que permite un uso ilimitado en el tiempo de manera gratuita (si no se va a hacer un uso comercial del software).<br></p>
+
+<p>De vez en cuando abre una ventanita en el programa para animarnos a registrar y pagar el programa (indudablemente vale ese precio, pero podemos probarlo todo el tiempo que queramos hasta decidir comprarlo, o no).<br>
+Es capaz de colorear el código, ayudarnos a la escritura, corregir mientras escribimos, usar abreviaturas (snippets), ampliar sus posibilidades, personalizar hasta el último detalle,&hellip; casi cualquier cosa que le podamos pedir a un editor.<br></p>
+
+<p><a href="http://www.sublimetext.com/2">Sublime Text 2</a> está disponible para la mayoría de sistemas operativos: OS X, Linux y Windows.</p>
+
+<h2>Más razones para usar Sublime Text?</h2>
+
+<ul>
+<li>Es un programa muy rápido.</li>
+<li>Es muy ligero. Ocupa apenas siete megabytes, por lo que no consume apenas recursos en el ordenador.</li>
+<li>Permite codificar en casi cualquier lenguaje.</li>
+<li>Tiene gran cantidad de paquetes que mejoran enormemente sus prestaciones.</li>
+<li>Permite configurar casi cada aspecto del programa y adaptarlo a nuestras necesidades</li>
+<li>Es multiplataforma, funciona en Mac, Linux y Windows.</li>
+<li>Tiene todas las posibilidades de ayuda al codificar que se le pueden pedir a un editor.</li>
+<li>Posee una comunidad de usuarios cada vez mayor.</li>
+<li>Tiene posibilidades incluso de depurar y ejecutar el código sin salir del editor; así como opciones de gestión de proyectos completos de trabajo.</li>
+</ul>
+
+
+<h2>Instalar Sublime Text</h2>
+
+<p>Descargamos <a href="http://www.sublimetext.com/">Sublime Text</a> de su sitio oficial.<br>
+La versión estable es <a href="http://www.sublimetext.com/2">Sublime Text 2</a>, pero si eres como yo tal vez quieras elegir <a href="http://www.sublimetext.com/3">Sublime Text 3</a>, todavía en Beta pero con algunas mejoras respecto a Sublime Text 2.</p>
+
+<h2>Instalar Package control</h2>
+
+<p>Instalar <a href="http://wbond.net/sublime_packages/package_control">Package control</a> es lo primero que tienes que hacer una vez instalado el propio Sublime.<br>
+<em>Package control</em> es un plugin que nos permitirá instalar todas las cosas interesantes que tiene Sublime.<br>
+Instala Package control desde: <a href="http://wbond.net/sublime_packages/package_control">wbond.net</a></p>
+
+<p>Ok, si has conseguido instalarlo correctamente, recuerda que para utilizarlo solo tienes que abrir la paleta de comandos de Sublime con está combinación: <code>cmd+shift+p</code> y buscar Package control.</p>
+
+<h2>Para ir a cualquier sitio</h2>
+
+<p>Esta combinación de teclas <code>cmd+p</code> abre la ventana de busqueda rápida, escribe el nombre del archivo al que quieres ir, presiona intro y te transportará a este rápidamente.</p>
+
+<h2>Personaliza el icono de Sublime Text</h2>
+
+<p>Si quieres cambiar el icono por defecto, en Mac puedes hacerlo fácilmente de esta forma: Navega hasta la carpeta aplicaciones haz click derecho sobre el icono de Sublime &ldquo;Mostrar contenido del paquete.&rdquo; por último ves a Content/Resources/ y arrastra tu nuevo icono aquí para sobreescribir el actual.</p>
+
+<p>Algunos iconos <em>Super Cool</em> para Sublime:</p>
+
+<ul>
+<li><a href="http://dribbble.com/shots/1132096-Sublime-Text?list=searches">Por David Öhlin</a></li>
+<li><a href="http://dribbble.com/shots/357612-Sublime-Text-2-Replacement-Icon?list=searches">Por Jon-Paul Lunney</a></li>
+<li><a href="http://dribbble.com/shots/872166-Sublime-Text-2-Replacement-Icon?list=searches">Por Elliot Jackson</a></li>
+<li><a href="http://dribbble.com/shots/1086883-Sublime-Text-Replacement-Icon?list=searches">Por Tony Gines</a></li>
+<li><a href="http://dribbble.com/shots/861105-Sublime-Text-2-goes-Retro?list=searches">Por Maleika E. A.</a></li>
+<li><a href="http://dribbble.com/lindsaymindler/projects/39899-Sublime-Text-2-Icon">Por Lindsay Mindler</a></li>
+</ul>
+
+
+<h2>Custom themes</h2>
+
+<p><a href="http://kkga.github.io/spacegray/">Spacegray</a> es mi tema favorito para Sublime, es el que tengo instalado actualmente. <br></p>
+
+<p>Puedes instalarlo desde el mismo Package Control de Sublime de la siguiente forma:</p>
+
+<ol>
+<li>Abre la paleta de comandos desde el menu superior <code>Tools &ndash;> Command Palette&hellip;</code> (⇧+⌘+P en Mac)</li>
+<li>Elige Package Control: <code>Install Package</code></li>
+<li>Busca <code>theme &ndash; Spacegray</code> y presiona intro</li>
+</ol>
+
+
+<p><strong><em>Una vez instalado el tema puedes elegir entre estos sabores:</em></strong></p>
+
+<p><em>Spacegray</em></p>
+
+<p><img src="/images/spacegray.png" width="600"></p>
+
+<p><em>Sapacegray-light</em></p>
+
+<p><img src="/images/spacegray-light.png" width="600"></p>
+
+<p><em>Spacegray-eighties</em></p>
+
+<p><img src="/images/spacegray-eighties.png" width="600"></p>
+
+<h2>Pluguins interesantes:</h2>
+
+<ul>
+<li><a href="https://github.com/SublimeLinter/SublimeLinter-for-ST2">SublimeLinter</a></li>
+<li><a href="https://github.com/facelessuser/BracketHighlighter">BracketHighlighter</a></li>
+<li><a href="https://github.com/jisaacks/GitGutter">Git Gutter</a></li>
+<li><a href="https://github.com/nathos/sass-textmate-bundle">Sass</a></li>
+<li><a href="http://emmet.io/">Emmet</a></li>
+</ul>
+
+
+<h2>Emmet</h2>
+
+<p><img class="left" src="/images/emmet.png" width="150">
+Emmet (<em>anteriormente conocido como Zen Coding</em>), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
+Emmet es una colección de abrebiaciones que expanden html/xml/css, tomando la idea original de los snipets.<br>
+Descarga <a href="http://emmet.io/">Emmet</a> de su pagina oficial.<br>
+Me centraré en las posibilidades que ofrece Emmet en un próximo post.</p>
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://scotch.io/bar-talk/sublime-text-keyboard-shortcuts">SCOTH</a> <em>Atajos de teclado de Sublime</em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

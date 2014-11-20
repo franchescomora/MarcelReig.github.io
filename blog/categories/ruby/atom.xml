@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | Netinetidesign]]></title>
+  <link href="http://MarcelReig.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://MarcelReig.github.io/"/>
+  <updated>2014-11-12T12:48:16+01:00</updated>
+  <id>http://MarcelReig.github.io/</id>
+  <author>
+    <name><![CDATA[Marcel Reig]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress en Mac OS X Maveriks]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/"/>
+    <updated>2014-01-27T18:18:05+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks</id>
+    <content type="html"><![CDATA[<p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
+
+<!-- more -->
+
+
+<h2>Instalando las Command Line Tools de Xcode</h2>
+
+<p><img class="left" src="/images/xcode.png" width="100"></p>
+
+<p>Descárgate <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
+Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+
+<br>
+
+
+<br>
+
+
+<h2>Instalando Homebrew</h2>
+
+<p><img class="left" src="/images/homebrew.png" width="100"></p>
+
+<p>Para instalar cosas en Mac te recomiendo utilizar <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
+Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.<br>
+Resulta muy útil para instalar todo lo que no viene de serie en tu mac.<br>
+Para instalar Homebrew primero necesitas tener las Xcode Command Line Tools, si no Homebrew te dará un herror.<br>
+Abre la terminal y pega este código para instalar Homebrew:
+<code>
+$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+</code>
+Para comprovar que hemos hecho la instalación correctamente ejecuta este comando:
+<code>
+$ brew doctor
+</code>
+Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
+
+<h2>Instalando Git</h2>
+
+<p><img class="left" src="/images/git.png" width="100"></p>
+
+<p>Si todavía no tienes Git instalado puedes hacerlo desde su <a href="http://git-scm.com/downloads">sitio oficial.</a><br>
+O mucho mejor utiliza Homebrew.</p>
+
+<p>Para instalar Git con Homebrew abre la terminal e introduce:
+<code>
+$ brew install git
+</code>
+Para mantener tu versión de Git actualizada con Homebrew utiliza este comando:
+<code>
+$ brew update git
+</code></p>
+
+<h2>Instalando Ruby</h2>
+
+<p><img class="left" src="/images/ruby.png" width="100"></p>
+
+<p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina.<br>
+En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
+
+<p>He probado las dos opciones y <em>rbenv</em> me gusta más, en cualquier caso lo dejo a vuestra elección.
+Si quieres utilizar <em>RVM</em> te puede interesar esta guía de <a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps</a>.</p>
+
+<p>Para instalar <em>rbenv</em> con <em>Homebrew</em> abre la terminal e introduce estos comandos:
+<code>
+$ brew update #Actualiza Homebrew
+$ brew install rbenv #Instala rbenv
+$ brew install ruby-build #Instala ruby-build
+</code>
+Para poder hacer uso de rbenv-install necesitas instalar <a href="https://github.com/sstephenson/ruby-build">ruby-build</a> como un pluguin para rbenv.</p>
+
+<br>
+
+
+<h2>Instalando Pow!!</h2>
+
+<p><img class="left" src="/images/pow.png" width="100"></p>
+
+<p>Utilizar la opción <code>rake preview</code> que viene por defecto en Octopress, esta bién, pero si eres usuario de Mac y utilizas <a href="http://pow.cx/">POW</a> puedes previsualizar tu Octopress en local de esta forma:
+<code>
+cd ~/.pow
+ln -s /path/to/octopress octopress
+cd -
+</code>
+Ahora puedes abrir tu blog con POW, simplemente utiliza el comando <code>rake watch</code> y abre <code><a href="http://octopress.dev">http://octopress.dev</a></code> nada más.</p>
+
+<br>
+
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://robots.thoughtbot.com/psa-do-not-use-system-ruby">ROBOTS</a> <em>Por que no usar la versión de ruby del sistema.</em></li>
+<li><a href="http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems">ROBOTS</a> <em>Instalación detallada de rbenv.</em></li>
+<li><a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps Project</a> <em>Instalación detallada de RVM.</em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

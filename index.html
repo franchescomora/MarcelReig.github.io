@@ -1,13 +1,75 @@
----
-layout: landing
-comments: false
-sharing: false
-footer: true
-body_id: "main_page"
-sidebar: false
----
 
-<!-- /////////////////////////////////////////////// Landing //////////////
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <script src="/js/vendor/modernizr.js"></script>
+  <meta charset="utf-8">
+  <title>Netinetidesign</title>
+  <meta name="author" content="Marcel Reig">
+
+  
+  <meta name="description" content="<!-- /////////////////////////////////////////////// Landing &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://MarcelReig.github.io">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Netinetidesign" type="application/atom+xml">
+
+  <!-- He sacado todos los scripts de aquí! menos modernizr claro -->
+
+  
+
+  </head>
+<body  id="main_page"   class="no-sidebar" >
+  <header role="banner" class="top-header"></header>
+  <nav role="navigation"><ul class="subscription hide" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+
+
+<div class="sticky contain-to-grid" data-options="">
+
+  <nav class="top-bar" data-topbar>
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img class="logo-img" src="/images/LogoNetineti.png" alt="Logo"> Netineti<span>design</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+        <li  class="active"><a href="/index.html">Servicios</a>
+
+        <li ><a href="/sobre-mi">Sobre mi</a></li>
+
+        <li "><a href="/blog">Blog</a></li>
+
+        <li "><a href="/blog/archives">Archives</a></li>
+       
+      </ul>
+
+  
+    </section>
+  </nav>
+
+</div>
+</nav>
+  <div id="main">
+    <div id="content">
+      <!-- /////////////////////////////////////////////// Landing //////////////
       ////////////////////////////////////////////////////////////////////// -->
 
 <div class="intro">
@@ -126,7 +188,7 @@ También se incluye un formulario de contacto para que tus clientes puedan conta
 <h4>Diseño Web con Wordpress</h4>
 <p>La ventaja de utilizar un <a href="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos" target="_blank">CMS</a> (Content Management System), es que tu mismo podrás actualizar y gestionar los contenidos de tu web desde el panel de administración, sin saber nada de programación.<br />
 Cualquier tipo de web que necesite actualizarse de forma fácil e intuitiva puede hacerse en wp, ya sea un sitio comercial, informativo o una tienda online y por supuesto también puedes hacer un Blog!<br>
-<a href="http://wordpress.org/" target="_blank">Wordpress</a> lleva mucho tiempo en escena y hoy en día existen pluguins para casi todo: SEO, anti spam, Back-ups, Google analitics, tienda online etc...<br>
+<a href="http://wordpress.org/" target="_blank">Wordpress</a> lleva mucho tiempo en escena y hoy en día existen pluguins para casi todo: SEO, anti spam, Back-ups, Google analitics, tienda online etc&#8230;<br>
 Si necesitas un theme de wp responsive personalizado, teniendo en cuenta tu imagen de marca, cuenta conmigo para ello.</p>
 
 <hr class="ma-bottom-40">
@@ -496,12 +558,82 @@ Definir las características y objetivos principales de tu web e identificar el 
 </section>
 
   <!-- Scripting here ////////////////////////////////////////////////////////////////////////////////
-        En realidad, no se donde deberían de ir los scripts pero ahora están en el head /////////////////////////////////////////////////////////////////////////////// -->
+      ///////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- Por alguna razón están el el head i ahora has comprovado que eso no puede ser así :) -->
+
+  <script src="/js/vendor/jquery.js"></script>
+  <script src="/js/vendor/fastclick.js"></script>
+
+  <script src="/js/foundation.min.js"></script>
+  <script src="/js/scripts.js"></script>
+
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
 
 
   <script>
-  // Picture element HTML5 shiv (Para que era esto?)
-  document.createElement( "picture" );
+
+  $(document).ready(function(){
+    $(document).foundation();
+  });
+
+  </script>
+
+<script>
+// Picture element HTML5 shiv
+document.createElement( "picture" );
+</script>
+
+
+
+    </div>
+  </div>
+  <footer role="contentinfo">
+
+<div class="horizontal-rule"></div>
+<p class="text-center">
+  <span class="copyright">
+  	Copyright &copy; 2014 by Marcel Reig
+  </span>
+
+  <span class="credit">
+  	Creado con <a href="http://octopress.org">Octopress</a>, <a href="http://foundation.zurb.com/">Foundation</a>, & &#x2661
+  </span>
+</p>
+
+   
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
   </script>
 
 
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+
+</body>
+</html>

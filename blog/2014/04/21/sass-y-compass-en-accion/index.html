@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <script src="/js/vendor/modernizr.js"></script>
+  <meta charset="utf-8">
+  <title>Primeros Pasos Con Sass Y Compass | Netinetidesign</title>
+  <meta name="author" content="Marcel Reig">
+
+  
+  <meta name="description" content="Que es Sass? Sass es CSS con superpoderes!
+Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Netinetidesign" type="application/atom+xml">
+
+  <!-- He sacado todos los scripts de aquí! menos modernizr claro -->
+
+  
+
+  </head>
+<body   class="no-sidebar" >
+  <header role="banner" class="top-header"></header>
+  <nav role="navigation"><ul class="subscription hide" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+
+
+<div class="sticky contain-to-grid" data-options="">
+
+  <nav class="top-bar" data-topbar>
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img class="logo-img" src="/images/LogoNetineti.png" alt="Logo"> Netineti<span>design</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+        <li "><a href="/index.html">Servicios</a>
+
+        <li ><a href="/sobre-mi">Sobre mi</a></li>
+
+        <li "><a href="/blog">Blog</a></li>
+
+        <li "><a href="/blog/archives">Archives</a></li>
+       
+      </ul>
+
+  
+    </section>
+  </nav>
+
+</div>
+</nav>
+  <div id="main">
+    <div class="bg-gray-light">
+    <div id="content" class="row">
+    <div class="small-12 columns">
+      <div class="small-12 medium-12 large-10 large-centered columns">
+
+<div class="spacer"></div>
+
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="page-title">Primeros Pasos Con Sass Y Compass</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-04-21T23:59:20+02:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time> 
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://MarcelReig.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>Que es Sass?</h2>
+
+<p>Sass es CSS con superpoderes!
+Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
+
+<!--more-->
+
+
+<p>Sass es una gema de Ruby y viene incluido con Ruby on Rails desde la versión 3.1 como lenguaje por defecto para escribir estilos.</p>
+
+<p><img src="/images/sass-logo.png" width="150"></p>
+
+<ul>
+<li>Variables</li>
+<li>Anidamiento</li>
+<li>Herencía entre selectoress</li>
+<li>Funciones y estructuras de control</li>
+<li>Operaciones lógicas</li>
+<li>Mixins</li>
+</ul>
+
+
+<h2>Que es Compass?</h2>
+
+<p><img src="/images/sass_compass.png" width="150"></p>
+
+<p>Compass es un framework para Sass.<br />
+Que nos ofrece Compass?</p>
+
+<ul>
+<li>librería de mixins</li>
+<li>Funciones para Sass</li>
+<li>Extensiones</li>
+</ul>
+
+
+<h2>Por que necesito todo esto?</h2>
+
+<ul>
+<li>Cada vez hacemos sitios web más grandes y complejos y eso es genial pero necesitamos nuevas herramientas para hacerlos manejables y mantenibles.</li>
+<li>Sass es un metalenguage que se usa para definir el estilo del documento de forma limpia y estructurada.</li>
+<li>Sass es una extension de CSS3 por lo que cualquier documento CSS3 es un documento SCSS valido.</li>
+<li>Sass sigue el principio de DRY (Don&#8217;t Repat Yourself).</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar:</h2>
+
+<p><img class="left" src="/images/ruby.png" width="100"></p>
+
+<ul>
+<li>Sass está hecho en Ruby, por lo que necesitarás tenerlo instalado en tu máquina.</li>
+<li>En Windows puedes utilizar: <a href="http://rubyinstaller.org/">rubyinstaller</a>.</li>
+<li>En Linux puedes utilizar el sistema de gestión de paquetes apt o puede que esto te resulte útil: <a href="https://github.com/joshfng/railsready">rails ready</a></li>
+<li>En OS X estás de suerte, Ruby ya viene por defecto!</li>
+</ul>
+
+
+<h2>Instalación de Sass y Compass</h2>
+
+<h2>Terminal Lovers</h2>
+
+<p><img class="left" src="/images/terminal.png" width="100"></p>
+
+<p>Sass y Compass se instalan como gemas de Ruby. <br />
+Puedes instalar solo Sass de este modo: <code>$ gem install sass</code>.<br />
+Si te da un error es posible que necesites los permisos de administrador, utiliza: <code>$ sudo gem install sass</code>. <br />
+Para comprobar que se ha instalado correctamente escribe: <code>$ sass -v</code>.<br />
+Para decirle a Sass que &ldquo;vigile&rdquo; si hay cambios y compile nuestros archivos .scss en nuestro archivo .css escribimos: <code>$ sass --watch tu_carpeta_sass:tu_carpeta_css</code></p>
+
+<p>Compass ya lleva Sass incorporado, por lo que no tienes que instalarlo aparte.<br />
+Utilzar Compass es una manera fácil de empezar con Sass, cuando creas un proyecto nuevo, Compass te crea las carpetas necesarias para tus archivos .scss/.css así como un archivo config.rb donde puedes indicar distintos paramentros de configuración.<br /></p>
+
+<p>Instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ gem install compass</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Comprobar que se ha instalado correctamente:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass version </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Crear un proyecto con Compass:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass create nombre-del-proyecto </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Compilar Sass y decirle a Compass que vijile si hay cambios (ejecutar desde el directorio raiz de tu proyecto)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass watch </span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Terminal Haters</h2>
+
+<p>Aplicaciones GUI (graphical user interface), que puedes utilizar:</p>
+
+<h3>De pago:</h3>
+
+<ul>
+<li><a href="http://incident57.com/codekit/">Codekit</a> OSX $29</li>
+<li><a href="http://mixture.io/">Mixture</a> OSX $39</li>
+<li><a href="http://hammerformac.com/">Hamer</a> OSX $23.99</li>
+<li><a href="http://livereload.com/">LiveReload</a> OSX $9.99</li>
+<li><a href="http://compass.kkbox.com/">compass.app</a> Win, OSX &amp; Linux $10</li>
+</ul>
+
+
+<h3>Gratuítas:</h3>
+
+<ul>
+<li><a href="http://alphapixels.com/prepros/">Prepos</a> Win &amp; OSX</li>
+<li><a href="http://mhs.github.io/scout-app/">scout-app</a> Win &amp; OSX</li>
+<li><a href="http://koala-app.com/#download">Koala-app</a> Win, OSX, Linux &amp; Ubuntu</li>
+</ul>
+
+
+<h2>Mi consejo?</h2>
+
+<h3>Utiliza la terminal!</h3>
+
+<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
+Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir <code>compass watch</code> para que Compass compile tus archivos scss en css. <br />
+Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
+
+<h3>Si tu editor no colorea el codigo .scss por defecto, puedes probar con uno de estos pluguins:</h3>
+
+<ul>
+<li><a href="https://github.com/P233/Syntax-highlighting-for-Sass">Atom, Sublime Text, TextMate</a></li>
+<li><a href="https://atom.io/packages/Atom-Syntax-highlighting-for-Sass">Atom</a></li>
+<li><a href="https://github.com/n00ge/sublime-text-haml-sass">Sublimetext2</a></li>
+<li><a href="https://github.com/secca/Coda-Sass-Plug-in">Coda</a></li>
+<li><a href="https://github.com/marvinlabs/notepad-plus-plus-scss-syntax-highlighting/">Notepad ++</a></li>
+</ul>
+
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://sass-lang.com/">Sass-lang</a> <em>Sitio oficial de Sass</em></li>
+<li><a href="http://compass-style.org/">Compass</a> <em>Sitio oficial de Compass</em></li>
+<li><a href="http://thesassway.com/">The Sass Way</a> <em>Sitio web sobre Sass y Compass que no te puedes perder</em></li>
+<li><a href="http://sassmeister.com/gist/11032479">Sass meister</a> <em>Herramienta online para testear Sass</em></li>
+<li><a href="http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/">Wiseheart Design</a> <em>Guía de la terminal para diseñadores</em></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      <!--
+  
+
+<span class="byline author vcard">Posted by Marcel Reig.</span> 
+-->
+      <!--
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-04-21T23:59:20+02:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time> -->
+      
+
+<span class="categories">
+
+  <i class="fa fa-tag"></i> <strong>Posted in </strong>  
+  
+    <a class='category' href='/blog/categories/css/'>CSS</a>, <a class='category' href='/blog/categories/compass/'>Compass</a>, <a class='category' href='/blog/categories/sass/'>Sass</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/" data-via="Netinetidesign" data-counturl="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/06/sublime-text-3/" title="Previous Post: Sublime Text 2">&laquo; Sublime Text 2</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/09/17/elije-tu-aventura-digital/" title="Next Post: Elije tu aventura digital">Elije tu aventura digital &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer role="contentinfo">
+
+<div class="horizontal-rule"></div>
+<p class="text-center">
+  <span class="copyright">
+  	Copyright &copy; 2014 by Marcel Reig
+  </span>
+
+  <span class="credit">
+  	Creado con <a href="http://octopress.org">Octopress</a>, <a href="http://foundation.zurb.com/">Foundation</a>, & &#x2661
+  </span>
+</p>
+
+   
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'marcelreig';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/';
+        var disqus_url = 'http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+
+</body>
+</html>

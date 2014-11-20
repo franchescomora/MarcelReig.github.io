@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Netinetidesign]]></title>
+  <link href="http://MarcelReig.github.io/atom.xml" rel="self"/>
+  <link href="http://MarcelReig.github.io/"/>
+  <updated>2014-11-12T12:48:16+01:00</updated>
+  <id>http://MarcelReig.github.io/</id>
+  <author>
+    <name><![CDATA[Marcel Reig]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Que Es El Diseño Web?]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/09/19/que-es-el-diseno-web/"/>
+    <updated>2014-09-19T00:03:43+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/09/19/que-es-el-diseno-web</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p><img src="http://MarcelReig.github.io/images/aurea.jpg" width="800"></p>
+
+<p>La palabra &ldquo;diseño&rdquo; tiene connotaciones distintas en diferentes campos.</p>
+
+<p>Para crear y mantener sitios web son necesarias habilidades y disciplinas muy distintas.</p>
+
+<p>Areas que convergen en el diseño web:</p>
+
+<ul>
+<li>Diseño gráfico</li>
+<li>Diseño de interfaces de usuario</li>
+<li>Diseño de experiencia de usuario</li>
+<li>Arquitectura de la información</li>
+<li>Optimización en buscadores</li>
+<li>Marketing Online</li>
+<li>Creación de contenido o Copywriting</li>
+<li>Analítica web</li>
+<li>Gestión de proyectos</li>
+<li>Desarrollo de aplicaciones</li>
+</ul>
+
+
+<p>Si no quieres quedarte hablando solo en las fiestas, será mejor que tengas una respuesta rápida preparada a la pregunta, a que te dedicas?  Algo como hago webs y cambiar de tema rápidamente suele funcionar.</p>
+
+<hr>
+
+
+<p>En agencias grandes cada profesional se dedica a su especialidad, pero muy a menudo cuando eres freelance o en trabajos pequeños se hace un poco de todo.</p>
+
+<p>De todos modos siempre es positivo y muchas veces necesario, tener conocimientos de lo que hacen tus compañeros para poder comunicarte eficazmente.</p>
+
+<p>Si eres diseñador a secas, podrás hacer grandes trabajos como logotipos, ilustraciones e infografías, pero si eres diseñador web, deberías por lo menos saber HTML, CSS y algo de JS.</p>
+
+<p>Un desarrollador front-end es bueno que tenga nociones de diseño, así como de lenguajes de servidor, ya que va a tener que trabajar y comunicarse con ambos perfiles, diseñadores y programadores.</p>
+
+<hr>
+
+
+<h3>Entonces que es el diseño web?</h3>
+
+<p>El diseño web es la parte visual, lo que se ve en pantalla, por lo que si eres el responsable del aspecto visual y del look &amp; feel de un sitio web entonces, eres el diseñador web.</p>
+
+<p>Como hemos visto, algunas agencias separan los roles y tienen un diseñador que realiza el diseño en PSD.
+Si es una agencia muy cool el diseñador hará una guía de estilo, algo mucho más útil y acorde con el desarrollo web actual.</p>
+
+<p>El desarrollador front-end implementará el diseño siguiendo las directrices de la guía de estilo con HTML5, CSS y JS.</p>
+
+<p>En muchos casos ya sea por minimizar costes o porque tienen un ninja polivalente en la empresa, la misma persona se encarga de ambas cosas, el diseño y su implementación, cubriendo así toda la parte frontal de la web.</p>
+
+<p>Los desarrolladores back-end se encargan de toda la parte de la lógica de la web o aplicación, registro y gestión de usuarios, almacenamiento y gestión de datos etc&hellip;
+No incluiría esto en la definición de &ldquo;diseño web&rdquo;, esto encaja más dentro de lo que se conoce como programación o desarrollo web.</p>
+
+<hr>
+
+
+<h3>Que implica el diseño web?</h3>
+
+<p>El diseño web implica aspectos como la composición y disposición de los elementos en pantalla, la elección de una paleta de color y tipografías acertada, el equilibrio entre información y espacio en blanco.</p>
+
+<p>Las decisiones de diseño acertadas harán que el usuario no se desoriente y decida no volver más a tu sitio, si encuentra fácilmente lo que está buscando,  sentirá que está en un sitio de calidad y se lo guardará en sus favoritos.</p>
+
+<blockquote><p>&ldquo;El mejor diseño es el que no se ve&rdquo;.</p></blockquote>
+
+<hr>
+
+
+<p><img class="left" src="http://MarcelReig.github.io/images/diseno_tradicional.jpg" width="200"></p>
+
+<p>Estamos hablando de diseño, eso quiere decir que trabajamos en mesas blancas inclinadas, con portaminas, rotuladores y lápicess de colores? Nostalgia&hellip;
+Bueno si tienes todo eso en tu estudio, te felicito y puede que el resultado final sea excelente, una vez digitalices todo eso.</p>
+
+<div class="clearfix"></div>
+
+
+<p><img class="left" src="http://MarcelReig.github.io/images/aplicaciones_diseno.png" width="200"></p>
+
+<p>Entonces para diseñar para la web utilizamos software de diseño como Photoshop, Illustrator, Sketch?</p>
+
+<div class="clearfix"></div>
+
+
+
+
+<hr>
+
+
+<p>Lo cierto es que la web no solo es para mirarla, en la web se navega por sus secciones, se interactua, se hace click aquí y allá, se introducen datos y se espera una respuesta adecuada.</p>
+
+<p>La web tampoco tiene un tamaño fijo, el usuario espera ver tu web perfectamente tanto si accede desde un móvil como si lo hace desde un iMac de 27 pulgadas.</p>
+
+<p>La usabilidad y la experiencia de usuario son las ciencias que estudian el grado de dificultad que proporciona el diseño de una web a la hora de navegar por sus seciones.</p>
+
+<p>Un estudio de usabilidad determina si es fácil encontrar la información relevante o si el usuario va a sentirse perdido y desconcertado en tu sitio.</p>
+
+<hr>
+
+
+<p>Hemos visto que para crear sitios web estupendos hay que tener ciertos conocimiento de diseño, pero también hemos visto que la web no es un Flyer, ni la tapa de un CD y no podemos utilizar las mismas herramientas que se utilizan para imprenta.</p>
+
+<p>Tradicionalmente el proceso de diseño se basaba en crear primero el diseño de la web en Psd con Photoshop para después pasarlo a código HTML y CSS recortando secciones e incluyéndolas como imágenes en los menús y en todas partes, pero esa manera de proceder ya no funciona hoy en día, muchas cosas han cambiado.</p>
+
+<p>Desde que salió CSS3 tenemos mucho más juego para añadir efectos visuales solo con código.</p>
+
+<p>Desde que la web no tiene un tamaño fijo ya no podemos enseñarle al cliente un PSD y decirle, tu web va a ser así, por que no es cierto, tendríamos que mostrarle todas las posibles variables de diseño.</p>
+
+<p>Y podríamos hacer un intento, pero realmente vale la pena el esfuerzo?</p>
+
+<p>No sería más lógico invertir ese tiempo en diseñar la web directamente en su elemento es decir el navegador y enseñarle al cliente capturas de pantalla reales, o pasarle un link, si tenemos la web en un servidor de pruebas, para que pueda ver como avanza?</p>
+
+<p>Esa es la razón por la que he eliminado Photoshop de mi proceso de diseño.</p>
+
+<p>Mi proceso de diseño actual se basa en: un boceto en una hoja de cuadros normalmente con el cliente, después un wireframing con Sketch y pasar directamente a diseñar en el navegador.</p>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/sketch.jpg" width="200">
+<img class="left" src="http://MarcelReig.github.io/images/wireframe.jpg" width="200">
+<img class="left" src="http://MarcelReig.github.io/images/code.png" width="200"></p>
+
+<div class="clearfix"></div>
+
+
+<br>
+
+
+<p><em>Artículos relacionados:</em></p>
+
+<ul>
+<li><p><a href="http://design.tutsplus.com/articles/photoshop-role-in-web-design--psd-25137">photoshop role in web design</a></p></li>
+<li><p><a href="http://dotjay.co.uk/2004/11/web-design-roles">web design roles</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elije Tu Aventura Digital]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/09/17/elije-tu-aventura-digital/"/>
+    <updated>2014-09-17T20:39:41+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/09/17/elije-tu-aventura-digital</id>
+    <content type="html"><![CDATA[<p>Que tipo de aventurero digital eres?</p>
+
+<!--more-->
+
+
+<p><img src="http://MarcelReig.github.io/images/problematic.jpg" width="800"></p>
+
+<hr>
+
+
+<ol>
+<li><h4>¿Que hay que saber para hacer una página web?</h4>
+
+<ul>
+<li><em>Respuesta rápida:</em> Nada.</li>
+<li><em>Respuesta real:</em> Depende.</li>
+</ul>
+</li>
+<li><h4>¿Cuanto dinero cuesta una página web?</h4>
+
+<ul>
+<li><em>Respuesta rápida:</em> Nada.</li>
+<li><em>Respuesta real:</em> Depende.</li>
+</ul>
+</li>
+</ol>
+
+
+<hr>
+
+
+<p>En un intento por dar una respuesta acertada a estas preguntas, pondremos en escena a varios supuestos aventureros digitales, con distintos perfiles y con distintas necesidades.</p>
+
+<p>Con cual de ellos te sientes más identificado?</p>
+
+<h4>Tipical Nerd</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/nerd-cat.jpg" width="110"></p>
+
+<p>Eres curioso por naturaleza y quieres saber como se construye la web, no quieres que te lo cuenten, quieres ensuciarte las manos, romper cosas y arreglarlas, puede que uses Ubuntu u otra distro de Linux&hellip;</p>
+
+<p>Quien sabe lo lejos que puedes llegar, pero a quien le importa, vamos a escribir código!</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://www.bento.io/">bento</a></li>
+<li><a href="http://www.skilledup.com/learn-web-design-guide/">Skilledup learn web design guide</a></li>
+<li><a href="http://stackoverflow.com/">Stack Overflow</a> Para nunca sentirte solo.</li>
+<li><a href="http://codepen.io/">Codepen</a> Para ver que hacen otros Nerds y subir tus experimentos cuando estés listo!</li>
+<li><a href="http://shoptalkshow.com/">Shop Talk show</a> Momento de relax, Spotify? Que tal escuchar una charla sobre las últimas tendencias en desarrollo web?</li>
+</ul>
+
+
+<p> <hr></p>
+
+<h4>El Primo que hace todas las webs</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_rocker.gif" width="110">
+Eres un usuario tecnológico avanzado pero no eres un Nerd, tienes vida social y todo eso, además tienes un grupo de rock y quieres hacer tu mismo la web, buscas una solución rápida y cool.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="http://www.squarespace.com/">Squarespace</a></li>
+<li><a href="http://es.wix.com/">Wix</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Tienes alma de periodista</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/journalist_cat.jpg" width="110">
+Te apasiona escribir y contarle a todo el mundo lo que piensas, buscas una solución minimalista que se centre en la experiencia de escritura sin distracciones ni complicaciones.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://medium.com/">Medium</a></li>
+<li><a href="https://ghost.org/">Ghost</a></li>
+<li><a href="https://svbtle.com/">Svbtle</a></li>
+<li><a href="https://www.silvrback.com/">Silvrback</a></li>
+<li><a href="https://roon.io/">Roon</a></li>
+<li><a href="http://www.postagon.com/">Postagon</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Eres Diseñador gráfico o fotógrafo</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/photographer_cat.jpg" width="110">
+ Necesitas tener una muestra de tus trabajos online.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://www.behance.net/">Behance</a></li>
+<li><a href="https://dribbble.com/">Dribble</a></li>
+<li><a href="http://cargocollective.com/">Cargo</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Quieres crear tu currículum online</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_resume.jpg" width="110"></p>
+
+<p> Te gustaría tener un sitio web donde consten tus estudios, tu trayectoría profesional y además poder hacer nuevos contactos profesionales?</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://es.linkedin.com/">Linkedin</a></li>
+<li><a href="http://cvmkr.com/">cvmkr</a></li>
+<li><a href="http://www.doyoubuzz.com/us/">doyoubuzz</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Hey mi name is Jhon Doe!</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/cat_selfie.jpg" width="110">
+Quieres una web para presentarte en sociedad rápidamente.</p>
+
+<div class="clearfix"></div>
+
+
+<p>Prueba con:</p>
+
+<ul>
+<li><a href="https://about.me/">about.me</a></li>
+<li><a href="http://es.flavors.me/">flavors.me</a></li>
+</ul>
+
+
+<hr>
+
+
+<h4>Tienes una empresa</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/businesscat.jpg" width="110">
+Necesitas promocionar tu negocio, dar a conocer tus productos o servicios y atraer clientes.</p>
+
+<p>La página  web suele ser el centro de operaciones, pero es muy posible que también necesites una estrategia de marketing y un especialista en SEO.</p>
+
+<p>No pierdas tiempo y dinero y busca un buen profesional que te asesore.</p>
+
+<hr>
+
+
+<h4>Quieres vender accesorios de lujo para mascotas</h4>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/rose.jpg" width="110">
+Hacer una tienda online es muy fácil, que funcione y venda es otra cosa, de nuevo mi consejo, no pierdas tiempo y dinero y busca un buen profesional que te asesore.</p>
+
+<hr>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Primeros Pasos Con Sass Y Compass]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion/"/>
+    <updated>2014-04-21T23:59:20+02:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/04/21/sass-y-compass-en-accion</id>
+    <content type="html"><![CDATA[<h2>Que es Sass?</h2>
+
+<p>Sass es CSS con superpoderes!
+Sass cubre los huecos de CSS añadiendole todo lo que le falta, haciendolo un lenguaje más inteligente, escalable y reutilizable.</p>
+
+<!--more-->
+
+
+<p>Sass es una gema de Ruby y viene incluido con Ruby on Rails desde la versión 3.1 como lenguaje por defecto para escribir estilos.</p>
+
+<p><img src="http://MarcelReig.github.io/images/sass-logo.png" width="150"></p>
+
+<ul>
+<li>Variables</li>
+<li>Anidamiento</li>
+<li>Herencía entre selectoress</li>
+<li>Funciones y estructuras de control</li>
+<li>Operaciones lógicas</li>
+<li>Mixins</li>
+</ul>
+
+
+<h2>Que es Compass?</h2>
+
+<p><img src="http://MarcelReig.github.io/images/sass_compass.png" width="150"></p>
+
+<p>Compass es un framework para Sass.<br />
+Que nos ofrece Compass?</p>
+
+<ul>
+<li>librería de mixins</li>
+<li>Funciones para Sass</li>
+<li>Extensiones</li>
+</ul>
+
+
+<h2>Por que necesito todo esto?</h2>
+
+<ul>
+<li>Cada vez hacemos sitios web más grandes y complejos y eso es genial pero necesitamos nuevas herramientas para hacerlos manejables y mantenibles.</li>
+<li>Sass es un metalenguage que se usa para definir el estilo del documento de forma limpia y estructurada.</li>
+<li>Sass es una extension de CSS3 por lo que cualquier documento CSS3 es un documento SCSS valido.</li>
+<li>Sass sigue el principio de DRY (Don&#8217;t Repat Yourself).</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar:</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/ruby.png" width="100"></p>
+
+<ul>
+<li>Sass está hecho en Ruby, por lo que necesitarás tenerlo instalado en tu máquina.</li>
+<li>En Windows puedes utilizar: <a href="http://rubyinstaller.org/">rubyinstaller</a>.</li>
+<li>En Linux puedes utilizar el sistema de gestión de paquetes apt o puede que esto te resulte útil: <a href="https://github.com/joshfng/railsready">rails ready</a></li>
+<li>En OS X estás de suerte, Ruby ya viene por defecto!</li>
+</ul>
+
+
+<h2>Instalación de Sass y Compass</h2>
+
+<h2>Terminal Lovers</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/terminal.png" width="100"></p>
+
+<p>Sass y Compass se instalan como gemas de Ruby. <br />
+Puedes instalar solo Sass de este modo: <code>$ gem install sass</code>.<br />
+Si te da un error es posible que necesites los permisos de administrador, utiliza: <code>$ sudo gem install sass</code>. <br />
+Para comprobar que se ha instalado correctamente escribe: <code>$ sass -v</code>.<br />
+Para decirle a Sass que &ldquo;vigile&rdquo; si hay cambios y compile nuestros archivos .scss en nuestro archivo .css escribimos: <code>$ sass --watch tu_carpeta_sass:tu_carpeta_css</code></p>
+
+<p>Compass ya lleva Sass incorporado, por lo que no tienes que instalarlo aparte.<br />
+Utilzar Compass es una manera fácil de empezar con Sass, cuando creas un proyecto nuevo, Compass te crea las carpetas necesarias para tus archivos .scss/.css así como un archivo config.rb donde puedes indicar distintos paramentros de configuración.<br /></p>
+
+<p>Instalar Sass y Compass abre la terminal en Linux / OS X o Command Prompt en Windows y escribe:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ gem install compass</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Comprobar que se ha instalado correctamente:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass version </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Crear un proyecto con Compass:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass create nombre-del-proyecto </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Compilar Sass y decirle a Compass que vijile si hay cambios (ejecutar desde el directorio raiz de tu proyecto)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ compass watch </span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Terminal Haters</h2>
+
+<p>Aplicaciones GUI (graphical user interface), que puedes utilizar:</p>
+
+<h3>De pago:</h3>
+
+<ul>
+<li><a href="http://incident57.com/codekit/">Codekit</a> OSX $29</li>
+<li><a href="http://mixture.io/">Mixture</a> OSX $39</li>
+<li><a href="http://hammerformac.com/">Hamer</a> OSX $23.99</li>
+<li><a href="http://livereload.com/">LiveReload</a> OSX $9.99</li>
+<li><a href="http://compass.kkbox.com/">compass.app</a> Win, OSX &amp; Linux $10</li>
+</ul>
+
+
+<h3>Gratuítas:</h3>
+
+<ul>
+<li><a href="http://alphapixels.com/prepros/">Prepos</a> Win &amp; OSX</li>
+<li><a href="http://mhs.github.io/scout-app/">scout-app</a> Win &amp; OSX</li>
+<li><a href="http://koala-app.com/#download">Koala-app</a> Win, OSX, Linux &amp; Ubuntu</li>
+</ul>
+
+
+<h2>Mi consejo?</h2>
+
+<h3>Utiliza la terminal!</h3>
+
+<p>Aplicaciones como Mixture o Codekit pueden resultarte útiles, pero si lo único que quieres es compilar Sass, no me parece necesario. <br />
+Todo lo que tienes que hacer es Abrir la terminal, navegar hasta tu proyecto y escribir <code>compass watch</code> para que Compass compile tus archivos scss en css. <br />
+Además en el desarrollo web moderno la terminal es una herramienta que se utiliza constantemente por lo que aprender su funcionamiento básico te resultará útil.</p>
+
+<h3>Si tu editor no colorea el codigo .scss por defecto, puedes probar con uno de estos pluguins:</h3>
+
+<ul>
+<li><a href="https://github.com/P233/Syntax-highlighting-for-Sass">Atom, Sublime Text, TextMate</a></li>
+<li><a href="https://atom.io/packages/Atom-Syntax-highlighting-for-Sass">Atom</a></li>
+<li><a href="https://github.com/n00ge/sublime-text-haml-sass">Sublimetext2</a></li>
+<li><a href="https://github.com/secca/Coda-Sass-Plug-in">Coda</a></li>
+<li><a href="https://github.com/marvinlabs/notepad-plus-plus-scss-syntax-highlighting/">Notepad ++</a></li>
+</ul>
+
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://sass-lang.com/">Sass-lang</a> <em>Sitio oficial de Sass</em></li>
+<li><a href="http://compass-style.org/">Compass</a> <em>Sitio oficial de Compass</em></li>
+<li><a href="http://thesassway.com/">The Sass Way</a> <em>Sitio web sobre Sass y Compass que no te puedes perder</em></li>
+<li><a href="http://sassmeister.com/gist/11032479">Sass meister</a> <em>Herramienta online para testear Sass</em></li>
+<li><a href="http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/">Wiseheart Design</a> <em>Guía de la terminal para diseñadores</em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3/"/>
+    <updated>2014-02-06T22:42:00+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/02/06/sublime-text-3</id>
+    <content type="html"><![CDATA[<p>Dicen que la herramienta no hace al programador, seguro que aspectos como la determinación y disciplina van a influir más en tu código que el editor que uses, pero a mi por lo menos, me gusta probar nuevos sabores y terminar por utilizar el que más se adapta a mi estilo de trabajo.</p>
+
+<!-- more -->
+
+
+<p>Llevo escribiendo código desde el 2007, desde entonces he probado varios editores: Dreamweaver, Aptana, Komodo, Coda y actualmente Sublime Text 3 y los nuevos editores de Adobe: <a href="http://brackets.io/">Brackets</a> y <a href="http://html.adobe.com/edge/code/">Adobe Edge Code CC.</a></p>
+
+<p>Que puedo decir de Sublime Text 2? Para mi, simplemente el mejor editor que existe.</p>
+
+<h2>Sobre Sublime Text</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/sublimetext.png" width="150"></p>
+
+<p>Sublime Text 2 es un editor de texto pensado para escribir código en la mayoría de lenguajes de programación utilizados en la actualidad : Ruby, Java, Python, Perl, HTML, JavaScript, CSS, HTML, XML, PHP, C, C++, etc..
+Vale 59$, pero que permite un uso ilimitado en el tiempo de manera gratuita (si no se va a hacer un uso comercial del software).<br></p>
+
+<p>De vez en cuando abre una ventanita en el programa para animarnos a registrar y pagar el programa (indudablemente vale ese precio, pero podemos probarlo todo el tiempo que queramos hasta decidir comprarlo, o no).<br>
+Es capaz de colorear el código, ayudarnos a la escritura, corregir mientras escribimos, usar abreviaturas (snippets), ampliar sus posibilidades, personalizar hasta el último detalle,&hellip; casi cualquier cosa que le podamos pedir a un editor.<br></p>
+
+<p><a href="http://www.sublimetext.com/2">Sublime Text 2</a> está disponible para la mayoría de sistemas operativos: OS X, Linux y Windows.</p>
+
+<h2>Más razones para usar Sublime Text?</h2>
+
+<ul>
+<li>Es un programa muy rápido.</li>
+<li>Es muy ligero. Ocupa apenas siete megabytes, por lo que no consume apenas recursos en el ordenador.</li>
+<li>Permite codificar en casi cualquier lenguaje.</li>
+<li>Tiene gran cantidad de paquetes que mejoran enormemente sus prestaciones.</li>
+<li>Permite configurar casi cada aspecto del programa y adaptarlo a nuestras necesidades</li>
+<li>Es multiplataforma, funciona en Mac, Linux y Windows.</li>
+<li>Tiene todas las posibilidades de ayuda al codificar que se le pueden pedir a un editor.</li>
+<li>Posee una comunidad de usuarios cada vez mayor.</li>
+<li>Tiene posibilidades incluso de depurar y ejecutar el código sin salir del editor; así como opciones de gestión de proyectos completos de trabajo.</li>
+</ul>
+
+
+<h2>Instalar Sublime Text</h2>
+
+<p>Descargamos <a href="http://www.sublimetext.com/">Sublime Text</a> de su sitio oficial.<br>
+La versión estable es <a href="http://www.sublimetext.com/2">Sublime Text 2</a>, pero si eres como yo tal vez quieras elegir <a href="http://www.sublimetext.com/3">Sublime Text 3</a>, todavía en Beta pero con algunas mejoras respecto a Sublime Text 2.</p>
+
+<h2>Instalar Package control</h2>
+
+<p>Instalar <a href="http://wbond.net/sublime_packages/package_control">Package control</a> es lo primero que tienes que hacer una vez instalado el propio Sublime.<br>
+<em>Package control</em> es un plugin que nos permitirá instalar todas las cosas interesantes que tiene Sublime.<br>
+Instala Package control desde: <a href="http://wbond.net/sublime_packages/package_control">wbond.net</a></p>
+
+<p>Ok, si has conseguido instalarlo correctamente, recuerda que para utilizarlo solo tienes que abrir la paleta de comandos de Sublime con está combinación: <code>cmd+shift+p</code> y buscar Package control.</p>
+
+<h2>Para ir a cualquier sitio</h2>
+
+<p>Esta combinación de teclas <code>cmd+p</code> abre la ventana de busqueda rápida, escribe el nombre del archivo al que quieres ir, presiona intro y te transportará a este rápidamente.</p>
+
+<h2>Personaliza el icono de Sublime Text</h2>
+
+<p>Si quieres cambiar el icono por defecto, en Mac puedes hacerlo fácilmente de esta forma: Navega hasta la carpeta aplicaciones haz click derecho sobre el icono de Sublime &ldquo;Mostrar contenido del paquete.&rdquo; por último ves a Content/Resources/ y arrastra tu nuevo icono aquí para sobreescribir el actual.</p>
+
+<p>Algunos iconos <em>Super Cool</em> para Sublime:</p>
+
+<ul>
+<li><a href="http://dribbble.com/shots/1132096-Sublime-Text?list=searches">Por David Öhlin</a></li>
+<li><a href="http://dribbble.com/shots/357612-Sublime-Text-2-Replacement-Icon?list=searches">Por Jon-Paul Lunney</a></li>
+<li><a href="http://dribbble.com/shots/872166-Sublime-Text-2-Replacement-Icon?list=searches">Por Elliot Jackson</a></li>
+<li><a href="http://dribbble.com/shots/1086883-Sublime-Text-Replacement-Icon?list=searches">Por Tony Gines</a></li>
+<li><a href="http://dribbble.com/shots/861105-Sublime-Text-2-goes-Retro?list=searches">Por Maleika E. A.</a></li>
+<li><a href="http://dribbble.com/lindsaymindler/projects/39899-Sublime-Text-2-Icon">Por Lindsay Mindler</a></li>
+</ul>
+
+
+<h2>Custom themes</h2>
+
+<p><a href="http://kkga.github.io/spacegray/">Spacegray</a> es mi tema favorito para Sublime, es el que tengo instalado actualmente. <br></p>
+
+<p>Puedes instalarlo desde el mismo Package Control de Sublime de la siguiente forma:</p>
+
+<ol>
+<li>Abre la paleta de comandos desde el menu superior <code>Tools &ndash;> Command Palette&hellip;</code> (⇧+⌘+P en Mac)</li>
+<li>Elige Package Control: <code>Install Package</code></li>
+<li>Busca <code>theme &ndash; Spacegray</code> y presiona intro</li>
+</ol>
+
+
+<p><strong><em>Una vez instalado el tema puedes elegir entre estos sabores:</em></strong></p>
+
+<p><em>Spacegray</em></p>
+
+<p><img src="http://MarcelReig.github.io/images/spacegray.png" width="600"></p>
+
+<p><em>Sapacegray-light</em></p>
+
+<p><img src="http://MarcelReig.github.io/images/spacegray-light.png" width="600"></p>
+
+<p><em>Spacegray-eighties</em></p>
+
+<p><img src="http://MarcelReig.github.io/images/spacegray-eighties.png" width="600"></p>
+
+<h2>Pluguins interesantes:</h2>
+
+<ul>
+<li><a href="https://github.com/SublimeLinter/SublimeLinter-for-ST2">SublimeLinter</a></li>
+<li><a href="https://github.com/facelessuser/BracketHighlighter">BracketHighlighter</a></li>
+<li><a href="https://github.com/jisaacks/GitGutter">Git Gutter</a></li>
+<li><a href="https://github.com/nathos/sass-textmate-bundle">Sass</a></li>
+<li><a href="http://emmet.io/">Emmet</a></li>
+</ul>
+
+
+<h2>Emmet</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/emmet.png" width="150">
+Emmet (<em>anteriormente conocido como Zen Coding</em>), merece mención aparte porque es el pluguin que no puede faltar en tu colección.<br>
+Emmet es una colección de abrebiaciones que expanden html/xml/css, tomando la idea original de los snipets.<br>
+Descarga <a href="http://emmet.io/">Emmet</a> de su pagina oficial.<br>
+Me centraré en las posibilidades que ofrece Emmet en un próximo post.</p>
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://scotch.io/bar-talk/sublime-text-keyboard-shortcuts">SCOTH</a> <em>Atajos de teclado de Sublime</em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress en Mac OS X Maveriks]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/"/>
+    <updated>2014-01-27T18:18:05+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks</id>
+    <content type="html"><![CDATA[<p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
+
+<!-- more -->
+
+
+<h2>Instalando las Command Line Tools de Xcode</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/xcode.png" width="100"></p>
+
+<p>Descárgate <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
+Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+
+<br>
+
+
+<br>
+
+
+<h2>Instalando Homebrew</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/homebrew.png" width="100"></p>
+
+<p>Para instalar cosas en Mac te recomiendo utilizar <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
+Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.<br>
+Resulta muy útil para instalar todo lo que no viene de serie en tu mac.<br>
+Para instalar Homebrew primero necesitas tener las Xcode Command Line Tools, si no Homebrew te dará un herror.<br>
+Abre la terminal y pega este código para instalar Homebrew:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para comprovar que hemos hecho la instalación correctamente ejecuta este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew doctor</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
+
+<h2>Instalando Git</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/git.png" width="100"></p>
+
+<p>Si todavía no tienes Git instalado puedes hacerlo desde su <a href="http://git-scm.com/downloads">sitio oficial.</a><br>
+O mucho mejor utiliza Homebrew.</p>
+
+<p>Para instalar Git con Homebrew abre la terminal e introduce:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew install git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para mantener tu versión de Git actualizada con Homebrew utiliza este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update git</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Instalando Ruby</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/ruby.png" width="100"></p>
+
+<p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina.<br>
+En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
+
+<p>He probado las dos opciones y <em>rbenv</em> me gusta más, en cualquier caso lo dejo a vuestra elección.
+Si quieres utilizar <em>RVM</em> te puede interesar esta guía de <a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps</a>.</p>
+
+<p>Para instalar <em>rbenv</em> con <em>Homebrew</em> abre la terminal e introduce estos comandos:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update #Actualiza Homebrew
+</span><span class='line'>$ brew install rbenv #Instala rbenv
+</span><span class='line'>$ brew install ruby-build #Instala ruby-build</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para poder hacer uso de rbenv-install necesitas instalar <a href="https://github.com/sstephenson/ruby-build">ruby-build</a> como un pluguin para rbenv.</p>
+
+<br>
+
+
+<h2>Instalando Pow!!</h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/pow.png" width="100"></p>
+
+<p>Utilizar la opción <code>rake preview</code> que viene por defecto en Octopress, esta bién, pero si eres usuario de Mac y utilizas <a href="http://pow.cx/">POW</a> puedes previsualizar tu Octopress en local de esta forma:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/.pow
+</span><span class='line'>ln -s /path/to/octopress octopress
+</span><span class='line'>cd -</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ahora puedes abrir tu blog con POW, simplemente utiliza el comando <code>rake watch</code> y abre <code><a href="http://octopress.dev">http://octopress.dev</a></code> nada más.</p>
+
+<br>
+
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://robots.thoughtbot.com/psa-do-not-use-system-ruby">ROBOTS</a> <em>Por que no usar la versión de ruby del sistema.</em></li>
+<li><a href="http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems">ROBOTS</a> <em>Instalación detallada de rbenv.</em></li>
+<li><a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps Project</a> <em>Instalación detallada de RVM.</em></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Primeros Pasos Con Octopress]]></title>
+    <link href="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/"/>
+    <updated>2014-01-24T19:53:52+01:00</updated>
+    <id>http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress</id>
+    <content type="html"><![CDATA[<p>Este es mi primer post en Octopress, haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.</p>
+
+<!-- more -->
+
+
+<p>Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo para conocer las razones.</p>
+
+<h2>Que es Jekyll? <br></h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/jekyll.jpg" width="200">
+Jekyll es una sistema para crear sitios web estáticos creado en Ruby.</p>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que es Octopress? <br></h2>
+
+<p><img class="left" src="http://MarcelReig.github.io/images/octopress-logo.png" width="200">
+Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.</p>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que lleva Octopress recien sacado de la caja?</h2>
+
+<ul>
+<li>Una plantilla semántica HTML5.</li>
+<li>Un layout responsive preparado para móviles.</li>
+<li>Soporte para Twitter, Google Plus One, Disqus Coments, Pinboard, Delicious y Google Analytics.</li>
+<li>Una fácil estrategia para alojar tu web con Github Pages o Rsync.</li>
+<li>Soporte para POW.</li>
+<li>Compass y Sass.</li>
+<li>Resaltado de sintaxis Solarized.</li>
+<li>Un montón de pluguins interesantes listos para usar.</li>
+</ul>
+
+
+<h2>Ventajas frente a Wordpress como sistema de blogging: <br></h2>
+
+<ul>
+<li>No necesitas base de datos.</li>
+<li>No necesitas un servidor local tipo MAMP para hacer pruebas.</li>
+<li>Utiliza Markdown, lo que hace que escribir sea muy cómodo.</li>
+<li>Github te permite alojar tu blog Jekyll u Octopress grátis en sus servidores.</li>
+<li>Hace uso de Git, lo que viene muy bien para acostumbrarse a este sistema de control de versiones.</li>
+<li>Hace uso de la terminal, lo que te obliga a utilizar los comandos básicos de la Shell de Unix.(Ni idea de como funciona todo esto en Windows).</li>
+<li>Te permite escribir tus post en local, aunque no tengas conexión a internet y subirlos posteriormente cuando estén listos.</li>
+</ul>
+
+
+<p><strong>Octopress</strong> se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)<br>
+Estas son algunas de las tecnologías con las que vas a trastear si decides darle caña al blogging como un hacker:</p>
+
+<ul>
+<li><strong>Ruby</strong>. No necesitas saber Ruby pero si necesitas tenerlo instalado en tu máquina.</li>
+<li><strong>RVM</strong> o <strong>rbenv</strong>. Son herramientas muy útiles para manejar distintas versiones de Ruby.</li>
+<li><strong>Git</strong> Quien no ha oido hablar de Git a estas alturas?</li>
+<li><strong>Github pages</strong> o <strong>Heroku</strong>. Opciones de alojamiento gratuitas para todos!</li>
+<li><strong>ssh keys</strong>. Donde me deje las llaves?</li>
+<li><strong>Markdown</strong> Para escribir tus post cómodamente.</li>
+<li><strong>Terminal</strong> Si, ya empiezo a sentirme como un Hacker.</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar</h2>
+
+<ol>
+<li><a href="http://git-scm.com/downloads">Instala Git</a></li>
+<li>Instala Ruby 1.9.3 o mayor usando <a href="https://github.com/sstephenson/rbenv">rbenv</a> o <a href="http://rvm.io/">RVM.</a></li>
+</ol>
+
+
+<p>Comprueba tu versión de Ruby con <code>ruby &mdash;version</code> si no tienes por lo menos la 1.9.3 revisa tu instalación de rbenv o RVM.</p>
+
+<p>Descárgate Octopress.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instala las dependencias.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install bundler
+</span><span class='line'>rbenv rehash    # Si utilizas rbenv, utiliza está opción
+</span><span class='line'>bundle install</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instala el theme por defecto de Octopress.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Desplegando tu blog</h2>
+
+<p>Hay varias formas de desplegar tu blog fácilmente en Octopress:</p>
+
+<ol>
+<li>Github Pages</li>
+<li>Heroku</li>
+<li>Rsync</li>
+</ol>
+
+
+<p>Mi elección ha sido utilizar <strong>Github Pages</strong>, si prefieres otra, <a href="http://octopress.org/docs/deploying/">visita el sitio oficial.</a></p>
+
+<p>Con Github Pages de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).</p>
+
+<p>En mi caso he utilizado <em>páginas de usuario/organizaciones</em> y esta es la opción de la que voy a hablar.</p>
+
+<p>Crea un <a href="https://github.com/new">nuevo repositorio de Github</a> y nombra el repositorio con el formato: <code>username.github.io</code> donde <code>username</code> es tu nombre de usuario de GitHub o el nombre de organización, esto es importante si le pones cualquier otro nombre no funcionará.</p>
+
+<p>Github Pages para usuarios/organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code><a href="http://username.github.io">http://username.github.io</a></code><br>
+Vas a trabajar en la rama source para después commitear el contenido generado en la rama master.<br> Octopress tiene una configuración que te ayuda con todo esto, para decirle a Octopress que quieres utilizar GitHub pages, abre la terminal e introduce este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>La tarea rake te preguntará por la URL de tu repositorio de Github. Copia la url SSH o HTTPS de tu recién creado repositorio, que será algo así: <code>git@github.com:username/username.github.io.git</code> y pegaló como respuesta.</p>
+
+<p>Ahora introduce estos dos comandos:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Esto generará tu blog.
+No te olvides de commitear el código de tu blog.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'tu mensaje'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code><a href="http://tunombredeusuario.github.io">http://tunombredeusuario.github.io</a></code></p>
+
+<p>Para más información <a href="http://octopress.org/docs/deploying/github/">leer la documentación oficial.</a></p>
+
+<p>Eso es todo amigos, espero haber aclarado algo y que pronto estéis blogueando como hackers!<br></p>
+]]></content>
+  </entry>
+  
+</feed>

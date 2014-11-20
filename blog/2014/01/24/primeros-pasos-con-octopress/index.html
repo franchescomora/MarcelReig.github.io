@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <script src="/js/vendor/modernizr.js"></script>
+  <meta charset="utf-8">
+  <title>Primeros Pasos Con Octopress | Netinetidesign</title>
+  <meta name="author" content="Marcel Reig">
+
+  
+  <meta name="description" content="Este es mi primer post en Octopress, haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación. &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Netinetidesign" type="application/atom+xml">
+
+  <!-- He sacado todos los scripts de aquí! menos modernizr claro -->
+
+  
+
+  </head>
+<body   class="no-sidebar" >
+  <header role="banner" class="top-header"></header>
+  <nav role="navigation"><ul class="subscription hide" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+
+
+<div class="sticky contain-to-grid" data-options="">
+
+  <nav class="top-bar" data-topbar>
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img class="logo-img" src="/images/LogoNetineti.png" alt="Logo"> Netineti<span>design</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+        <li "><a href="/index.html">Servicios</a>
+
+        <li ><a href="/sobre-mi">Sobre mi</a></li>
+
+        <li "><a href="/blog">Blog</a></li>
+
+        <li "><a href="/blog/archives">Archives</a></li>
+       
+      </ul>
+
+  
+    </section>
+  </nav>
+
+</div>
+</nav>
+  <div id="main">
+    <div class="bg-gray-light">
+    <div id="content" class="row">
+    <div class="small-12 columns">
+      <div class="small-12 medium-12 large-10 large-centered columns">
+
+<div class="spacer"></div>
+
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="page-title">Primeros Pasos Con Octopress</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-01-24T19:53:52+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2014</time> 
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://MarcelReig.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Este es mi primer post en Octopress, haré una pequeña introducción de este sistema de Blogging e intentaré hacer una pequeña guía de instalación.</p>
+
+<!-- more -->
+
+
+<p>Hasta ahora he utilizado Wordpress para correr mi blog y todavía lo utilizo como cms, pero para escribir mis propios posts, Octopress me parece la opción ideal, sigue leyendo para conocer las razones.</p>
+
+<h2>Que es Jekyll? <br></h2>
+
+<p><img class="left" src="/images/jekyll.jpg" width="200">
+Jekyll es una sistema para crear sitios web estáticos creado en Ruby.</p>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que es Octopress? <br></h2>
+
+<p><img class="left" src="/images/octopress-logo.png" width="200">
+Octopress es un framework basado en Jekyll, aportando algunas mejoras y facilitando un poco las cosas, parece una buena opción para empezar.</p>
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<h2>Que lleva Octopress recien sacado de la caja?</h2>
+
+<ul>
+<li>Una plantilla semántica HTML5.</li>
+<li>Un layout responsive preparado para móviles.</li>
+<li>Soporte para Twitter, Google Plus One, Disqus Coments, Pinboard, Delicious y Google Analytics.</li>
+<li>Una fácil estrategia para alojar tu web con Github Pages o Rsync.</li>
+<li>Soporte para POW.</li>
+<li>Compass y Sass.</li>
+<li>Resaltado de sintaxis Solarized.</li>
+<li>Un montón de pluguins interesantes listos para usar.</li>
+</ul>
+
+
+<h2>Ventajas frente a Wordpress como sistema de blogging: <br></h2>
+
+<ul>
+<li>No necesitas base de datos.</li>
+<li>No necesitas un servidor local tipo MAMP para hacer pruebas.</li>
+<li>Utiliza Markdown, lo que hace que escribir sea muy cómodo.</li>
+<li>Github te permite alojar tu blog Jekyll u Octopress grátis en sus servidores.</li>
+<li>Hace uso de Git, lo que viene muy bien para acostumbrarse a este sistema de control de versiones.</li>
+<li>Hace uso de la terminal, lo que te obliga a utilizar los comandos básicos de la Shell de Unix.(Ni idea de como funciona todo esto en Windows).</li>
+<li>Te permite escribir tus post en local, aunque no tengas conexión a internet y subirlos posteriormente cuando estén listos.</li>
+</ul>
+
+
+<p><strong>Octopress</strong> se autodescribe como un framework para hackers, de acuerdo tal vez estén exajerando un poco, no es necesario ser un hacker para utilizarlo, pero no es un mal principio :)<br>
+Estas son algunas de las tecnologías con las que vas a trastear si decides darle caña al blogging como un hacker:</p>
+
+<ul>
+<li><strong>Ruby</strong>. No necesitas saber Ruby pero si necesitas tenerlo instalado en tu máquina.</li>
+<li><strong>RVM</strong> o <strong>rbenv</strong>. Son herramientas muy útiles para manejar distintas versiones de Ruby.</li>
+<li><strong>Git</strong> Quien no ha oido hablar de Git a estas alturas?</li>
+<li><strong>Github pages</strong> o <strong>Heroku</strong>. Opciones de alojamiento gratuitas para todos!</li>
+<li><strong>ssh keys</strong>. Donde me deje las llaves?</li>
+<li><strong>Markdown</strong> Para escribir tus post cómodamente.</li>
+<li><strong>Terminal</strong> Si, ya empiezo a sentirme como un Hacker.</li>
+</ul>
+
+
+<h2>Lo que necesitas antes de empezar</h2>
+
+<ol>
+<li><a href="http://git-scm.com/downloads">Instala Git</a></li>
+<li>Instala Ruby 1.9.3 o mayor usando <a href="https://github.com/sstephenson/rbenv">rbenv</a> o <a href="http://rvm.io/">RVM.</a></li>
+</ol>
+
+
+<p>Comprueba tu versión de Ruby con <code>ruby &mdash;version</code> si no tienes por lo menos la 1.9.3 revisa tu instalación de rbenv o RVM.</p>
+
+<p>Descárgate Octopress.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instala las dependencias.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install bundler
+</span><span class='line'>rbenv rehash    # Si utilizas rbenv, utiliza está opción
+</span><span class='line'>bundle install</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instala el theme por defecto de Octopress.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Desplegando tu blog</h2>
+
+<p>Hay varias formas de desplegar tu blog fácilmente en Octopress:</p>
+
+<ol>
+<li>Github Pages</li>
+<li>Heroku</li>
+<li>Rsync</li>
+</ol>
+
+
+<p>Mi elección ha sido utilizar <strong>Github Pages</strong>, si prefieres otra, <a href="http://octopress.org/docs/deploying/">visita el sitio oficial.</a></p>
+
+<p>Con Github Pages de nuevo tienes dos opciones, utilizar páginas Github de usuario/organizaciones o utilizar páginas Github de proyecto (hg-pages).</p>
+
+<p>En mi caso he utilizado <em>páginas de usuario/organizaciones</em> y esta es la opción de la que voy a hablar.</p>
+
+<p>Crea un <a href="https://github.com/new">nuevo repositorio de Github</a> y nombra el repositorio con el formato: <code>username.github.io</code> donde <code>username</code> es tu nombre de usuario de GitHub o el nombre de organización, esto es importante si le pones cualquier otro nombre no funcionará.</p>
+
+<p>Github Pages para usuarios/organizaciones utiliza la rama master como el directorio público en el servidor web, sirviendo tus páginas en la url: <code><a href="http://username.github.io">http://username.github.io</a></code><br>
+Vas a trabajar en la rama source para después commitear el contenido generado en la rama master.<br> Octopress tiene una configuración que te ayuda con todo esto, para decirle a Octopress que quieres utilizar GitHub pages, abre la terminal e introduce este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>La tarea rake te preguntará por la URL de tu repositorio de Github. Copia la url SSH o HTTPS de tu recién creado repositorio, que será algo así: <code>git@github.com:username/username.github.io.git</code> y pegaló como respuesta.</p>
+
+<p>Ahora introduce estos dos comandos:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Esto generará tu blog.
+No te olvides de commitear el código de tu blog.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m 'tu mensaje'
+</span><span class='line'>git push origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>No desesperes, el deploy se toma su tiempo dale unos 10 min. después de esto deberias de poder ver tu sitio en la url <code><a href="http://tunombredeusuario.github.io">http://tunombredeusuario.github.io</a></code></p>
+
+<p>Para más información <a href="http://octopress.org/docs/deploying/github/">leer la documentación oficial.</a></p>
+
+<p>Eso es todo amigos, espero haber aclarado algo y que pronto estéis blogueando como hackers!<br></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      <!--
+  
+
+<span class="byline author vcard">Posted by Marcel Reig.</span> 
+-->
+      <!--
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-01-24T19:53:52+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2014</time> -->
+      
+
+<span class="categories">
+
+  <i class="fa fa-tag"></i> <strong>Posted in </strong>  
+  
+    <a class='category' href='/blog/categories/octopress/'>Octopress</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/" data-via="Netinetidesign" data-counturl="http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/" title="Next Post: Octopress en Mac OS X Maveriks">Octopress en Mac OS X Maveriks &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer role="contentinfo">
+
+<div class="horizontal-rule"></div>
+<p class="text-center">
+  <span class="copyright">
+  	Copyright &copy; 2014 by Marcel Reig
+  </span>
+
+  <span class="credit">
+  	Creado con <a href="http://octopress.org">Octopress</a>, <a href="http://foundation.zurb.com/">Foundation</a>, & &#x2661
+  </span>
+</p>
+
+   
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'marcelreig';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/';
+        var disqus_url = 'http://MarcelReig.github.io/blog/2014/01/24/primeros-pasos-con-octopress/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+
+</body>
+</html>

@@ -5,9 +5,9 @@
 @import "syntax";
 @import "font-awesome/font-awesome";
 @import "icomoon.css";
-@import "animate.css";
 @import "foundation/components/visibility";
-@import "animate.css";
+@import "animate.min.css";
+@import "foundation/components/tabs";
 
 
 // Or selectively include components
@@ -333,7 +333,7 @@ footer{
 	/* increase letter spacing on menu links */
 
 	.top-bar-section ul li>a{
-		letter-spacing: $topbar-link-letterspacing;
+		// letter-spacing: $topbar-link-letterspacing;
 	}
 }
 
@@ -468,12 +468,14 @@ section.seccion {
 
 .intro { 
 	max-height: 80vh;
+	min-height: 80vh;
 	img {
   	max-width: 100%;
   	height: auto;
 	}
 	position: relative;
 	overflow: hidden;
+	background-color: gray-dark;
 }
 
 #muevelo {

@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <script src="/js/vendor/modernizr.js"></script>
+  <meta charset="utf-8">
+  <title>Octopress en Mac OS X Maveriks | Netinetidesign</title>
+  <meta name="author" content="Marcel Reig">
+
+  
+  <meta name="description" content="En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Netinetidesign" type="application/atom+xml">
+
+  <!-- He sacado todos los scripts de aquí! menos modernizr claro -->
+
+  
+
+  </head>
+<body   class="no-sidebar" >
+  <header role="banner" class="top-header"></header>
+  <nav role="navigation"><ul class="subscription hide" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+
+
+<div class="sticky contain-to-grid" data-options="">
+
+  <nav class="top-bar" data-topbar>
+
+    <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img class="logo-img" src="/images/LogoNetineti.png" alt="Logo"> Netineti<span>design</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation right">
+
+        <li "><a href="/index.html">Servicios</a>
+
+        <li ><a href="/sobre-mi">Sobre mi</a></li>
+
+        <li "><a href="/blog">Blog</a></li>
+
+        <li "><a href="/blog/archives">Archives</a></li>
+       
+      </ul>
+
+  
+    </section>
+  </nav>
+
+</div>
+</nav>
+  <div id="main">
+    <div class="bg-gray-light">
+    <div id="content" class="row">
+    <div class="small-12 columns">
+      <div class="small-12 medium-12 large-10 large-centered columns">
+
+<div class="spacer"></div>
+
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="page-title">Octopress en Mac OS X Maveriks</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-01-27T18:18:05+01:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time> 
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://MarcelReig.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>En el post anterior hice una introducción general a Octopress, en este voy a centrarme en crear el hambiente de trabajo adecuado para utilizar Octopress en Mac OS X.</p>
+
+<!-- more -->
+
+
+<h2>Instalando las Command Line Tools de Xcode</h2>
+
+<p><img class="left" src="/images/xcode.png" width="100"></p>
+
+<p>Descárgate <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode de la App Store.</a>
+Una vez tengas instalado Xcode, ves a las preferencias, icono Downloads y haz click en el botón Install de las Command Line Tools.</p>
+
+<br>
+
+
+<br>
+
+
+<h2>Instalando Homebrew</h2>
+
+<p><img class="left" src="/images/homebrew.png" width="100"></p>
+
+<p>Para instalar cosas en Mac te recomiendo utilizar <a href="http://brew.sh/index_es.html">Homebrew</a>.<br>
+Homebrew es un manejador de paquetes hecho en Ruby para Mac OS X.<br>
+Resulta muy útil para instalar todo lo que no viene de serie en tu mac.<br>
+Para instalar Homebrew primero necesitas tener las Xcode Command Line Tools, si no Homebrew te dará un herror.<br>
+Abre la terminal y pega este código para instalar Homebrew:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para comprovar que hemos hecho la instalación correctamente ejecuta este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew doctor</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Si lo prefieres sigue la <a href="https://github.com/Homebrew/homebrew/wiki/Installation">guía de oficial de Homebrew.</a></p>
+
+<h2>Instalando Git</h2>
+
+<p><img class="left" src="/images/git.png" width="100"></p>
+
+<p>Si todavía no tienes Git instalado puedes hacerlo desde su <a href="http://git-scm.com/downloads">sitio oficial.</a><br>
+O mucho mejor utiliza Homebrew.</p>
+
+<p>Para instalar Git con Homebrew abre la terminal e introduce:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew install git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para mantener tu versión de Git actualizada con Homebrew utiliza este comando:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update git</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Instalando Ruby</h2>
+
+<p><img class="left" src="/images/ruby.png" width="100"></p>
+
+<p>Octopress necesita que tengas como mínimo la versión 1.9.3, de Ruby instalada en tu máquina.<br>
+En Mac OS X Mavericks ya tienes pre-instalada la versión 2.0.0p247 de Ruby, pero es mejor no tocar la versión del sistema y utilizar <a href="http://rvm.io/">RVM</a> o <a href="https://github.com/sstephenson/rbenv">rbenv</a> para gestionar las distintas versiones de Ruby que puedas necesitar.</p>
+
+<p>He probado las dos opciones y <em>rbenv</em> me gusta más, en cualquier caso lo dejo a vuestra elección.
+Si quieres utilizar <em>RVM</em> te puede interesar esta guía de <a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps</a>.</p>
+
+<p>Para instalar <em>rbenv</em> con <em>Homebrew</em> abre la terminal e introduce estos comandos:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew update #Actualiza Homebrew
+</span><span class='line'>$ brew install rbenv #Instala rbenv
+</span><span class='line'>$ brew install ruby-build #Instala ruby-build</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para poder hacer uso de rbenv-install necesitas instalar <a href="https://github.com/sstephenson/ruby-build">ruby-build</a> como un pluguin para rbenv.</p>
+
+<br>
+
+
+<h2>Instalando Pow!!</h2>
+
+<p><img class="left" src="/images/pow.png" width="100"></p>
+
+<p>Utilizar la opción <code>rake preview</code> que viene por defecto en Octopress, esta bién, pero si eres usuario de Mac y utilizas <a href="http://pow.cx/">POW</a> puedes previsualizar tu Octopress en local de esta forma:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd ~/.pow
+</span><span class='line'>ln -s /path/to/octopress octopress
+</span><span class='line'>cd -</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ahora puedes abrir tu blog con POW, simplemente utiliza el comando <code>rake watch</code> y abre <code><a href="http://octopress.dev">http://octopress.dev</a></code> nada más.</p>
+
+<br>
+
+
+<p><strong><em>Enlaces útiles:</em></strong></p>
+
+<ul>
+<li><a href="http://robots.thoughtbot.com/psa-do-not-use-system-ruby">ROBOTS</a> <em>Por que no usar la versión de ruby del sistema.</em></li>
+<li><a href="http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems">ROBOTS</a> <em>Instalación detallada de rbenv.</em></li>
+<li><a href="http://railsapps.github.io/installrubyonrails-mac.html">RailsApps Project</a> <em>Instalación detallada de RVM.</em></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      <!--
+  
+
+<span class="byline author vcard">Posted by Marcel Reig.</span> 
+-->
+      <!--
+
+
+
+
+
+
+
+
+  
+
+
+<i class="fa fa-calendar-o"></i> <time datetime="2014-01-27T18:18:05+01:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time> -->
+      
+
+<span class="categories">
+
+  <i class="fa fa-tag"></i> <strong>Posted in </strong>  
+  
+    <a class='category' href='/blog/categories/mac/'>Mac</a>, <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/" data-via="Netinetidesign" data-counturl="http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/01/24/primeros-pasos-con-octopress/" title="Previous Post: Primeros pasos con Octopress">&laquo; Primeros pasos con Octopress</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/02/06/sublime-text-3/" title="Next Post: Sublime Text 2">Sublime Text 2 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer role="contentinfo">
+
+<div class="horizontal-rule"></div>
+<p class="text-center">
+  <span class="copyright">
+  	Copyright &copy; 2014 by Marcel Reig
+  </span>
+
+  <span class="credit">
+  	Creado con <a href="http://octopress.org">Octopress</a>, <a href="http://foundation.zurb.com/">Foundation</a>, & &#x2661
+  </span>
+</p>
+
+   
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'marcelreig';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/';
+        var disqus_url = 'http://MarcelReig.github.io/blog/2014/01/27/instala-octopress-en-mac-os-x-maveriks/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+
+</body>
+</html>
