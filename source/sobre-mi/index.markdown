@@ -38,16 +38,19 @@ ___Enfoque de desarrollo principal:___
 + Javascript y tecnologías relacionadas
 + Diseño web responsive
 
+
+___Trabajos:___
+
++ [Nebot Lucas](http://www.nebotlucas.com/)
++ [Clínica dental Dra. Piñol](http://www.xn--clinicadentaldoctorapiol-mlc.com/)
+
+
 ___Proyectos en los que he colaborado:___
 
 + [Look4plan](http://www.look4plan.com/)
 + [Inmove](http://www.inmove.co/)
 + [Delights Distribution](http://www.delightsdistribution.com/)
 + [EncargaTuWeb](http://www.encargatuweb.com/)
-
-___Trabajos:___
-
-+ [Nebot Lucas](http://www.nebotlucas.com/)
 
 
 
